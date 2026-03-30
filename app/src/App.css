@@ -139,7 +139,20 @@ h2 {
 .guide-page {
   max-width: 1320px;
   margin: 0 auto;
+}
+
+.home-page {
+  padding: 28px 32px 0;
+}
+
+.guide-page {
   padding: 28px 32px 64px;
+}
+
+.home-page {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 120px);
 }
 
 .home-hero {
@@ -256,6 +269,27 @@ h2 {
 
 .home-grid.map-hidden {
   grid-template-columns: 1fr;
+}
+
+.branding-footer {
+  margin-top: auto;
+  margin-bottom: 0;
+  padding-top: 14px;
+  padding-bottom: 8px;
+  text-align: center;
+  color: #6e6476;
+  font-size: 0.95rem;
+}
+
+.branding-footer a {
+  color: #990000;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  font-weight: 700;
+}
+
+.branding-footer a:hover {
+  text-decoration: underline;
 }
 
 .sidebar,
@@ -535,7 +569,10 @@ h2 {
 }
 
 @media (max-width: 720px) {
-  .home-page,
+  .home-page {
+    padding: 20px 20px 0;
+  }
+
   .guide-page {
     padding: 20px;
   }

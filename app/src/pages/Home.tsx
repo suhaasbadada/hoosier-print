@@ -22,6 +22,7 @@ function normalizeBuildings(raw: { buildings: RawBuilding[] }): Printer[] {
 
 export default function Home() {
   const [selectedCampus, setSelectedCampus] = useState('All campuses')
+  const [hasAutoSelectedCampus, setHasAutoSelectedCampus] = useState(false)
   const [searchTerm, setSearchTerm] = useState('')
   const [distanceUnit, setDistanceUnit] = useState<DistanceUnit>('km')
   const [showMap, setShowMap] = useState(false)
@@ -53,12 +54,25 @@ export default function Home() {
   )
 
   const nearestPrinters = useNearestPrinters(filteredPrinters, position, 20)
+  const nearestAcrossAllCampuses = useNearestPrinters(printers, position, 1)
   const PAGE_SIZE = 5
   const nearestPageCount = Math.ceil(nearestPrinters.length / PAGE_SIZE)
   const visibleNearest = nearestPrinters.slice(
     nearestPage * PAGE_SIZE,
     (nearestPage + 1) * PAGE_SIZE,
   )
+
+  useEffect(() => {
+    if (hasAutoSelectedCampus || selectedCampus !== 'All campuses') {
+      return
+    }
+
+    const nearestCampus = nearestAcrossAllCampuses[0]?.printer.campus
+    if (nearestCampus) {
+      setSelectedCampus(nearestCampus)
+      setHasAutoSelectedCampus(true)
+    }
+  }, [hasAutoSelectedCampus, nearestAcrossAllCampuses, selectedCampus])
 
   useEffect(() => {
     setNearestPage(0)
@@ -68,6 +82,11 @@ export default function Home() {
     (count, printer) => count + printer.printers.length,
     0,
   )
+
+  const handleSelectCampus = (campus: string) => {
+    setHasAutoSelectedCampus(true)
+    setSelectedCampus(campus)
+  }
 
   return (
     <main className="home-page">
@@ -84,7 +103,7 @@ export default function Home() {
         <Sidebar
           campuses={campuses}
           selectedCampus={selectedCampus}
-          onSelectCampus={setSelectedCampus}
+          onSelectCampus={handleSelectCampus}
           searchTerm={searchTerm}
           onSearchChange={setSearchTerm}
           distanceUnit={distanceUnit}
@@ -112,6 +131,10 @@ export default function Home() {
             />
           </section>
         ) : null}
+      </div>
+
+      <div className="branding-footer">
+        Built by <a href="https://linkedin.com/in/suhaasbadada" target="_blank" rel="noreferrer noopener">Suhaas Badada</a> (and Copilot)
       </div>
     </main>
   )
