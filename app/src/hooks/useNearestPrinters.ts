@@ -10,7 +10,7 @@ export type NearestPrinter = {
 export function useNearestPrinters(
   printers: Printer[],
   userPosition: LatLng | null,
-  limit = 5,
+  limit = 10,
 ): NearestPrinter[] {
   return useMemo(() => {
     if (!userPosition || printers.length === 0) {

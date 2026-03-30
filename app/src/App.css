@@ -50,6 +50,8 @@ h2 {
   display: flex;
   align-items: center;
   gap: 24px;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .topnav {
@@ -159,10 +161,29 @@ h2 {
   line-height: 1.02;
 }
 
+.hero-toggle-map {
+  width: fit-content;
+  border: 1px solid var(--iu-crimson);
+  background: transparent;
+  color: var(--iu-crimson);
+  border-radius: 999px;
+  padding: 12px 18px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.hero-toggle-map:hover {
+  background: rgba(153, 0, 0, 0.08);
+}
+
 .home-grid {
   display: grid;
   grid-template-columns: minmax(320px, 380px) minmax(0, 1fr);
   gap: 28px;
+}
+
+.home-grid.map-hidden {
+  grid-template-columns: 1fr;
 }
 
 .sidebar,
@@ -393,6 +414,17 @@ h2 {
   .topbar {
     flex-direction: column;
     align-items: stretch;
+  }
+
+  .topbar-right {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 16px;
+  }
+
+  .topnav {
+    justify-content: flex-start;
+    width: 100%;
   }
 }
 

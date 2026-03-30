@@ -24,6 +24,7 @@ export default function Home() {
   const [selectedCampus, setSelectedCampus] = useState('All campuses')
   const [searchTerm, setSearchTerm] = useState('')
   const [distanceUnit, setDistanceUnit] = useState<DistanceUnit>('km')
+  const [showMap, setShowMap] = useState(false)
   const { position, status, error, requestLocation } = useGeolocationContext()
 
   const printers = useMemo(() => normalizeBuildings(rawData), [])
@@ -65,9 +66,16 @@ export default function Home() {
           Filter by campus, search by building, and let your browser location
           show the closest printers nearby.
         </p>
+        <button
+          type="button"
+          className="hero-toggle-map"
+          onClick={() => setShowMap((current) => !current)}
+        >
+          {showMap ? 'Hide map' : 'Show map'}
+        </button>
       </div>
 
-      <div className="home-grid">
+      <div className={`home-grid ${showMap ? '' : 'map-hidden'}`}>
         <Sidebar
           campuses={campuses}
           selectedCampus={selectedCampus}
@@ -83,14 +91,16 @@ export default function Home() {
           printerCount={printerCount}
         />
 
-        <section className="map-panel">
-          <MapView
-            printers={filteredPrinters}
-            nearest={nearestPrinters}
-            userLocation={position}
-            distanceUnit={distanceUnit}
-          />
-        </section>
+        {showMap ? (
+          <section className="map-panel">
+            <MapView
+              printers={filteredPrinters}
+              nearest={nearestPrinters}
+              userLocation={position}
+              distanceUnit={distanceUnit}
+            />
+          </section>
+        ) : null}
       </div>
     </main>
   )
