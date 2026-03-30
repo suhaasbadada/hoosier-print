@@ -1,0 +1,952 @@
+{
+  "buildings": [
+    {
+      "building": "Lafayette St Family Health Clinic",
+      "campus": "Fort Wayne",
+      "lat": 41.0459287,
+      "lng": -85.132304
+    },
+    {
+      "building": "Liberal Arts Building",
+      "campus": "Fort Wayne",
+      "lat": 41.1172998,
+      "lng": -85.1100859
+    },
+    {
+      "building": "Medical Education Building (IU School of Medicine) (MEC)",
+      "campus": "Fort Wayne",
+      "lat": 41.1203509,
+      "lng": -85.10723550000002
+    },
+    {
+      "building": "Neff Hall",
+      "campus": "Fort Wayne",
+      "lat": 41.1163787,
+      "lng": -85.1105724
+    },
+    {
+      "building": "Northeast Indiana Innovation Center 2",
+      "campus": "Fort Wayne",
+      "lat": 41.1203842,
+      "lng": -85.1625432
+    },
+    {
+      "building": "300 N Eagleson Ave",
+      "campus": "Bloomington",
+      "lat": 39.1682652,
+      "lng": -86.5156532
+    },
+    {
+      "building": "3rd & Union Apartments",
+      "campus": "Bloomington",
+      "lat": 39.1645023,
+      "lng": -86.51022809999999
+    },
+    {
+      "building": "506-508 N Fess Ave",
+      "campus": "Bloomington",
+      "lat": 39.1708535,
+      "lng": -86.5253568
+    },
+    {
+      "building": "509 E 3rd St",
+      "campus": "Bloomington",
+      "lat": 39.1646203,
+      "lng": -86.527784
+    },
+    {
+      "building": "612 N Park Ave",
+      "campus": "Bloomington",
+      "lat": 39.1722478,
+      "lng": -86.52450639999999
+    },
+    {
+      "building": "713 E Cottage Grove",
+      "campus": "Bloomington",
+      "lat": 39.1727166,
+      "lng": -86.5248543
+    },
+    {
+      "building": "823 E 11Th St House",
+      "campus": "Bloomington",
+      "lat": 39.1736379,
+      "lng": -86.5237477
+    },
+    {
+      "building": "880 N Walnut Grove",
+      "campus": "Bloomington",
+      "lat": 39.1742723,
+      "lng": -86.5204251
+    },
+    {
+      "building": "1103 Atwater Ave",
+      "campus": "Bloomington",
+      "lat": 39.1632913,
+      "lng": -86.5200427
+    },
+    {
+      "building": "Alice McDonald Nelson Halls Of Residence",
+      "campus": "Bloomington",
+      "lat": 39.169574,
+      "lng": -86.5385549
+    },
+    {
+      "building": "Ballantine Hall",
+      "campus": "Bloomington",
+      "lat": 39.1661242,
+      "lng": -86.5210412
+    },
+    {
+      "building": "Biology Building",
+      "campus": "Bloomington",
+      "lat": 39.164571,
+      "lng": -86.52113229999999
+    },
+    {
+      "building": "Briscoe Quad",
+      "campus": "Bloomington",
+      "lat": 39.1784385,
+      "lng": -86.5199643
+    },
+    {
+      "building": "Cedar Hall",
+      "campus": "Bloomington",
+      "lat": 39.1705967,
+      "lng": -86.5097806
+    },
+    {
+      "building": "Chemistry",
+      "campus": "Bloomington",
+      "lat": 39.1659962,
+      "lng": -86.52276529999999
+    },
+    {
+      "building": "Chestnut C & D",
+      "campus": "Bloomington",
+      "lat": 39.0703166,
+      "lng": -86.5086714
+    },
+    {
+      "building": "Classroom-Office Building",
+      "campus": "Bloomington",
+      "lat": 39.1637517,
+      "lng": -86.5239035
+    },
+    {
+      "building": "Crest View",
+      "campus": "Bloomington",
+      "lat": 39.1616129,
+      "lng": -86.5017038
+    },
+    {
+      "building": "Cyberinfrastructure Building (CIB)",
+      "campus": "Bloomington",
+      "lat": 39.1721256,
+      "lng": -86.50172889999999
+    },
+    {
+      "building": "Edmondson Hall",
+      "campus": "Bloomington",
+      "lat": 39.1711725,
+      "lng": -86.5243837
+    },
+    {
+      "building": "Eigenmann Hall",
+      "campus": "Bloomington",
+      "lat": 39.1707441,
+      "lng": -86.5083695
+    },
+    {
+      "building": "Ernie Pyle Hall",
+      "campus": "Bloomington",
+      "lat": 39.1681947,
+      "lng": -86.52303210000001
+    },
+    {
+      "building": "Fine Arts",
+      "campus": "Bloomington",
+      "lat": 39.169574,
+      "lng": -86.5385549
+    },
+    {
+      "building": "Forest Quad",
+      "campus": "Bloomington",
+      "lat": 39.164555,
+      "lng": -86.5129405
+    },
+    {
+      "building": "Franklin Hall",
+      "campus": "Bloomington",
+      "lat": 39.1668944,
+      "lng": -86.5265795
+    },
+    {
+      "building": "Geological Sciences",
+      "campus": "Bloomington",
+      "lat": 39.1719663,
+      "lng": -86.522122
+    },
+    {
+      "building": "Global & International Studies Building",
+      "campus": "Bloomington",
+      "lat": 39.1700079,
+      "lng": -86.5174222
+    },
+    {
+      "building": "Godfrey Grad & Exec Ed Ctr",
+      "campus": "Bloomington",
+      "lat": 39.1724806,
+      "lng": -86.5194125
+    },
+    {
+      "building": "Gresham Dining Hall",
+      "campus": "Bloomington",
+      "lat": 39.1646717,
+      "lng": -86.4956076
+    },
+    {
+      "building": "Griggs Lounge",
+      "campus": "Bloomington",
+      "lat": 39.1710311,
+      "lng": -86.5113315
+    },
+    {
+      "building": "Harper Hall",
+      "campus": "Bloomington",
+      "lat": 39.1751105,
+      "lng": -86.51803749999999
+    },
+    {
+      "building": "Hodge Hall (Business School)",
+      "campus": "Bloomington",
+      "lat": 39.1723943,
+      "lng": -86.5184268
+    },
+    {
+      "building": "Hutton Honors College",
+      "campus": "Bloomington",
+      "lat": 39.168662,
+      "lng": -86.52397599999999
+    },
+    {
+      "building": "IN Memorial Union",
+      "campus": "Bloomington",
+      "lat": 39.1682739,
+      "lng": -86.5221164
+    },
+    {
+      "building": "IU Student Health Center",
+      "campus": "Bloomington",
+      "lat": 39.1720949,
+      "lng": -86.5151443
+    },
+    {
+      "building": "Kirkwood Hall",
+      "campus": "Bloomington",
+      "lat": 39.1659773,
+      "lng": -86.52355899999999
+    },
+    {
+      "building": "Lee Norvelle Theatre Drama/ Neal&Mars",
+      "campus": "Bloomington",
+      "lat": 39.1683817,
+      "lng": -86.5167014
+    },
+    {
+      "building": "LGBTQ+ Culture Center",
+      "campus": "Bloomington",
+      "lat": 39.1687127,
+      "lng": -86.5252703
+    },
+    {
+      "building": "Lindley Hall",
+      "campus": "Bloomington",
+      "lat": 39.1653408,
+      "lng": -86.52358819999999
+    },
+    {
+      "building": "Luddy Center for AI",
+      "campus": "Bloomington",
+      "lat": 39.1737568,
+      "lng": -86.5220677
+    },
+    {
+      "building": "Luddy Hall",
+      "campus": "Bloomington",
+      "lat": 39.1727252,
+      "lng": -86.5232945
+    },
+    {
+      "building": "Magee Hall",
+      "campus": "Bloomington",
+      "lat": 39.1758521,
+      "lng": -86.5172297
+    },
+    {
+      "building": "McNutt Central",
+      "campus": "Bloomington",
+      "lat": 39.176422,
+      "lng": -86.5197585
+    },
+    {
+      "building": "Medical Research & Library",
+      "campus": "Bloomington",
+      "lat": 39.169574,
+      "lng": -86.5385549
+    },
+    {
+      "building": "Memorial Hall",
+      "campus": "Bloomington",
+      "lat": 39.1647963,
+      "lng": -86.51969489999999
+    },
+    {
+      "building": "Merrill Hall",
+      "campus": "Bloomington",
+      "lat": 39.164636,
+      "lng": -86.5183342
+    },
+    {
+      "building": "MESH Storage",
+      "campus": "Bloomington",
+      "lat": 39.169574,
+      "lng": -86.5385549
+    },
+    {
+      "building": "Multi Science 2",
+      "campus": "Bloomington",
+      "lat": 39.169574,
+      "lng": -86.5385549
+    },
+    {
+      "building": "Multidisciplinary Eng And Sci Hall-MESH",
+      "campus": "Bloomington",
+      "lat": 39.1748474,
+      "lng": -86.5166317
+    },
+    {
+      "building": "Myers Hall",
+      "campus": "Bloomington",
+      "lat": 39.1646953,
+      "lng": -86.5222716
+    },
+    {
+      "building": "Myles Brand Hall",
+      "campus": "Bloomington",
+      "lat": 39.1720489,
+      "lng": -86.5228769
+    },
+    {
+      "building": "Northwest Plaza",
+      "campus": "Bloomington",
+      "lat": 39.1701155,
+      "lng": -86.53679319999999
+    },
+    {
+      "building": "Owen Hall",
+      "campus": "Bloomington",
+      "lat": 39.1669716,
+      "lng": -86.52381299999999
+    },
+    {
+      "building": "Radio-TV",
+      "campus": "Bloomington",
+      "lat": 39.1692011,
+      "lng": -86.51854159999999
+    },
+    {
+      "building": "Raintree Hall",
+      "campus": "Bloomington",
+      "lat": 39.2130655,
+      "lng": -86.586487
+    },
+    {
+      "building": "Read Hall",
+      "campus": "Bloomington",
+      "lat": 39.1660559,
+      "lng": -86.51489219999999
+    },
+    {
+      "building": "School of Public Health",
+      "campus": "Bloomington",
+      "lat": 39.169976,
+      "lng": -86.52130269999999
+    },
+    {
+      "building": "School Of Public Health",
+      "campus": "Bloomington",
+      "lat": 39.169976,
+      "lng": -86.52130269999999
+    },
+    {
+      "building": "Simon Hall (Science)",
+      "campus": "Bloomington",
+      "lat": 39.1651539,
+      "lng": -86.5222015
+    },
+    {
+      "building": "Simon Music Library",
+      "campus": "Bloomington",
+      "lat": 39.1649526,
+      "lng": -86.5174547
+    },
+    {
+      "building": "Smith Hall",
+      "campus": "Bloomington",
+      "lat": 39.1707359,
+      "lng": -86.52397619999999
+    },
+    {
+      "building": "Social Research",
+      "campus": "Bloomington",
+      "lat": 39.169574,
+      "lng": -86.5385549
+    },
+    {
+      "building": "SPEA",
+      "campus": "Bloomington",
+      "lat": 39.1725608,
+      "lng": -86.5177669
+    },
+    {
+      "building": "Spruce Hall",
+      "campus": "Bloomington",
+      "lat": 39.16550160000001,
+      "lng": -86.51196999999999
+    },
+    {
+      "building": "Student Building (Frances Morgan Swain)",
+      "campus": "Bloomington",
+      "lat": 39.1671346,
+      "lng": -86.5255695
+    },
+    {
+      "building": "Student Recreational Sports Center",
+      "campus": "Bloomington",
+      "lat": 39.1735239,
+      "lng": -86.51240229999999
+    },
+    {
+      "building": "Swain West",
+      "campus": "Bloomington",
+      "lat": 39.1647452,
+      "lng": -86.52512779999999
+    },
+    {
+      "building": "Teter Quad",
+      "campus": "Bloomington",
+      "lat": 39.17049129999999,
+      "lng": -86.51294089999999
+    },
+    {
+      "building": "The Health Sciences Building",
+      "campus": "Bloomington",
+      "lat": 39.1772719,
+      "lng": -86.50407919999999
+    },
+    {
+      "building": "Tulip Tree Apartments",
+      "campus": "Bloomington",
+      "lat": 39.172494,
+      "lng": -86.5043826
+    },
+    {
+      "building": "University Apartments East",
+      "campus": "Bloomington",
+      "lat": 39.1645567,
+      "lng": -86.5141968
+    },
+    {
+      "building": "Wells Library",
+      "campus": "Bloomington",
+      "lat": 39.1710061,
+      "lng": -86.51679969999999
+    },
+    {
+      "building": "Wendell W. Wright Education Building",
+      "campus": "Bloomington",
+      "lat": 39.1671809,
+      "lng": -86.5124702
+    },
+    {
+      "building": "Willkie C",
+      "campus": "Bloomington",
+      "lat": 39.1661675,
+      "lng": -86.5106177
+    },
+    {
+      "building": "Willkie North",
+      "campus": "Bloomington",
+      "lat": 39.16697260000001,
+      "lng": -86.51061829999999
+    },
+    {
+      "building": "Woodburn Hall",
+      "campus": "Bloomington",
+      "lat": 39.1681192,
+      "lng": -86.51985789999999
+    },
+    {
+      "building": "Wright Quad",
+      "campus": "Bloomington",
+      "lat": 39.1707845,
+      "lng": -86.51522159999999
+    },
+    {
+      "building": "Wylie Hall",
+      "campus": "Bloomington",
+      "lat": 39.166488,
+      "lng": -86.523562
+    },
+    {
+      "building": "Ball Residence",
+      "campus": "Indianapolis",
+      "lat": 39.7752927,
+      "lng": -86.1821928
+    },
+    {
+      "building": "Business/SPEA",
+      "campus": "Indianapolis",
+      "lat": 39.7728828,
+      "lng": -86.1736262
+    },
+    {
+      "building": "Campus Center",
+      "campus": "Indianapolis",
+      "lat": 39.7739985,
+      "lng": -86.1760547
+    },
+    {
+      "building": "Cavanaugh Hall",
+      "campus": "Indianapolis",
+      "lat": 39.7737388,
+      "lng": -86.1752156
+    },
+    {
+      "building": "Education/Social Work",
+      "campus": "Indianapolis",
+      "lat": 39.7728828,
+      "lng": -86.1736262
+    },
+    {
+      "building": "Engineering and Technology",
+      "campus": "Indianapolis",
+      "lat": 39.76909,
+      "lng": -86.158018
+    },
+    {
+      "building": "Eskenazi FAC 2",
+      "campus": "Indianapolis",
+      "lat": 39.7776204,
+      "lng": -86.1828612
+    },
+    {
+      "building": "Eskenazi Hall",
+      "campus": "Indianapolis",
+      "lat": 39.7710744,
+      "lng": -86.17090019999999
+    },
+    {
+      "building": "Health Sciences Building",
+      "campus": "Indianapolis",
+      "lat": 39.7783314,
+      "lng": -86.1779869
+    },
+    {
+      "building": "Hine Hall",
+      "campus": "Indianapolis",
+      "lat": 39.7748153,
+      "lng": -86.1738033
+    },
+    {
+      "building": "ICTC",
+      "campus": "Indianapolis",
+      "lat": 39.7737497,
+      "lng": -86.1680075
+    },
+    {
+      "building": "Indiana Cancer Center Pavilion",
+      "campus": "Indianapolis",
+      "lat": 39.7490645,
+      "lng": -86.2107011
+    },
+    {
+      "building": "Inlow Hall",
+      "campus": "Indianapolis",
+      "lat": 39.7719038,
+      "lng": -86.1679716
+    },
+    {
+      "building": "Innovation Hall",
+      "campus": "Indianapolis",
+      "lat": 39.7739865,
+      "lng": -86.16929689999999
+    },
+    {
+      "building": "Lecture Hall",
+      "campus": "Indianapolis",
+      "lat": 39.8393049,
+      "lng": -86.17346719999999
+    },
+    {
+      "building": "Lohse & Thornbrough Houses",
+      "campus": "Indianapolis",
+      "lat": 39.7739777,
+      "lng": -86.1855447
+    },
+    {
+      "building": "Medical Research & Library",
+      "campus": "Indianapolis",
+      "lat": 39.81633619999999,
+      "lng": -86.23832039999999
+    },
+    {
+      "building": "Natatorium",
+      "campus": "Indianapolis",
+      "lat": 39.9096854,
+      "lng": -86.1290559
+    },
+    {
+      "building": "Nursing School",
+      "campus": "Indianapolis",
+      "lat": 39.7761112,
+      "lng": -86.17916199999999
+    },
+    {
+      "building": "Science Building",
+      "campus": "Indianapolis",
+      "lat": 39.7733759,
+      "lng": -86.1704546
+    },
+    {
+      "building": "Taylor Hall",
+      "campus": "Indianapolis",
+      "lat": 39.7731923,
+      "lng": -86.17414219999999
+    },
+    {
+      "building": "University Hospital",
+      "campus": "Indianapolis",
+      "lat": 39.7760088,
+      "lng": -86.1769588
+    },
+    {
+      "building": "University Library",
+      "campus": "Indianapolis",
+      "lat": 39.7729955,
+      "lng": -86.1721257
+    },
+    {
+      "building": "University Tower",
+      "campus": "Indianapolis",
+      "lat": 39.7752164,
+      "lng": -86.1749375
+    },
+    {
+      "building": "Hayes Hall",
+      "campus": "East",
+      "lat": 39.8681718,
+      "lng": -84.8797781
+    },
+    {
+      "building": "Springwood Hall",
+      "campus": "East",
+      "lat": 41.1437689,
+      "lng": -85.13302619999999
+    },
+    {
+      "building": "Tom Raper Hall",
+      "campus": "East",
+      "lat": 39.8678576,
+      "lng": -84.881954
+    },
+    {
+      "building": "Whitewater Hall",
+      "campus": "East",
+      "lat": 39.86879649999999,
+      "lng": -84.8818095
+    },
+    {
+      "building": "Cougar Center",
+      "campus": "Kokomo",
+      "lat": 40.515122,
+      "lng": -86.129744
+    },
+    {
+      "building": "Fine Arts",
+      "campus": "Kokomo",
+      "lat": 40.4556326,
+      "lng": -86.12750989999999
+    },
+    {
+      "building": "Hunt Hall",
+      "campus": "Kokomo",
+      "lat": 40.4596077,
+      "lng": -86.13021959999999
+    },
+    {
+      "building": "Kelley Student Center",
+      "campus": "Kokomo",
+      "lat": 40.4588336,
+      "lng": -86.13176539999999
+    },
+    {
+      "building": "Kokomo East",
+      "campus": "Kokomo",
+      "lat": 40.515131,
+      "lng": -86.128871
+    },
+    {
+      "building": "Kokomo Library",
+      "campus": "Kokomo",
+      "lat": 40.4871195,
+      "lng": -86.1308507
+    },
+    {
+      "building": "Kokomo Main",
+      "campus": "Kokomo",
+      "lat": 40.41821,
+      "lng": -86.104412
+    },
+    {
+      "building": "Student Activities and Events Center",
+      "campus": "Kokomo",
+      "lat": 40.515122,
+      "lng": -86.129744
+    },
+    {
+      "building": "Anderson Library Conference Center",
+      "campus": "Northwest",
+      "lat": 40.1051253,
+      "lng": -85.6781677
+    },
+    {
+      "building": "Arts & Sciences",
+      "campus": "Northwest",
+      "lat": 41.5564318,
+      "lng": -87.3358028
+    },
+    {
+      "building": "Cedar Hall",
+      "campus": "Northwest",
+      "lat": 37.9849723,
+      "lng": -87.5855232
+    },
+    {
+      "building": "Dunes Medical/Professional Building",
+      "campus": "Northwest",
+      "lat": 41.5554157,
+      "lng": -87.3393801
+    },
+    {
+      "building": "Hawthorn Hall",
+      "campus": "Northwest",
+      "lat": 41.5833736,
+      "lng": -87.5001041
+    },
+    {
+      "building": "Marram Hall",
+      "campus": "Northwest",
+      "lat": 41.5833736,
+      "lng": -87.5001041
+    },
+    {
+      "building": "Moraine Student Center",
+      "campus": "Northwest",
+      "lat": 41.5833736,
+      "lng": -87.5001041
+    },
+    {
+      "building": "Raintree Hall",
+      "campus": "Northwest",
+      "lat": 39.547401,
+      "lng": -86.536239
+    },
+    {
+      "building": "Savannah Center",
+      "campus": "Northwest",
+      "lat": 41.5573296,
+      "lng": -87.3373302
+    },
+    {
+      "building": "Administration Building",
+      "campus": "South Bend",
+      "lat": 41.6763545,
+      "lng": -86.25198979999999
+    },
+    {
+      "building": "Civil Rights Heritage Center",
+      "campus": "South Bend",
+      "lat": 41.6759875,
+      "lng": -86.265829
+    },
+    {
+      "building": "Education & Arts Building",
+      "campus": "South Bend",
+      "lat": 41.678735,
+      "lng": -86.2385718
+    },
+    {
+      "building": "Elkhart Center II",
+      "campus": "South Bend",
+      "lat": 41.7178268,
+      "lng": -86.2838632
+    },
+    {
+      "building": "Northside Hall",
+      "campus": "South Bend",
+      "lat": 41.6628761,
+      "lng": -86.219764
+    },
+    {
+      "building": "Parkside Hall",
+      "campus": "South Bend",
+      "lat": 41.6827215,
+      "lng": -86.2511554
+    },
+    {
+      "building": "River Crossing Community Bldg",
+      "campus": "South Bend",
+      "lat": 41.6842246,
+      "lng": -86.26525819999999
+    },
+    {
+      "building": "Schurz Library",
+      "campus": "South Bend",
+      "lat": 41.6624938,
+      "lng": -86.2209579
+    },
+    {
+      "building": "Student Activities Center",
+      "campus": "South Bend",
+      "lat": 41.664466,
+      "lng": -86.2199713
+    },
+    {
+      "building": "University Center",
+      "campus": "South Bend",
+      "lat": 41.6646992,
+      "lng": -86.2218007
+    },
+    {
+      "building": "Vera Z. Dwyer Hall",
+      "campus": "South Bend",
+      "lat": 41.6763545,
+      "lng": -86.25198979999999
+    },
+    {
+      "building": "Wiekamp Hall",
+      "campus": "South Bend",
+      "lat": 41.6652329,
+      "lng": -86.2201376
+    },
+    {
+      "building": "Activities Building",
+      "campus": "Southeast",
+      "lat": 39.7388967,
+      "lng": -86.0636699
+    },
+    {
+      "building": "Crestview Hall",
+      "campus": "Southeast",
+      "lat": 39.7388967,
+      "lng": -86.0636699
+    },
+    {
+      "building": "Forest Lodge",
+      "campus": "Southeast",
+      "lat": 39.7388967,
+      "lng": -86.0636699
+    },
+    {
+      "building": "Grove Lodge",
+      "campus": "Southeast",
+      "lat": 39.7388967,
+      "lng": -86.0636699
+    },
+    {
+      "building": "Hausfeldt Building",
+      "campus": "Southeast",
+      "lat": 39.7388967,
+      "lng": -86.0636699
+    },
+    {
+      "building": "Hillside Hall",
+      "campus": "Southeast",
+      "lat": 39.7388967,
+      "lng": -86.0636699
+    },
+    {
+      "building": "Jeffersonville Graduate Center",
+      "campus": "Southeast",
+      "lat": 38.2945177,
+      "lng": -85.7319794
+    },
+    {
+      "building": "Knobview Hall",
+      "campus": "Southeast",
+      "lat": 39.7388967,
+      "lng": -86.0636699
+    },
+    {
+      "building": "Library IUSE",
+      "campus": "Southeast",
+      "lat": 39.7388967,
+      "lng": -86.0636699
+    },
+    {
+      "building": "Life Science",
+      "campus": "Southeast",
+      "lat": 39.7388967,
+      "lng": -86.0636699
+    },
+    {
+      "building": "Meadow Lodge",
+      "campus": "Southeast",
+      "lat": 39.7388967,
+      "lng": -86.0636699
+    },
+    {
+      "building": "Ogle Cultural and Community Center",
+      "campus": "Southeast",
+      "lat": 39.7388967,
+      "lng": -86.0636699
+    },
+    {
+      "building": "Orchard Lodge",
+      "campus": "Southeast",
+      "lat": 39.7388967,
+      "lng": -86.0636699
+    },
+    {
+      "building": "Physical Science",
+      "campus": "Southeast",
+      "lat": 39.7388967,
+      "lng": -86.0636699
+    },
+    {
+      "building": "Service/Physical Plant",
+      "campus": "Southeast",
+      "lat": 39.7388967,
+      "lng": -86.0636699
+    },
+    {
+      "building": "University Center North",
+      "campus": "Southeast",
+      "lat": 40.5512165,
+      "lng": -85.60236429999999
+    },
+    {
+      "building": "University Center South",
+      "campus": "Southeast",
+      "lat": 38.3450707,
+      "lng": -85.8201701
+    },
+    {
+      "building": "Woodland Lodge",
+      "campus": "Southeast",
+      "lat": 39.7388967,
+      "lng": -86.0636699
+    }
+  ]
+}
