@@ -62,7 +62,8 @@ export default function Guide() {
         <section className="guide-footer">
           <p>
             For official IU printing policies and help, visit
-            <Link to="https://libraries.indiana.edu/printers-technology" target="_blank"> site</Link>.
+            {' '}
+            <Link to="https://libraries.indiana.edu/printers-technology" target="_blank">site</Link>.
           </p>
         </section>
       </article>

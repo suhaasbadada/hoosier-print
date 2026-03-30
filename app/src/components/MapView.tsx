@@ -72,12 +72,23 @@ export default function MapView({ printers, nearest, userLocation, distanceUnit 
   )
 
   const bounds = useMemo(() => {
-    const points: [number, number][] = printers.map((printer) => [printer.lat, printer.lng])
     if (userLocation) {
-      points.push([userLocation.lat, userLocation.lng])
+      const userPoint: [number, number] = [userLocation.lat, userLocation.lng]
+      const nearbyPoints: [number, number][] = nearest
+        .slice(0, 10)
+        .map((item) => [item.printer.lat, item.printer.lng] as [number, number])
+
+      if (!nearbyPoints.length && printers.length > 0) {
+        nearbyPoints.push([printers[0].lat, printers[0].lng])
+      }
+
+      return [userPoint, ...nearbyPoints]
     }
-    return points
-  }, [printers, userLocation])
+
+    return printers
+      .slice(0, 30)
+      .map((printer) => [printer.lat, printer.lng] as [number, number])
+  }, [nearest, printers, userLocation])
 
   const center: [number, number] = userLocation
     ? [userLocation.lat, userLocation.lng]
@@ -87,9 +98,6 @@ export default function MapView({ printers, nearest, userLocation, distanceUnit 
 
   return (
     <div className="map-view">
-      {isPhoneViewport ? (
-        <p className="map-scroll-hint">Map drag is disabled on phone so the page scroll stays smooth.</p>
-      ) : null}
       <MapContainer
         center={center}
         zoom={13}
@@ -145,13 +153,20 @@ export default function MapView({ printers, nearest, userLocation, distanceUnit 
         })}
 
         {userLocation ? (
-          <CircleMarker
-            center={[userLocation.lat, userLocation.lng]}
-            radius={8}
-            pathOptions={{ color: '#990000', fillColor: '#990000', fillOpacity: 0.75 }}
-          >
-            <Popup>Your current location</Popup>
-          </CircleMarker>
+          <>
+            <CircleMarker
+              center={[userLocation.lat, userLocation.lng]}
+              radius={16}
+              pathOptions={{ color: '#990000', fillColor: '#990000', fillOpacity: 0.14, weight: 2 }}
+            />
+            <CircleMarker
+              center={[userLocation.lat, userLocation.lng]}
+              radius={8}
+              pathOptions={{ color: '#990000', fillColor: '#990000', fillOpacity: 0.8 }}
+            >
+              <Popup>Your current location</Popup>
+            </CircleMarker>
+          </>
         ) : null}
       </MapContainer>
     </div>
