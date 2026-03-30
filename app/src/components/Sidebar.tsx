@@ -42,10 +42,12 @@ export default function Sidebar({
   onToggleMap,
   printerCount,
 }: SidebarProps) {
+  const isMapLocked = showMap
+
   return (
     <aside className="sidebar">
-      <div className="sidebar-card row-group">
-        <div>
+      <div className={`sidebar-card row-group${isMapLocked ? ' map-locked' : ''}`}>
+        <div className="filter-group">
           <p className="eyebrow">Campus</p>
           <label htmlFor="campus-select">Select your campus</label>
           <select
@@ -61,7 +63,7 @@ export default function Sidebar({
           </select>
         </div>
 
-        <div>
+        <div className="filter-group">
           <p className="eyebrow">Units</p>
           <label htmlFor="distance-unit-select">Display distance in</label>
           <select

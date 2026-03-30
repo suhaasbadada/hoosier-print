@@ -15,16 +15,21 @@ export default function Guide() {
       <article className="guide-article">
         <section>
           <h2>How to print</h2>
-          <p>
-            Most IU printers require your university credentials and a valid
-            printing account. Log in through the campus printing portal before
-            you send a job, then collect it at the printer location.
-          </p>
-          <ul>
-            <li>Choose the correct campus before searching.</li>
-            <li>Find a nearby printer on the map.</li>
-            <li>Send your job and pick it up promptly.</li>
-          </ul>
+          <h3>Mobile</h3>
+          <ol>
+            <li>Save your document to cloud storage (Google Drive suggested).</li>
+            <li>Navigate to <a href="https://mobile.print.iu.edu/myprintcenter/" target="_blank" rel="noreferrer noopener">My Print Center</a> and sign in with IU credentials.</li>
+            <li>Select Upload → Browse → choose your cloud service and file.</li>
+            <li>Select Color in Print Options if needed.</li>
+            <li>Tap your IU ID card to the nearest printer and print.</li>
+          </ol>
+          <h3>Laptop</h3>
+          <ol>
+            <li>Open <a href="https://mobile.print.iu.edu/myprintcenter/" target="_blank" rel="noreferrer noopener">My Print Center</a> in your browser and sign in with IU credentials.</li>
+            <li>Select Upload in the upper left and browse for your file.</li>
+            <li>Select Color in Print Options if needed.</li>
+            <li>Tap your IU ID card to the nearest printer and print.</li>
+          </ol>
         </section>
 
         <section>
@@ -57,10 +62,14 @@ export default function Guide() {
         <section className="guide-footer">
           <p>
             For official IU printing policies and help, visit
-            <Link to="https://uits.iu.edu/services/printing" target="_blank">IU Printing Services</Link>.
+            <Link to="https://libraries.indiana.edu/printers-technology" target="_blank"> site</Link>.
           </p>
         </section>
       </article>
+
+      <div className="branding-footer">
+        Built by <a href="https://linkedin.com/in/suhaasbadada" target="_blank" rel="noreferrer noopener">Suhaas Badada</a> (and Copilot)
+      </div>
     </main>
   )
 }

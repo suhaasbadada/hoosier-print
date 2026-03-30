@@ -129,6 +129,21 @@ h2 {
   box-shadow: 0 10px 20px rgba(153, 0, 0, 0.24);
 }
 
+@media (min-width: 1041px) {
+  .row-group.map-locked {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 12px;
+  }
+
+  .row-group.map-locked .filter-group {
+    display: none;
+  }
+
+  .row-group.map-locked .retry-control {
+    grid-template-columns: 1fr;
+  }
+}
+
 @media (max-width: 720px) {
   .row-group {
     grid-template-columns: 1fr;
@@ -139,6 +154,9 @@ h2 {
 .guide-page {
   max-width: 1320px;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 120px);
 }
 
 .home-page {
@@ -146,13 +164,28 @@ h2 {
 }
 
 .guide-page {
-  padding: 28px 32px 64px;
+  padding: 28px 32px 0;
 }
 
-.home-page {
-  display: flex;
-  flex-direction: column;
-  min-height: calc(100vh - 120px);
+.branding-footer {
+  margin-top: auto;
+  margin-bottom: 0;
+  padding-top: 14px;
+  padding-bottom: 8px;
+  text-align: center;
+  color: #6e6476;
+  font-size: 0.95rem;
+}
+
+.branding-footer a {
+  color: #990000;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  font-weight: 700;
+}
+
+.branding-footer a:hover {
+  text-decoration: underline;
 }
 
 .home-hero {
@@ -263,33 +296,12 @@ h2 {
 
 .home-grid {
   display: grid;
-  grid-template-columns: minmax(320px, 380px) minmax(0, 1fr);
+  grid-template-columns: minmax(280px, 320px) minmax(0, 1fr);
   gap: 28px;
 }
 
 .home-grid.map-hidden {
   grid-template-columns: 1fr;
-}
-
-.branding-footer {
-  margin-top: auto;
-  margin-bottom: 0;
-  padding-top: 14px;
-  padding-bottom: 8px;
-  text-align: center;
-  color: #6e6476;
-  font-size: 0.95rem;
-}
-
-.branding-footer a {
-  color: #990000;
-  text-decoration: underline;
-  text-underline-offset: 3px;
-  font-weight: 700;
-}
-
-.branding-footer a:hover {
-  text-decoration: underline;
 }
 
 .sidebar,
@@ -484,10 +496,6 @@ h2 {
   width: 100% !important;
 }
 
-.guide-page {
-  padding-bottom: 64px;
-}
-
 .guide-header {
   display: grid;
   gap: 22px;
@@ -526,9 +534,15 @@ h2 {
 
 .guide-article h2 {
   margin: 0;
-  font-family: Georgia, 'Times New Roman', serif;
   font-size: 28px;
+  color: var(--iu-crimson);
+}
+
+.guide-article h3 {
+  margin: 14px 0 8px;
+  font-size: 18px;
   color: #2e2342;
+  font-weight: 700;
 }
 
 .guide-article p,
@@ -545,7 +559,7 @@ h2 {
 
 .guide-article a {
   color: var(--iu-crimson);
-  text-decoration: none;
+  text-decoration: underline;
   font-weight: 600;
 }
 
@@ -584,7 +598,7 @@ h2 {
   }
 
   .guide-page {
-    padding: 20px;
+    padding: 20px 20px 0;
   }
 
   .topnav {
