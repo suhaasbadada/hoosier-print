@@ -94,13 +94,39 @@ h2 {
 
 .row-group {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: 1fr 1fr minmax(140px, 200px);
   gap: 16px;
 }
 
 .row-group > div {
   display: grid;
   gap: 10px;
+  min-width: 0;
+}
+
+.retry-control {
+  display: grid;
+  gap: 10px;
+}
+
+.control-button {
+  width: 100%;
+  padding: 10px 16px;
+  border-radius: 14px;
+  border: 1px solid rgba(23, 20, 30, 0.12);
+  background: #ffffff;
+  color: #1f1d25;
+  font-weight: 700;
+  font-size: 13px;
+  cursor: pointer;
+  box-shadow: 0 8px 18px rgba(153, 0, 0, 0.18);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+}
+
+.control-button:hover {
+  transform: translateY(-1px);
+  background: #f7f5f2;
+  box-shadow: 0 10px 20px rgba(153, 0, 0, 0.24);
 }
 
 @media (max-width: 720px) {
@@ -174,6 +200,52 @@ h2 {
 
 .hero-toggle-map:hover {
   background: rgba(153, 0, 0, 0.08);
+}
+
+.navigate-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 16px;
+  border-radius: 999px;
+  border: 1px solid var(--iu-crimson);
+  color: var(--iu-crimson);
+  font-weight: 700;
+  text-decoration: none;
+  transition: background 0.2s ease;
+}
+
+.navigate-button:hover {
+  background: rgba(153, 0, 0, 0.08);
+}
+
+.navigate-icon {
+  position: absolute;
+  bottom: 14px;
+  right: 14px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: none;
+  color: #ffffff;
+  background: #18223a;
+  text-decoration: none;
+  box-shadow: 0 14px 26px rgba(24, 34, 58, 0.22);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+}
+
+.navigate-icon svg {
+  width: 22px;
+  height: 22px;
+}
+
+.navigate-icon:hover {
+  transform: translateY(-1px);
+  background: #101828;
+  box-shadow: 0 18px 32px rgba(24, 34, 58, 0.28);
 }
 
 .home-grid {
@@ -324,15 +396,15 @@ h2 {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-width: 34px;
-  min-height: 34px;
-  padding: 0 8px;
+  width: 44px;
+  height: 44px;
   color: var(--iu-crimson);
   font-size: 14px;
   font-weight: 700;
   border: 1px solid var(--iu-crimson);
-  border-radius: 999px;
-  background: transparent;
+  border-radius: 50%;
+  background: #ffffff;
+  box-shadow: 0 6px 16px rgba(153, 0, 0, 0.12);
   z-index: 1;
 }
 

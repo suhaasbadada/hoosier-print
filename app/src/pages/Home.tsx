@@ -78,13 +78,6 @@ export default function Home() {
           Filter by campus, search by building, and let your browser location
           show the closest printers nearby.
         </p>
-        <button
-          type="button"
-          className="hero-toggle-map"
-          onClick={() => setShowMap((current) => !current)}
-        >
-          {showMap ? 'Hide map' : 'Show map'}
-        </button>
       </div>
 
       <div className={`home-grid ${showMap ? '' : 'map-hidden'}`}>
@@ -104,6 +97,8 @@ export default function Home() {
           locationStatus={status === 'loading' ? 'Locating…' : status === 'granted' ? 'Location active' : status === 'denied' ? 'Permission denied' : status === 'error' ? 'Location error' : 'Waiting for permission'}
           locationError={error}
           onRetryLocation={requestLocation}
+          showMap={showMap}
+          onToggleMap={() => setShowMap((current) => !current)}
           printerCount={printerCount}
         />
 

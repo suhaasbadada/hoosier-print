@@ -104,6 +104,16 @@ export default function MapView({ printers, nearest, userLocation, distanceUnit 
                 {typeof distance === 'number' ? (
                   <div>Distance: {formatDistance(distance, distanceUnit)}</div>
                 ) : null}
+                <div style={{ marginTop: '8px' }}>
+                  <a
+                    href={`https://www.google.com/maps/search/?api=1&query=${printer.lat},${printer.lng}`}
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    className="navigate-button"
+                  >
+                    Navigate
+                  </a>
+                </div>
               </Popup>
             </Marker>
           )

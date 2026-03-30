@@ -17,6 +17,8 @@ type SidebarProps = {
   locationStatus: string
   locationError?: string
   onRetryLocation: () => void
+  showMap: boolean
+  onToggleMap: () => void
   printerCount: number
 }
 
@@ -36,6 +38,8 @@ export default function Sidebar({
   locationStatus,
   locationError,
   onRetryLocation,
+  showMap,
+  onToggleMap,
   printerCount,
 }: SidebarProps) {
   return (
@@ -69,6 +73,23 @@ export default function Sidebar({
             <option value="mi">Miles</option>
           </select>
         </div>
+
+        <div className="retry-control">
+          <button
+            type="button"
+            className="control-button"
+            onClick={onRetryLocation}
+          >
+            Retry location
+          </button>
+          <button
+            type="button"
+            className="control-button"
+            onClick={onToggleMap}
+          >
+            {showMap ? 'Hide map' : 'Show map'}
+          </button>
+        </div>
       </div>
 
       <div className="sidebar-card">
@@ -87,9 +108,6 @@ export default function Sidebar({
         <p className="eyebrow">Geolocation</p>
         <div className="status-line">{locationStatus}</div>
         {locationError ? <div className="status-error">{locationError}</div> : null}
-        <button type="button" onClick={onRetryLocation}>
-          Retry location
-        </button>
       </div>
 
       <div className="sidebar-card">
@@ -123,6 +141,21 @@ export default function Sidebar({
                       Rooms: {printer.printers.map((entry) => entry.room).join(', ')}
                     </small>
                   ) : null}
+                  <a
+                    className="navigate-icon"
+                    href={`https://www.google.com/maps/search/?api=1&query=${printer.lat},${printer.lng}`}
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    aria-label="Navigate"
+                  >
+                    <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                      <path
+                        fill="#ffffff"
+                        d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"
+                      />
+                      <circle cx="12" cy="9" r="2.5" fill="#DB4437" />
+                    </svg>
+                  </a>
                 </li>
               ))}
             </ul>
