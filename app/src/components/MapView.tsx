@@ -1,4 +1,4 @@
-import { useEffect, useMemo } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import { MapContainer, TileLayer, Marker, Popup, CircleMarker, useMap } from 'react-leaflet'
 import { icon } from 'leaflet'
 import markerIconUrl from 'leaflet/dist/images/marker-icon.png'
@@ -49,6 +49,23 @@ function FitBounds({ bounds }: { bounds: [number, number][] }) {
 }
 
 export default function MapView({ printers, nearest, userLocation, distanceUnit }: MapViewProps) {
+  const [isPhoneViewport, setIsPhoneViewport] = useState(false)
+
+  useEffect(() => {
+    const query = window.matchMedia('(max-width: 1040px)')
+    const updateViewport = () => setIsPhoneViewport(query.matches)
+
+    updateViewport()
+
+    if (typeof query.addEventListener === 'function') {
+      query.addEventListener('change', updateViewport)
+      return () => query.removeEventListener('change', updateViewport)
+    }
+
+    query.addListener(updateViewport)
+    return () => query.removeListener(updateViewport)
+  }, [])
+
   const nearestDistanceMap = useMemo(
     () => new Map(nearest.map((item) => [item.printer.building, item.distanceKm])),
     [nearest],
@@ -70,11 +87,19 @@ export default function MapView({ printers, nearest, userLocation, distanceUnit 
 
   return (
     <div className="map-view">
+      {isPhoneViewport ? (
+        <p className="map-scroll-hint">Map drag is disabled on phone so the page scroll stays smooth.</p>
+      ) : null}
       <MapContainer
         center={center}
         zoom={13}
         minZoom={4}
-        scrollWheelZoom
+        dragging={!isPhoneViewport}
+        touchZoom={!isPhoneViewport}
+        doubleClickZoom={!isPhoneViewport}
+        boxZoom={!isPhoneViewport}
+        keyboard={!isPhoneViewport}
+        scrollWheelZoom={!isPhoneViewport}
         style={{ height: '100%', width: '100%' }}
       >
         <TileLayer
