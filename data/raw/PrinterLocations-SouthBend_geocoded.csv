@@ -1,13 +1,62 @@
-Building,Campus,lat,lng
-Administration Building,South Bend,41.6763545,-86.25198979999999
-Civil Rights Heritage Center,South Bend,41.6759875,-86.265829
-Education & Arts Building,South Bend,41.678735,-86.2385718
-Elkhart Center II,South Bend,41.7178268,-86.2838632
-Northside Hall,South Bend,41.6628761,-86.219764
-Parkside Hall,South Bend,41.6827215,-86.2511554
-River Crossing Community Bldg,South Bend,41.6842246,-86.26525819999999
-Schurz Library,South Bend,41.6624938,-86.2209579
-Student Activities Center,South Bend,41.664466,-86.2199713
-University Center,South Bend,41.6646992,-86.2218007
-Vera Z. Dwyer Hall,South Bend,41.6763545,-86.25198979999999
-Wiekamp Hall,South Bend,41.6652329,-86.2201376
+Building,Room,Printer name,Campus,lat,lng
+Administration Building,104C,,South Bend,41.6763545,-86.25198979999999
+Administration Building,115X,,South Bend,41.6763545,-86.25198979999999
+Administration Building,135,,South Bend,41.6763545,-86.25198979999999
+Administration Building,146,,South Bend,41.6763545,-86.25198979999999
+Administration Building,160,,South Bend,41.6763545,-86.25198979999999
+Administration Building,175C,,South Bend,41.6763545,-86.25198979999999
+Administration Building,177M,,South Bend,41.6763545,-86.25198979999999
+Administration Building,199P,,South Bend,41.6763545,-86.25198979999999
+Administration Building,199Z,,South Bend,41.6763545,-86.25198979999999
+Administration Building,203H,,South Bend,41.6763545,-86.25198979999999
+Administration Building,215E,,South Bend,41.6763545,-86.25198979999999
+Administration Building,223,,South Bend,41.6763545,-86.25198979999999
+Administration Building,236,,South Bend,41.6763545,-86.25198979999999
+Administration Building,240,,South Bend,41.6763545,-86.25198979999999
+Administration Building,246N,,South Bend,41.6763545,-86.25198979999999
+Administration Building,250G,,South Bend,41.6763545,-86.25198979999999
+Civil Rights Heritage Center,15,,South Bend,41.6759875,-86.265829
+Education & Arts Building,1099,,South Bend,41.678735,-86.2385718
+Education & Arts Building,1109,,South Bend,41.678735,-86.2385718
+Education & Arts Building,1258,,South Bend,41.678735,-86.2385718
+Education & Arts Building,2003D,,South Bend,41.678735,-86.2385718
+Education & Arts Building,2010,,South Bend,41.678735,-86.2385718
+Education & Arts Building,2025D,,South Bend,41.678735,-86.2385718
+Education & Arts Building,2232,,South Bend,41.678735,-86.2385718
+Elkhart Center II,106,,South Bend,41.7178268,-86.2838632
+Elkhart Center II,213,,South Bend,41.7178268,-86.2838632
+Northside Hall,28,,South Bend,41.6628761,-86.219764
+Northside Hall,99,,South Bend,41.6628761,-86.219764
+Northside Hall,45,,South Bend,41.6628761,-86.219764
+Northside Hall,99,,South Bend,41.6628761,-86.219764
+Northside Hall,103,,South Bend,41.6628761,-86.219764
+Northside Hall,155,,South Bend,41.6628761,-86.219764
+Northside Hall,160G,,South Bend,41.6628761,-86.219764
+Northside Hall,234,,South Bend,41.6628761,-86.219764
+Northside Hall,377,,South Bend,41.6628761,-86.219764
+Northside Hall,469,,South Bend,41.6628761,-86.219764
+Parkside Hall,115,,South Bend,41.6827215,-86.2511554
+Parkside Hall,150,,South Bend,41.6827215,-86.2511554
+Parkside Hall,299,,South Bend,41.6827215,-86.2511554
+River Crossing Community Bldg,110,,South Bend,41.6842246,-86.26525819999999
+River Crossing Community Bldg,199,,South Bend,41.6842246,-86.26525819999999
+Schurz Library,108,,South Bend,41.6624938,-86.2209579
+Schurz Library,115,,South Bend,41.6624938,-86.2209579
+Schurz Library,115,,South Bend,41.6624938,-86.2209579
+Schurz Library,308,,South Bend,41.6624938,-86.2209579
+Student Activities Center,102,,South Bend,41.664466,-86.2199713
+Student Activities Center,130K,,South Bend,41.664466,-86.2199713
+Student Activities Center,202,,South Bend,41.664466,-86.2199713
+University Center,100D,,South Bend,41.6646992,-86.2218007
+University Center,102,,South Bend,41.6646992,-86.2218007
+Vera Z. Dwyer Hall,146,,South Bend,41.6763545,-86.25198979999999
+Vera Z. Dwyer Hall,156,,South Bend,41.6763545,-86.25198979999999
+Wiekamp Hall,1003,,South Bend,41.6652329,-86.2201376
+Wiekamp Hall,1245,,South Bend,41.6652329,-86.2201376
+Wiekamp Hall,2001,,South Bend,41.6652329,-86.2201376
+Wiekamp Hall,2111F,,South Bend,41.6652329,-86.2201376
+Wiekamp Hall,2187,,South Bend,41.6652329,-86.2201376
+Wiekamp Hall,2206,,South Bend,41.6652329,-86.2201376
+Wiekamp Hall,2286,,South Bend,41.6652329,-86.2201376
+Wiekamp Hall,3107,,South Bend,41.6652329,-86.2201376
+Wiekamp Hall,3300H,,South Bend,41.6652329,-86.2201376

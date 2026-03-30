@@ -1,5 +1,16 @@
-Building,Campus,lat,lng
-Hayes Hall,East,39.8681718,-84.8797781
-Springwood Hall,East,41.1437689,-85.13302619999999
-Tom Raper Hall,East,39.8678576,-84.881954
-Whitewater Hall,East,39.86879649999999,-84.8818095
+Building,Room,Printer name,Campus,lat,lng
+Hayes Hall,255,,East,39.8681718,-84.8797781
+Springwood Hall,2,,East,41.1437689,-85.13302619999999
+Springwood Hall,101D,,East,41.1437689,-85.13302619999999
+Springwood Hall,235,,East,41.1437689,-85.13302619999999
+Tom Raper Hall,115,,East,39.8678576,-84.881954
+Tom Raper Hall,199,,East,39.8678576,-84.881954
+Tom Raper Hall,299,,East,39.8678576,-84.881954
+Tom Raper Hall,399,,East,39.8678576,-84.881954
+Whitewater Hall,101L,,East,39.86879649999999,-84.8818095
+Whitewater Hall,102,,East,39.86879649999999,-84.8818095
+Whitewater Hall,115,,East,39.86879649999999,-84.8818095
+Whitewater Hall,131,,East,39.86879649999999,-84.8818095
+Whitewater Hall,151,,East,39.86879649999999,-84.8818095
+Whitewater Hall,208,,East,39.86879649999999,-84.8818095
+Whitewater Hall,285,,East,39.86879649999999,-84.8818095

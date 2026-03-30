@@ -1,9 +1,32 @@
-Building,Campus,lat,lng
-Cougar Center,Kokomo,40.515122,-86.129744
-Fine Arts,Kokomo,40.4556326,-86.12750989999999
-Hunt Hall,Kokomo,40.4596077,-86.13021959999999
-Kelley Student Center,Kokomo,40.4588336,-86.13176539999999
-Kokomo East,Kokomo,40.515131,-86.128871
-Kokomo Library,Kokomo,40.4871195,-86.1308507
-Kokomo Main,Kokomo,40.41821,-86.104412
-Student Activities and Events Center,Kokomo,40.515122,-86.129744
+Building,Room,Printer name,Campus,lat,lng
+Cougar Center,199,,Kokomo,40.515122,-86.129744
+Fine Arts,100,,Kokomo,40.4556326,-86.12750989999999
+Hunt Hall,107,,Kokomo,40.4596077,-86.13021959999999
+Hunt Hall,124,,Kokomo,40.4596077,-86.13021959999999
+Hunt Hall,210,,Kokomo,40.4596077,-86.13021959999999
+Hunt Hall,234,,Kokomo,40.4596077,-86.13021959999999
+Hunt Hall,299,,Kokomo,40.4596077,-86.13021959999999
+Kelley Student Center,115,,Kokomo,40.4588336,-86.13176539999999
+Kelley Student Center,145,,Kokomo,40.4588336,-86.13176539999999
+Kelley Student Center,208,,Kokomo,40.4588336,-86.13176539999999
+Kelley Student Center,210,,Kokomo,40.4588336,-86.13176539999999
+Kelley Student Center,223,,Kokomo,40.4588336,-86.13176539999999
+Kelley Student Center,234,,Kokomo,40.4588336,-86.13176539999999
+Kelley Student Center,274,,Kokomo,40.4588336,-86.13176539999999
+Kokomo East,199,,Kokomo,40.515131,-86.128871
+Kokomo East,204,,Kokomo,40.515131,-86.128871
+Kokomo East,309,,Kokomo,40.515131,-86.128871
+Kokomo Library,26,,Kokomo,40.4871195,-86.1308507
+Kokomo Library,115,,Kokomo,40.4871195,-86.1308507
+Kokomo Library,165,,Kokomo,40.4871195,-86.1308507
+Kokomo Library,200,,Kokomo,40.4871195,-86.1308507
+Kokomo Main,36,,Kokomo,40.41821,-86.104412
+Kokomo Main,73,,Kokomo,40.41821,-86.104412
+Kokomo Main,111,,Kokomo,40.41821,-86.104412
+Kokomo Main,172,,Kokomo,40.41821,-86.104412
+Kokomo Main,190,,Kokomo,40.41821,-86.104412
+Kokomo Main,205,,Kokomo,40.41821,-86.104412
+Kokomo Main,218,,Kokomo,40.41821,-86.104412
+Kokomo Main,275,,Kokomo,40.41821,-86.104412
+Kokomo Main,280,,Kokomo,40.41821,-86.104412
+Student Activities and Events Center,100,,Kokomo,40.515122,-86.129744

@@ -1,79 +1,248 @@
-Building,Campus,lat,lng
-300 N Eagleson Ave,Bloomington,39.1682652,-86.5156532
-3rd & Union Apartments,Bloomington,39.1645023,-86.51022809999999
-506-508 N Fess Ave,Bloomington,39.1708535,-86.5253568
-509 E 3rd St,Bloomington,39.1646203,-86.527784
-612 N Park Ave,Bloomington,39.1722478,-86.52450639999999
-713 E Cottage Grove,Bloomington,39.1727166,-86.5248543
-823 E 11Th St House,Bloomington,39.1736379,-86.5237477
-880 N Walnut Grove,Bloomington,39.1742723,-86.5204251
-1103 Atwater Ave,Bloomington,39.1632913,-86.5200427
-Alice McDonald Nelson Halls Of Residence,Bloomington,39.169574,-86.5385549
-Ballantine Hall,Bloomington,39.1661242,-86.5210412
-Biology Building,Bloomington,39.164571,-86.52113229999999
-Briscoe Quad,Bloomington,39.1784385,-86.5199643
-Cedar Hall,Bloomington,39.1705967,-86.5097806
-Chemistry,Bloomington,39.1659962,-86.52276529999999
-Chestnut C & D,Bloomington,39.0703166,-86.5086714
-Classroom-Office Building,Bloomington,39.1637517,-86.5239035
-Crest View,Bloomington,39.1616129,-86.5017038
-Cyberinfrastructure Building (CIB),Bloomington,39.1721256,-86.50172889999999
-Edmondson Hall,Bloomington,39.1711725,-86.5243837
-Eigenmann Hall,Bloomington,39.1707441,-86.5083695
-Ernie Pyle Hall,Bloomington,39.1681947,-86.52303210000001
-Fine Arts,Bloomington,39.169574,-86.5385549
-Forest Quad,Bloomington,39.164555,-86.5129405
-Franklin Hall,Bloomington,39.1668944,-86.5265795
-Geological Sciences,Bloomington,39.1719663,-86.522122
-Global & International Studies Building,Bloomington,39.1700079,-86.5174222
-Godfrey Grad & Exec Ed Ctr,Bloomington,39.1724806,-86.5194125
-Gresham Dining Hall,Bloomington,39.1646717,-86.4956076
-Griggs Lounge,Bloomington,39.1710311,-86.5113315
-Harper Hall,Bloomington,39.1751105,-86.51803749999999
-Hodge Hall (Business School),Bloomington,39.1723943,-86.5184268
-Hutton Honors College,Bloomington,39.168662,-86.52397599999999
-IN Memorial Union,Bloomington,39.1682739,-86.5221164
-IU Student Health Center,Bloomington,39.1720949,-86.5151443
-Kirkwood Hall,Bloomington,39.1659773,-86.52355899999999
-Lee Norvelle Theatre Drama/ Neal&Mars,Bloomington,39.1683817,-86.5167014
-LGBTQ+ Culture Center,Bloomington,39.1687127,-86.5252703
-Lindley Hall,Bloomington,39.1653408,-86.52358819999999
-Luddy Center for AI,Bloomington,39.1737568,-86.5220677
-Luddy Hall,Bloomington,39.1727252,-86.5232945
-Magee Hall,Bloomington,39.1758521,-86.5172297
-McNutt Central,Bloomington,39.176422,-86.5197585
-Medical Research & Library,Bloomington,39.169574,-86.5385549
-Memorial Hall,Bloomington,39.1647963,-86.51969489999999
-Merrill Hall,Bloomington,39.164636,-86.5183342
-MESH Storage,Bloomington,39.169574,-86.5385549
-Multi Science 2,Bloomington,39.169574,-86.5385549
-Multidisciplinary Eng And Sci Hall-MESH,Bloomington,39.1748474,-86.5166317
-Myers Hall,Bloomington,39.1646953,-86.5222716
-Myles Brand Hall,Bloomington,39.1720489,-86.5228769
-Northwest Plaza,Bloomington,39.1701155,-86.53679319999999
-Owen Hall,Bloomington,39.1669716,-86.52381299999999
-Radio-TV,Bloomington,39.1692011,-86.51854159999999
-Raintree Hall,Bloomington,39.2130655,-86.586487
-Read Hall,Bloomington,39.1660559,-86.51489219999999
-School of Public Health,Bloomington,39.169976,-86.52130269999999
-School Of Public Health,Bloomington,39.169976,-86.52130269999999
-Simon Hall (Science),Bloomington,39.1651539,-86.5222015
-Simon Music Library,Bloomington,39.1649526,-86.5174547
-Smith Hall,Bloomington,39.1707359,-86.52397619999999
-Social Research,Bloomington,39.169574,-86.5385549
-SPEA,Bloomington,39.1725608,-86.5177669
-Spruce Hall,Bloomington,39.16550160000001,-86.51196999999999
-Student Building (Frances Morgan Swain),Bloomington,39.1671346,-86.5255695
-Student Recreational Sports Center,Bloomington,39.1735239,-86.51240229999999
-Swain West,Bloomington,39.1647452,-86.52512779999999
-Teter Quad,Bloomington,39.17049129999999,-86.51294089999999
-The Health Sciences Building,Bloomington,39.1772719,-86.50407919999999
-Tulip Tree Apartments,Bloomington,39.172494,-86.5043826
-University Apartments East,Bloomington,39.1645567,-86.5141968
-Wells Library,Bloomington,39.1710061,-86.51679969999999
-Wendell W. Wright Education Building,Bloomington,39.1671809,-86.5124702
-Willkie C,Bloomington,39.1661675,-86.5106177
-Willkie North,Bloomington,39.16697260000001,-86.51061829999999
-Woodburn Hall,Bloomington,39.1681192,-86.51985789999999
-Wright Quad,Bloomington,39.1707845,-86.51522159999999
-Wylie Hall,Bloomington,39.166488,-86.523562
+Building,Room,Printer name,Campus,lat,lng
+300 N Eagleson Ave,120,,Bloomington,39.1682652,-86.5156532
+3rd & Union Apartments,15,,Bloomington,39.1645023,-86.51022809999999
+506-508 N Fess Ave,101,,Bloomington,39.1708535,-86.5253568
+509 E 3rd St,110D,,Bloomington,39.1646203,-86.527784
+509 E 3rd St,140,,Bloomington,39.1646203,-86.527784
+509 E 3rd St,299,,Bloomington,39.1646203,-86.527784
+509 E 3rd St,399,,Bloomington,39.1646203,-86.527784
+509 E 3rd St,399,,Bloomington,39.1646203,-86.527784
+612 N Park Ave,100,,Bloomington,39.1722478,-86.52450639999999
+713 E Cottage Grove,105,,Bloomington,39.1727166,-86.5248543
+823 E 11Th St House,101,,Bloomington,39.1736379,-86.5237477
+880 N Walnut Grove,C199,,Bloomington,39.1742723,-86.5204251
+880 N Walnut Grove,P199,,Bloomington,39.1742723,-86.5204251
+1103 Atwater Ave,WR100,,Bloomington,39.1632913,-86.5200427
+Alice McDonald Nelson Halls Of Residence,13,,Bloomington,39.169574,-86.5385549
+Alice McDonald Nelson Halls Of Residence,18,,Bloomington,39.169574,-86.5385549
+Alice McDonald Nelson Halls Of Residence,201,,Bloomington,39.169574,-86.5385549
+Alice McDonald Nelson Halls Of Residence,202,,Bloomington,39.169574,-86.5385549
+Alice McDonald Nelson Halls Of Residence,A102,,Bloomington,39.169574,-86.5385549
+Alice McDonald Nelson Halls Of Residence,C101,,Bloomington,39.169574,-86.5385549
+Alice McDonald Nelson Halls Of Residence,D101,,Bloomington,39.169574,-86.5385549
+Ballantine Hall,27,,Bloomington,39.1661242,-86.5210412
+Ballantine Hall,117,,Bloomington,39.1661242,-86.5210412
+Ballantine Hall,129,,Bloomington,39.1661242,-86.5210412
+Ballantine Hall,235,,Bloomington,39.1661242,-86.5210412
+Ballantine Hall,328,,Bloomington,39.1661242,-86.5210412
+Ballantine Hall,535,,Bloomington,39.1661242,-86.5210412
+Ballantine Hall,608,,Bloomington,39.1661242,-86.5210412
+Ballantine Hall,616,,Bloomington,39.1661242,-86.5210412
+Ballantine Hall,740,,Bloomington,39.1661242,-86.5210412
+Biology Building,199,,Bloomington,39.164571,-86.52113229999999
+Biology Building,A109,,Bloomington,39.164571,-86.52113229999999
+Biology Building,A110,,Bloomington,39.164571,-86.52113229999999
+Biology Building,A304,,Bloomington,39.164571,-86.52113229999999
+Biology Building,A400,,Bloomington,39.164571,-86.52113229999999
+Briscoe Quad,C001,,Bloomington,39.1784385,-86.5199643
+Briscoe Quad,C133,,Bloomington,39.1784385,-86.5199643
+Cedar Hall,99,,Bloomington,39.1705967,-86.5097806
+Cedar Hall,199,,Bloomington,39.1705967,-86.5097806
+Chemistry,6,,Bloomington,39.1659962,-86.52276529999999
+Chemistry,46,,Bloomington,39.1659962,-86.52276529999999
+Chemistry,A002,,Bloomington,39.1659962,-86.52276529999999
+Chemistry,C201,,Bloomington,39.1659962,-86.52276529999999
+Chestnut C & D,2,,Bloomington,39.0703166,-86.5086714
+Classroom-Office Building,212,,Bloomington,39.1637517,-86.5239035
+Crest View,110,,Bloomington,39.1616129,-86.5017038
+Cyberinfrastructure Building (CIB),165,,Bloomington,39.1721256,-86.50172889999999
+Cyberinfrastructure Building (CIB),165,,Bloomington,39.1721256,-86.50172889999999
+Edmondson Hall,C199,,Bloomington,39.1711725,-86.5243837
+Eigenmann Hall,100,,Bloomington,39.1707441,-86.5083695
+Eigenmann Hall,25,,Bloomington,39.1707441,-86.5083695
+Ernie Pyle Hall,218,,Bloomington,39.1681947,-86.52303210000001
+Fine Arts,199,,Bloomington,39.169574,-86.5385549
+Fine Arts,215,,Bloomington,39.169574,-86.5385549
+Forest Quad,199,,Bloomington,39.164555,-86.5129405
+Forest Quad,236,,Bloomington,39.164555,-86.5129405
+Franklin Hall,103,,Bloomington,39.1668944,-86.5265795
+Franklin Hall,73,,Bloomington,39.1668944,-86.5265795
+Geological Sciences,2999,,Bloomington,39.1719663,-86.522122
+Global & International Studies Building,99,,Bloomington,39.1700079,-86.5174222
+Godfrey Grad & Exec Ed Ctr,20,,Bloomington,39.1724806,-86.5194125
+Godfrey Grad & Exec Ed Ctr,1022,,Bloomington,39.1724806,-86.5194125
+Godfrey Grad & Exec Ed Ctr,1050,,Bloomington,39.1724806,-86.5194125
+Godfrey Grad & Exec Ed Ctr,2065,,Bloomington,39.1724806,-86.5194125
+Gresham Dining Hall,102A,,Bloomington,39.1646717,-86.4956076
+Griggs Lounge,101,,Bloomington,39.1710311,-86.5113315
+Harper Hall,199,,Bloomington,39.1751105,-86.51803749999999
+Hodge Hall (Business School),1999,,Bloomington,39.1723943,-86.5184268
+Hodge Hall (Business School),199G,,Bloomington,39.1723943,-86.5184268
+Hodge Hall (Business School),2999,,Bloomington,39.1723943,-86.5184268
+Hodge Hall (Business School),3999,,Bloomington,39.1723943,-86.5184268
+Hodge Hall (Business School),4999,,Bloomington,39.1723943,-86.5184268
+Hodge Hall (Business School),736,,Bloomington,39.1723943,-86.5184268
+Hutton Honors College,112,,Bloomington,39.168662,-86.52397599999999
+IN Memorial Union,89,,Bloomington,39.1682739,-86.5221164
+IN Memorial Union,98,,Bloomington,39.1682739,-86.5221164
+IN Memorial Union,173,,Bloomington,39.1682739,-86.5221164
+IN Memorial Union,271,,Bloomington,39.1682739,-86.5221164
+IN Memorial Union,327,,Bloomington,39.1682739,-86.5221164
+IN Memorial Union,L001,,Bloomington,39.1682739,-86.5221164
+IN Memorial Union,M088,,Bloomington,39.1682739,-86.5221164
+IU Student Health Center,C3119,,Bloomington,39.1720949,-86.5151443
+Kirkwood Hall,99,,Bloomington,39.1659773,-86.52355899999999
+Lee Norvelle Theatre Drama/ Neal&Mars,A220,,Bloomington,39.1683817,-86.5167014
+LGBTQ+ Culture Center,100,,Bloomington,39.1687127,-86.5252703
+Lindley Hall,30,,Bloomington,39.1653408,-86.52358819999999
+Lindley Hall,230,,Bloomington,39.1653408,-86.52358819999999
+Luddy Center for AI,1048,,Bloomington,39.1737568,-86.5220677
+Luddy Center for AI,1048F,,Bloomington,39.1737568,-86.5220677
+Luddy Center for AI,2056,,Bloomington,39.1737568,-86.5220677
+Luddy Center for AI,2056,,Bloomington,39.1737568,-86.5220677
+Luddy Center for AI,3056,,Bloomington,39.1737568,-86.5220677
+Luddy Center for AI,3056,,Bloomington,39.1737568,-86.5220677
+Luddy Hall,1,,Bloomington,39.1727252,-86.5232945
+Luddy Hall,1,,Bloomington,39.1727252,-86.5232945
+Luddy Hall,1,,Bloomington,39.1727252,-86.5232945
+Luddy Hall,1,,Bloomington,39.1727252,-86.5232945
+Luddy Hall,1029,,Bloomington,39.1727252,-86.5232945
+Luddy Hall,1116,,Bloomington,39.1727252,-86.5232945
+Luddy Hall,1116,,Bloomington,39.1727252,-86.5232945
+Luddy Hall,1999,,Bloomington,39.1727252,-86.5232945
+Luddy Hall,1999B,,Bloomington,39.1727252,-86.5232945
+Luddy Hall,2033,,Bloomington,39.1727252,-86.5232945
+Luddy Hall,2052,,Bloomington,39.1727252,-86.5232945
+Luddy Hall,2062,,Bloomington,39.1727252,-86.5232945
+Luddy Hall,2062,,Bloomington,39.1727252,-86.5232945
+Luddy Hall,2115,,Bloomington,39.1727252,-86.5232945
+Luddy Hall,2115,,Bloomington,39.1727252,-86.5232945
+Luddy Hall,2143,,Bloomington,39.1727252,-86.5232945
+Luddy Hall,2143,,Bloomington,39.1727252,-86.5232945
+Luddy Hall,2150,,Bloomington,39.1727252,-86.5232945
+Luddy Hall,2999A,,Bloomington,39.1727252,-86.5232945
+Luddy Hall,3033,,Bloomington,39.1727252,-86.5232945
+Luddy Hall,3051,,Bloomington,39.1727252,-86.5232945
+Luddy Hall,3118,,Bloomington,39.1727252,-86.5232945
+Luddy Hall,3140,,Bloomington,39.1727252,-86.5232945
+Luddy Hall,3150,,Bloomington,39.1727252,-86.5232945
+Luddy Hall,3999A,,Bloomington,39.1727252,-86.5232945
+Luddy Hall,4025,,Bloomington,39.1727252,-86.5232945
+Luddy Hall,4040,,Bloomington,39.1727252,-86.5232945
+Luddy Hall,4053,,Bloomington,39.1727252,-86.5232945
+Luddy Hall,4143,,Bloomington,39.1727252,-86.5232945
+Luddy Hall,4150,,Bloomington,39.1727252,-86.5232945
+Magee Hall,D001,,Bloomington,39.1758521,-86.5172297
+McNutt Central,C006,,Bloomington,39.176422,-86.5197585
+McNutt Central,26,,Bloomington,39.176422,-86.5197585
+McNutt Central,199,,Bloomington,39.176422,-86.5197585
+McNutt Central,299,,Bloomington,39.176422,-86.5197585
+Medical Research & Library,100,,Bloomington,39.169574,-86.5385549
+Medical Research & Library,1005B,,Bloomington,39.169574,-86.5385549
+Medical Research & Library,207,,Bloomington,39.169574,-86.5385549
+Medical Research & Library,303,,Bloomington,39.169574,-86.5385549
+Medical Research & Library,2003,,Bloomington,39.169574,-86.5385549
+Medical Research & Library,2008,,Bloomington,39.169574,-86.5385549
+Medical Research & Library,2027D,,Bloomington,39.169574,-86.5385549
+Medical Research & Library,3030L,,Bloomington,39.169574,-86.5385549
+Medical Research & Library,3008,,Bloomington,39.169574,-86.5385549
+Medical Research & Library,5036,,Bloomington,39.169574,-86.5385549
+Medical Research & Library,6060,,Bloomington,39.169574,-86.5385549
+Medical Research & Library,7062,,Bloomington,39.169574,-86.5385549
+Memorial Hall,25,,Bloomington,39.1647963,-86.51969489999999
+Merrill Hall,99,,Bloomington,39.164636,-86.5183342
+MESH Storage,3,,Bloomington,39.169574,-86.5385549
+MESH Storage,03A,,Bloomington,39.169574,-86.5385549
+Multi Science 2,279,,Bloomington,39.169574,-86.5385549
+Multidisciplinary Eng And Sci Hall-MESH,050C,,Bloomington,39.1748474,-86.5166317
+Multidisciplinary Eng And Sci Hall-MESH,199F,,Bloomington,39.1748474,-86.5166317
+Myers Hall,199F,,Bloomington,39.1646953,-86.5222716
+Myers Hall,309,,Bloomington,39.1646953,-86.5222716
+Myles Brand Hall,100,,Bloomington,39.1720489,-86.5228769
+Myles Brand Hall,219,,Bloomington,39.1720489,-86.5228769
+Myles Brand Hall,307,,Bloomington,39.1720489,-86.5228769
+Myles Brand Hall,399,,Bloomington,39.1720489,-86.5228769
+Northwest Plaza,103,,Bloomington,39.1701155,-86.53679319999999
+Owen Hall,2,,Bloomington,39.1669716,-86.52381299999999
+Owen Hall,112,,Bloomington,39.1669716,-86.52381299999999
+Owen Hall,201,,Bloomington,39.1669716,-86.52381299999999
+Owen Hall,305F,,Bloomington,39.1669716,-86.52381299999999
+Radio-TV,299,,Bloomington,39.1692011,-86.51854159999999
+Radio-TV,316,,Bloomington,39.1692011,-86.51854159999999
+Raintree Hall,121,,Bloomington,39.2130655,-86.586487
+Read Hall,15,,Bloomington,39.1660559,-86.51489219999999
+Read Hall,199,,Bloomington,39.1660559,-86.51489219999999
+School of Public Health,199,,Bloomington,39.169976,-86.52130269999999
+School of Public Health,199B,,Bloomington,39.169976,-86.52130269999999
+School Of Public Health,25,,Bloomington,39.169976,-86.52130269999999
+School Of Public Health,99,,Bloomington,39.169976,-86.52130269999999
+School Of Public Health,116,,Bloomington,39.169976,-86.52130269999999
+School Of Public Health,121,,Bloomington,39.169976,-86.52130269999999
+School Of Public Health,131,,Bloomington,39.169976,-86.52130269999999
+School Of Public Health,173,,Bloomington,39.169976,-86.52130269999999
+School Of Public Health,179,,Bloomington,39.169976,-86.52130269999999
+School Of Public Health,1791,,Bloomington,39.169976,-86.52130269999999
+School Of Public Health,1792,,Bloomington,39.169976,-86.52130269999999
+School Of Public Health,199L,,Bloomington,39.169976,-86.52130269999999
+Simon Hall (Science),300,,Bloomington,39.1651539,-86.5222015
+Simon Music Library,360,,Bloomington,39.1649526,-86.5174547
+Smith Hall,A012,,Bloomington,39.1707359,-86.52397619999999
+Social Research,203,,Bloomington,39.169574,-86.5385549
+Social Research,315,,Bloomington,39.169574,-86.5385549
+SPEA,199B,,Bloomington,39.1725608,-86.5177669
+SPEA,199B,,Bloomington,39.1725608,-86.5177669
+SPEA,199,,Bloomington,39.1725608,-86.5177669
+SPEA,199P,,Bloomington,39.1725608,-86.5177669
+SPEA,A209,,Bloomington,39.1725608,-86.5177669
+Spruce Hall,113,,Bloomington,39.16550160000001,-86.51196999999999
+Student Building (Frances Morgan Swain),222,,Bloomington,39.1671346,-86.5255695
+Student Building (Frances Morgan Swain),210,,Bloomington,39.1671346,-86.5255695
+Student Recreational Sports Center,115,,Bloomington,39.1735239,-86.51240229999999
+Swain West,118,,Bloomington,39.1647452,-86.52512779999999
+Swain West,058A,,Bloomington,39.1647452,-86.52512779999999
+Swain West,207,,Bloomington,39.1647452,-86.52512779999999
+Swain West,236,,Bloomington,39.1647452,-86.52512779999999
+Swain West,261,,Bloomington,39.1647452,-86.52512779999999
+Swain West,340,,Bloomington,39.1647452,-86.52512779999999
+Teter Quad,F120,,Bloomington,39.17049129999999,-86.51294089999999
+Teter Quad,F138,,Bloomington,39.17049129999999,-86.51294089999999
+Teter Quad,F138,,Bloomington,39.17049129999999,-86.51294089999999
+The Health Sciences Building,C1000D,,Bloomington,39.1772719,-86.50407919999999
+The Health Sciences Building,C200A,,Bloomington,39.1772719,-86.50407919999999
+The Health Sciences Building,C2122,,Bloomington,39.1772719,-86.50407919999999
+Tulip Tree Apartments,102,,Bloomington,39.172494,-86.5043826
+University Apartments East,20,,Bloomington,39.1645567,-86.5141968
+Wells Library,100,,Bloomington,39.1710061,-86.51679969999999
+Wells Library,112,,Bloomington,39.1710061,-86.51679969999999
+Wells Library,137,,Bloomington,39.1710061,-86.51679969999999
+Wells Library,199,,Bloomington,39.1710061,-86.51679969999999
+Wells Library,199,,Bloomington,39.1710061,-86.51679969999999
+Wells Library,201,,Bloomington,39.1710061,-86.51679969999999
+Wells Library,201,,Bloomington,39.1710061,-86.51679969999999
+Wells Library,401,,Bloomington,39.1710061,-86.51679969999999
+Wells Library,401,,Bloomington,39.1710061,-86.51679969999999
+Wells Library,502,,Bloomington,39.1710061,-86.51679969999999
+Wells Library,305,,Bloomington,39.1710061,-86.51679969999999
+Wendell W. Wright Education Building,5,,Bloomington,39.1671809,-86.5124702
+Wendell W. Wright Education Building,1020,,Bloomington,39.1671809,-86.5124702
+Wendell W. Wright Education Building,1077,,Bloomington,39.1671809,-86.5124702
+Wendell W. Wright Education Building,1160,,Bloomington,39.1671809,-86.5124702
+Wendell W. Wright Education Building,2011,,Bloomington,39.1671809,-86.5124702
+Wendell W. Wright Education Building,2100,,Bloomington,39.1671809,-86.5124702
+Wendell W. Wright Education Building,2101,,Bloomington,39.1671809,-86.5124702
+Wendell W. Wright Education Building,2252,,Bloomington,39.1671809,-86.5124702
+Wendell W. Wright Education Building,3008,,Bloomington,39.1671809,-86.5124702
+Wendell W. Wright Education Building,3048,,Bloomington,39.1671809,-86.5124702
+Wendell W. Wright Education Building,3099M,,Bloomington,39.1671809,-86.5124702
+Wendell W. Wright Education Building,3136,,Bloomington,39.1671809,-86.5124702
+Wendell W. Wright Education Building,4015,,Bloomington,39.1671809,-86.5124702
+Wendell W. Wright Education Building,4025,,Bloomington,39.1671809,-86.5124702
+Wendell W. Wright Education Building,4114,,Bloomington,39.1671809,-86.5124702
+Wendell W. Wright Education Building,4152,,Bloomington,39.1671809,-86.5124702
+Wendell W. Wright Education Building,4215,,Bloomington,39.1671809,-86.5124702
+Wendell W. Wright Education Building,4235,,Bloomington,39.1671809,-86.5124702
+Willkie C,100,,Bloomington,39.1661675,-86.5106177
+Willkie North,199,,Bloomington,39.16697260000001,-86.51061829999999
+Willkie North,199,,Bloomington,39.16697260000001,-86.51061829999999
+Woodburn Hall,211,,Bloomington,39.1681192,-86.51985789999999
+Woodburn Hall,210K,,Bloomington,39.1681192,-86.51985789999999
+Woodburn Hall,300,,Bloomington,39.1681192,-86.51985789999999
+Woodburn Hall,399G,,Bloomington,39.1681192,-86.51985789999999
+Woodburn Hall,400,,Bloomington,39.1681192,-86.51985789999999
+Wright Quad,2,,Bloomington,39.1707845,-86.51522159999999
+Wright Quad,3,,Bloomington,39.1707845,-86.51522159999999
+Wright Quad,A105,,Bloomington,39.1707845,-86.51522159999999
+Wright Quad,AFB50,,Bloomington,39.1707845,-86.51522159999999
+Wright Quad,C199L,,Bloomington,39.1707845,-86.51522159999999
+Wright Quad,C200,,Bloomington,39.1707845,-86.51522159999999
+Wylie Hall,125,,Bloomington,39.166488,-86.523562

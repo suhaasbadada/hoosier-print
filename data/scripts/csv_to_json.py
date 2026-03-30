@@ -27,17 +27,47 @@ for file in INPUT_FILES:
     # normalize column names
     df.columns = [c.strip() for c in df.columns]
 
+    # drop bad rows
+    df = df.dropna(subset=["Building", "lat", "lng"])
+
+    # remove exact duplicates (important)
+    df = df.drop_duplicates(subset=["Building", "Room", "Printer name", "Campus"])
+
+    print(f"{file} -> {len(df)} valid rows")
+
     for _, row in df.iterrows():
         all_data.append({
             "building": row.get("Building"),
             "campus": row.get("Campus"),
-            "lat": row.get("lat"),
-            "lng": row.get("lng")
+            "room": row.get("Room"),
+            "printer_name": row.get("Printer name"),
+            "lat": float(row.get("lat")),
+            "lng": float(row.get("lng"))
         })
+
+# OPTIONAL: group by building (better for frontend)
+grouped = {}
+
+for item in all_data:
+    key = (item["building"], item["campus"], item["lat"], item["lng"])
+
+    if key not in grouped:
+        grouped[key] = {
+            "building": item["building"],
+            "campus": item["campus"],
+            "lat": item["lat"],
+            "lng": item["lng"],
+            "printers": []
+        }
+
+    grouped[key]["printers"].append({
+        "room": item["room"],
+        "printer_name": item["printer_name"]
+    })
 
 # final structure
 output = {
-    "buildings": all_data
+    "buildings": list(grouped.values())
 }
 
 os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
@@ -45,4 +75,4 @@ os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
 with open(OUTPUT_FILE, "w") as f:
     json.dump(output, f, indent=2)
 
-print(f"Saved -> {OUTPUT_FILE} ({len(all_data)} records)")
+print(f"\nSaved -> {OUTPUT_FILE} ({len(output['buildings'])} buildings)")

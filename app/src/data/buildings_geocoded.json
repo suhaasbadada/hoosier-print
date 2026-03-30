@@ -8,7 +8,7 @@
       "printers": [
         {
           "room": "200",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -20,11 +20,11 @@
       "printers": [
         {
           "room": "340",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "343",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -36,15 +36,15 @@
       "printers": [
         {
           "room": "104",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "110",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "221",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -56,27 +56,27 @@
       "printers": [
         {
           "room": "50",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "110",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "134",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "142",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "150",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "170B",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -88,11 +88,11 @@
       "printers": [
         {
           "room": "111",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "199",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -104,7 +104,7 @@
       "printers": [
         {
           "room": "120",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -116,7 +116,7 @@
       "printers": [
         {
           "room": "15",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -128,7 +128,7 @@
       "printers": [
         {
           "room": "101",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -140,19 +140,19 @@
       "printers": [
         {
           "room": "110D",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "140",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "299",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "399",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -164,7 +164,7 @@
       "printers": [
         {
           "room": "100",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -176,7 +176,7 @@
       "printers": [
         {
           "room": "105",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -188,7 +188,7 @@
       "printers": [
         {
           "room": "101",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -200,11 +200,11 @@
       "printers": [
         {
           "room": "C199",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "P199",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -216,7 +216,7 @@
       "printers": [
         {
           "room": "WR100",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -228,31 +228,31 @@
       "printers": [
         {
           "room": "13",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "18",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "201",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "202",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "A102",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "C101",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "D101",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -264,39 +264,39 @@
       "printers": [
         {
           "room": "27",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "117",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "129",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "235",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "328",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "535",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "608",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "616",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "740",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -308,23 +308,23 @@
       "printers": [
         {
           "room": "199",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "A109",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "A110",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "A304",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "A400",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -336,11 +336,11 @@
       "printers": [
         {
           "room": "C001",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "C133",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -352,11 +352,11 @@
       "printers": [
         {
           "room": "99",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "199",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -368,19 +368,19 @@
       "printers": [
         {
           "room": "6",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "46",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "A002",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "C201",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -392,7 +392,7 @@
       "printers": [
         {
           "room": "2",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -404,7 +404,7 @@
       "printers": [
         {
           "room": "212",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -416,7 +416,7 @@
       "printers": [
         {
           "room": "110",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -428,7 +428,7 @@
       "printers": [
         {
           "room": "165",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -440,7 +440,7 @@
       "printers": [
         {
           "room": "C199",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -452,11 +452,11 @@
       "printers": [
         {
           "room": "100",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "25",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -468,7 +468,7 @@
       "printers": [
         {
           "room": "218",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -480,11 +480,11 @@
       "printers": [
         {
           "room": "199",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "215",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -496,11 +496,11 @@
       "printers": [
         {
           "room": "199",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "236",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -512,11 +512,11 @@
       "printers": [
         {
           "room": "103",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "73",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -528,7 +528,7 @@
       "printers": [
         {
           "room": "2999",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -540,7 +540,7 @@
       "printers": [
         {
           "room": "99",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -552,19 +552,19 @@
       "printers": [
         {
           "room": "20",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "1022",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "1050",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "2065",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -576,7 +576,7 @@
       "printers": [
         {
           "room": "102A",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -588,7 +588,7 @@
       "printers": [
         {
           "room": "101",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -600,7 +600,7 @@
       "printers": [
         {
           "room": "199",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -612,27 +612,27 @@
       "printers": [
         {
           "room": "1999",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "199G",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "2999",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "3999",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "4999",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "736",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -644,7 +644,7 @@
       "printers": [
         {
           "room": "112",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -656,31 +656,31 @@
       "printers": [
         {
           "room": "89",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "98",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "173",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "271",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "327",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "L001",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "M088",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -692,7 +692,7 @@
       "printers": [
         {
           "room": "C3119",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -704,7 +704,7 @@
       "printers": [
         {
           "room": "99",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -716,7 +716,7 @@
       "printers": [
         {
           "room": "A220",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -728,7 +728,7 @@
       "printers": [
         {
           "room": "100",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -740,11 +740,11 @@
       "printers": [
         {
           "room": "30",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "230",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -756,19 +756,19 @@
       "printers": [
         {
           "room": "1048",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "1048F",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "2056",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "3056",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -780,95 +780,95 @@
       "printers": [
         {
           "room": "1",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "1029",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "1116",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "1999",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "1999B",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "2033",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "2052",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "2062",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "2115",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "2143",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "2150",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "2999A",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "3033",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "3051",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "3118",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "3140",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "3150",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "3999A",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "4025",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "4040",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "4053",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "4143",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "4150",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -880,7 +880,7 @@
       "printers": [
         {
           "room": "D001",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -892,19 +892,19 @@
       "printers": [
         {
           "room": "C006",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "26",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "199",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "299",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -916,51 +916,51 @@
       "printers": [
         {
           "room": "100",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "1005B",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "207",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "303",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "2003",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "2008",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "2027D",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "3030L",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "3008",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "5036",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "6060",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "7062",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -972,7 +972,7 @@
       "printers": [
         {
           "room": "25",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -984,7 +984,7 @@
       "printers": [
         {
           "room": "99",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -996,11 +996,11 @@
       "printers": [
         {
           "room": "3",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "03A",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -1012,7 +1012,7 @@
       "printers": [
         {
           "room": "279",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -1024,11 +1024,11 @@
       "printers": [
         {
           "room": "050C",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "199F",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -1040,11 +1040,11 @@
       "printers": [
         {
           "room": "199F",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "309",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -1056,19 +1056,19 @@
       "printers": [
         {
           "room": "100",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "219",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "307",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "399",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -1080,7 +1080,7 @@
       "printers": [
         {
           "room": "103",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -1092,19 +1092,19 @@
       "printers": [
         {
           "room": "2",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "112",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "201",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "305F",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -1116,11 +1116,11 @@
       "printers": [
         {
           "room": "299",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "316",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -1132,7 +1132,7 @@
       "printers": [
         {
           "room": "121",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -1144,11 +1144,11 @@
       "printers": [
         {
           "room": "15",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "199",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -1160,11 +1160,11 @@
       "printers": [
         {
           "room": "199",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "199B",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -1176,43 +1176,43 @@
       "printers": [
         {
           "room": "25",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "99",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "116",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "121",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "131",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "173",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "179",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "1791",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "1792",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "199L",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -1224,7 +1224,7 @@
       "printers": [
         {
           "room": "300",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -1236,7 +1236,7 @@
       "printers": [
         {
           "room": "360",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -1248,7 +1248,7 @@
       "printers": [
         {
           "room": "A012",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -1260,11 +1260,11 @@
       "printers": [
         {
           "room": "203",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "315",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -1276,19 +1276,19 @@
       "printers": [
         {
           "room": "199B",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "199",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "199P",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "A209",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -1300,7 +1300,7 @@
       "printers": [
         {
           "room": "113",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -1312,11 +1312,11 @@
       "printers": [
         {
           "room": "222",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "210",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -1328,7 +1328,7 @@
       "printers": [
         {
           "room": "115",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -1340,27 +1340,27 @@
       "printers": [
         {
           "room": "118",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "058A",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "207",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "236",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "261",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "340",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -1372,11 +1372,11 @@
       "printers": [
         {
           "room": "F120",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "F138",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -1388,15 +1388,15 @@
       "printers": [
         {
           "room": "C1000D",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "C200A",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "C2122",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -1408,7 +1408,7 @@
       "printers": [
         {
           "room": "102",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -1420,7 +1420,7 @@
       "printers": [
         {
           "room": "20",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -1432,35 +1432,35 @@
       "printers": [
         {
           "room": "100",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "112",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "137",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "199",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "201",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "401",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "502",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "305",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -1472,75 +1472,75 @@
       "printers": [
         {
           "room": "5",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "1020",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "1077",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "1160",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "2011",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "2100",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "2101",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "2252",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "3008",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "3048",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "3099M",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "3136",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "4015",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "4025",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "4114",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "4152",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "4215",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "4235",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -1552,7 +1552,7 @@
       "printers": [
         {
           "room": "100",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -1564,7 +1564,7 @@
       "printers": [
         {
           "room": "199",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -1576,23 +1576,23 @@
       "printers": [
         {
           "room": "211",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "210K",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "300",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "399G",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "400",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -1604,27 +1604,27 @@
       "printers": [
         {
           "room": "2",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "3",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "A105",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "AFB50",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "C199L",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "C200",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -1636,7 +1636,7 @@
       "printers": [
         {
           "room": "125",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -1648,7 +1648,7 @@
       "printers": [
         {
           "room": "163",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -1660,11 +1660,11 @@
       "printers": [
         {
           "room": "1000",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "2999",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -1676,19 +1676,19 @@
       "printers": [
         {
           "room": "199A",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "299A",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "399",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "205",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -1700,11 +1700,11 @@
       "printers": [
         {
           "room": "199",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "299",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -1716,7 +1716,7 @@
       "printers": [
         {
           "room": "2119",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -1728,11 +1728,11 @@
       "printers": [
         {
           "room": "4",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "199",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -1744,7 +1744,7 @@
       "printers": [
         {
           "room": "131",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -1756,39 +1756,39 @@
       "printers": [
         {
           "room": "116",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "122",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "136",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "143",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "145",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "179",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "243",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "249",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "117",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -1800,15 +1800,15 @@
       "printers": [
         {
           "room": "1104",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "2031",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "3060",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -1820,7 +1820,7 @@
       "printers": [
         {
           "room": "120",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -1832,39 +1832,39 @@
       "printers": [
         {
           "room": "268",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "299",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "99",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "350",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "399",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "440P",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "454",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "515",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "560",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -1876,11 +1876,11 @@
       "printers": [
         {
           "room": "275",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "311A",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -1892,15 +1892,15 @@
       "printers": [
         {
           "room": "135F",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "235D",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "355",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -1912,7 +1912,7 @@
       "printers": [
         {
           "room": "299",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -1924,7 +1924,7 @@
       "printers": [
         {
           "room": "199",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -1936,7 +1936,7 @@
       "printers": [
         {
           "room": "A150",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -1948,51 +1948,51 @@
       "printers": [
         {
           "room": "100",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "1005B",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "207",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "303",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "2003",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "2008",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "2027D",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "3030L",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "3008",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "5036",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "6060",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "7062",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -2004,7 +2004,7 @@
       "printers": [
         {
           "room": "170",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -2016,11 +2016,11 @@
       "printers": [
         {
           "room": "109",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "399",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -2032,7 +2032,7 @@
       "printers": [
         {
           "room": "199",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -2044,7 +2044,7 @@
       "printers": [
         {
           "room": "199",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -2056,7 +2056,7 @@
       "printers": [
         {
           "room": "5051",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -2068,59 +2068,59 @@
       "printers": [
         {
           "room": "117",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "143",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "1112",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "1115",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "1130",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "2110",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "2116",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "2120",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "2120B",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "2123",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "2135",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "3100",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "4100",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "4135",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -2132,7 +2132,7 @@
       "printers": [
         {
           "room": "199",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -2144,7 +2144,7 @@
       "printers": [
         {
           "room": "255",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -2156,15 +2156,15 @@
       "printers": [
         {
           "room": "2",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "101D",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "235",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -2176,19 +2176,19 @@
       "printers": [
         {
           "room": "115",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "199",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "299",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "399",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -2200,31 +2200,31 @@
       "printers": [
         {
           "room": "101L",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "102",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "115",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "131",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "151",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "208",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "285",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -2236,7 +2236,7 @@
       "printers": [
         {
           "room": 199,
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -2248,7 +2248,7 @@
       "printers": [
         {
           "room": 100,
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -2260,23 +2260,23 @@
       "printers": [
         {
           "room": 107,
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": 124,
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": 210,
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": 234,
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": 299,
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -2288,31 +2288,31 @@
       "printers": [
         {
           "room": 115,
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": 145,
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": 208,
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": 210,
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": 223,
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": 234,
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": 274,
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -2324,15 +2324,15 @@
       "printers": [
         {
           "room": 199,
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": 204,
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": 309,
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -2344,19 +2344,19 @@
       "printers": [
         {
           "room": 26,
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": 115,
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": 165,
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": 200,
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -2368,39 +2368,39 @@
       "printers": [
         {
           "room": 36,
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": 73,
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": 111,
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": 172,
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": 190,
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": 205,
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": 218,
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": 275,
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": 280,
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -2412,7 +2412,7 @@
       "printers": [
         {
           "room": 100,
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -2424,15 +2424,15 @@
       "printers": [
         {
           "room": "107G",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "120",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "200",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -2444,15 +2444,15 @@
       "printers": [
         {
           "room": "1010",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "2021",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "2080",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -2464,7 +2464,7 @@
       "printers": [
         {
           "room": "116",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -2476,31 +2476,31 @@
       "printers": [
         {
           "room": "1115",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "1181",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "1190",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "2108",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "3102",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "3150",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "3188",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -2512,27 +2512,27 @@
       "printers": [
         {
           "room": "199",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "217F",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "299",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "399",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "499N",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "499W",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -2544,15 +2544,15 @@
       "printers": [
         {
           "room": "199",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "225",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "331",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -2564,7 +2564,7 @@
       "printers": [
         {
           "room": "102",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -2576,7 +2576,7 @@
       "printers": [
         {
           "room": "199",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -2588,7 +2588,7 @@
       "printers": [
         {
           "room": "233",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -2600,67 +2600,67 @@
       "printers": [
         {
           "room": "104C",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "115X",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "135",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "146",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "160",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "175C",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "177M",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "199P",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "199Z",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "203H",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "215E",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "223",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "236",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "240",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "246N",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "250G",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -2672,7 +2672,7 @@
       "printers": [
         {
           "room": "15",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -2684,31 +2684,31 @@
       "printers": [
         {
           "room": "1099",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "1109",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "1258",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "2003D",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "2010",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "2025D",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "2232",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -2720,11 +2720,11 @@
       "printers": [
         {
           "room": "106",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "213",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -2736,39 +2736,39 @@
       "printers": [
         {
           "room": "28",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "99",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "45",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "103",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "155",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "160G",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "234",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "377",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "469",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -2780,15 +2780,15 @@
       "printers": [
         {
           "room": "115",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "150",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "299",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -2800,11 +2800,11 @@
       "printers": [
         {
           "room": "110",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "199",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -2816,15 +2816,15 @@
       "printers": [
         {
           "room": "108",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "115",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "308",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -2836,15 +2836,15 @@
       "printers": [
         {
           "room": "102",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "130K",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "202",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -2856,11 +2856,11 @@
       "printers": [
         {
           "room": "100D",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "102",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -2872,11 +2872,11 @@
       "printers": [
         {
           "room": "146",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "156",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -2888,39 +2888,39 @@
       "printers": [
         {
           "room": "1003",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "1245",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "2001",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "2111F",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "2187",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "2206",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "2286",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "3107",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "3300H",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -2932,7 +2932,7 @@
       "printers": [
         {
           "room": "100",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -2944,15 +2944,15 @@
       "printers": [
         {
           "room": "23",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "108",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "299A",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -2964,7 +2964,7 @@
       "printers": [
         {
           "room": "103",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -2976,7 +2976,7 @@
       "printers": [
         {
           "room": "103",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -2988,7 +2988,7 @@
       "printers": [
         {
           "room": "199",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -3000,23 +3000,23 @@
       "printers": [
         {
           "room": "19",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "9",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "199",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "211",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "221",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -3028,7 +3028,7 @@
       "printers": [
         {
           "room": "400",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -3040,23 +3040,23 @@
       "printers": [
         {
           "room": "14",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "110E",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "200",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "235",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "240",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -3068,19 +3068,19 @@
       "printers": [
         {
           "room": "112",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "200B",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "200F",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "300A",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -3092,31 +3092,31 @@
       "printers": [
         {
           "room": "115",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "165",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "252",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "276",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "299",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "330",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "352",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -3128,7 +3128,7 @@
       "printers": [
         {
           "room": "101",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -3140,11 +3140,11 @@
       "printers": [
         {
           "room": "85",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "145",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -3156,7 +3156,7 @@
       "printers": [
         {
           "room": "103",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -3168,15 +3168,15 @@
       "printers": [
         {
           "room": "15",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "199A",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "299C",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -3188,7 +3188,7 @@
       "printers": [
         {
           "room": "101",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -3200,11 +3200,11 @@
       "printers": [
         {
           "room": "027B",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "198A",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -3216,35 +3216,35 @@
       "printers": [
         {
           "room": "010A",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "099A",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "100",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "102B",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "103D",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "161",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "200",
-          "printer_name": NaN
+          "printer_name": null
         },
         {
           "room": "244F",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     },
@@ -3256,7 +3256,7 @@
       "printers": [
         {
           "room": "103",
-          "printer_name": NaN
+          "printer_name": null
         }
       ]
     }

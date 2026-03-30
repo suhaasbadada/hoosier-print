@@ -1,19 +1,49 @@
-Building,Campus,lat,lng
-Activities Building,Southeast,39.7388967,-86.0636699
-Crestview Hall,Southeast,39.7388967,-86.0636699
-Forest Lodge,Southeast,39.7388967,-86.0636699
-Grove Lodge,Southeast,39.7388967,-86.0636699
-Hausfeldt Building,Southeast,39.7388967,-86.0636699
-Hillside Hall,Southeast,39.7388967,-86.0636699
-Jeffersonville Graduate Center,Southeast,38.2945177,-85.7319794
-Knobview Hall,Southeast,39.7388967,-86.0636699
-Library IUSE,Southeast,39.7388967,-86.0636699
-Life Science,Southeast,39.7388967,-86.0636699
-Meadow Lodge,Southeast,39.7388967,-86.0636699
-Ogle Cultural and Community Center,Southeast,39.7388967,-86.0636699
-Orchard Lodge,Southeast,39.7388967,-86.0636699
-Physical Science,Southeast,39.7388967,-86.0636699
-Service/Physical Plant,Southeast,39.7388967,-86.0636699
-University Center North,Southeast,40.5512165,-85.60236429999999
-University Center South,Southeast,38.3450707,-85.8201701
-Woodland Lodge,Southeast,39.7388967,-86.0636699
+Building,Room,Printer name,Campus,lat,lng
+Activities Building,100,,Southeast,39.7388967,-86.0636699
+Crestview Hall,23,,Southeast,39.7388967,-86.0636699
+Crestview Hall,108,,Southeast,39.7388967,-86.0636699
+Crestview Hall,299A,,Southeast,39.7388967,-86.0636699
+Forest Lodge,103,,Southeast,39.7388967,-86.0636699
+Grove Lodge,103,,Southeast,39.7388967,-86.0636699
+Hausfeldt Building,199,,Southeast,39.7388967,-86.0636699
+Hillside Hall,19,,Southeast,39.7388967,-86.0636699
+Hillside Hall,9,,Southeast,39.7388967,-86.0636699
+Hillside Hall,199,,Southeast,39.7388967,-86.0636699
+Hillside Hall,211,,Southeast,39.7388967,-86.0636699
+Hillside Hall,221,,Southeast,39.7388967,-86.0636699
+Jeffersonville Graduate Center,400,,Southeast,38.2945177,-85.7319794
+Knobview Hall,14,,Southeast,39.7388967,-86.0636699
+Knobview Hall,110E,,Southeast,39.7388967,-86.0636699
+Knobview Hall,200,,Southeast,39.7388967,-86.0636699
+Knobview Hall,235,,Southeast,39.7388967,-86.0636699
+Knobview Hall,240,,Southeast,39.7388967,-86.0636699
+Library IUSE,112,,Southeast,39.7388967,-86.0636699
+Library IUSE,200B,,Southeast,39.7388967,-86.0636699
+Library IUSE,200F,,Southeast,39.7388967,-86.0636699
+Library IUSE,300A,,Southeast,39.7388967,-86.0636699
+Life Science,115,,Southeast,39.7388967,-86.0636699
+Life Science,165,,Southeast,39.7388967,-86.0636699
+Life Science,252,,Southeast,39.7388967,-86.0636699
+Life Science,276,,Southeast,39.7388967,-86.0636699
+Life Science,299,,Southeast,39.7388967,-86.0636699
+Life Science,330,,Southeast,39.7388967,-86.0636699
+Life Science,352,,Southeast,39.7388967,-86.0636699
+Meadow Lodge,101,,Southeast,39.7388967,-86.0636699
+Ogle Cultural and Community Center,85,,Southeast,39.7388967,-86.0636699
+Ogle Cultural and Community Center,145,,Southeast,39.7388967,-86.0636699
+Orchard Lodge,103,,Southeast,39.7388967,-86.0636699
+Physical Science,15,,Southeast,39.7388967,-86.0636699
+Physical Science,199A,,Southeast,39.7388967,-86.0636699
+Physical Science,299C,,Southeast,39.7388967,-86.0636699
+Service/Physical Plant,101,,Southeast,39.7388967,-86.0636699
+University Center North,027B,,Southeast,40.5512165,-85.60236429999999
+University Center North,198A,,Southeast,40.5512165,-85.60236429999999
+University Center South,010A,,Southeast,38.3450707,-85.8201701
+University Center South,099A,,Southeast,38.3450707,-85.8201701
+University Center South,100,,Southeast,38.3450707,-85.8201701
+University Center South,102B,,Southeast,38.3450707,-85.8201701
+University Center South,103D,,Southeast,38.3450707,-85.8201701
+University Center South,161,,Southeast,38.3450707,-85.8201701
+University Center South,200,,Southeast,38.3450707,-85.8201701
+University Center South,244F,,Southeast,38.3450707,-85.8201701
+Woodland Lodge,103,,Southeast,39.7388967,-86.0636699

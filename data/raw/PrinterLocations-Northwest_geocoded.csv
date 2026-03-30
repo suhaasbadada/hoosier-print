@@ -1,10 +1,27 @@
-Building,Campus,lat,lng
-Anderson Library Conference Center,Northwest,40.1051253,-85.6781677
-Arts & Sciences,Northwest,41.5564318,-87.3358028
-Cedar Hall,Northwest,37.9849723,-87.5855232
-Dunes Medical/Professional Building,Northwest,41.5554157,-87.3393801
-Hawthorn Hall,Northwest,41.5833736,-87.5001041
-Marram Hall,Northwest,41.5833736,-87.5001041
-Moraine Student Center,Northwest,41.5833736,-87.5001041
-Raintree Hall,Northwest,39.547401,-86.536239
-Savannah Center,Northwest,41.5573296,-87.3373302
+Building,Room,Printer name,Campus,lat,lng
+Anderson Library Conference Center,107G,,Northwest,40.1051253,-85.6781677
+Anderson Library Conference Center,120,,Northwest,40.1051253,-85.6781677
+Anderson Library Conference Center,200,,Northwest,40.1051253,-85.6781677
+Arts & Sciences,1010,,Northwest,41.5564318,-87.3358028
+Arts & Sciences,2021,,Northwest,41.5564318,-87.3358028
+Arts & Sciences,2080,,Northwest,41.5564318,-87.3358028
+Cedar Hall,116,,Northwest,37.9849723,-87.5855232
+Dunes Medical/Professional Building,1115,,Northwest,41.5554157,-87.3393801
+Dunes Medical/Professional Building,1181,,Northwest,41.5554157,-87.3393801
+Dunes Medical/Professional Building,1190,,Northwest,41.5554157,-87.3393801
+Dunes Medical/Professional Building,2108,,Northwest,41.5554157,-87.3393801
+Dunes Medical/Professional Building,3102,,Northwest,41.5554157,-87.3393801
+Dunes Medical/Professional Building,3150,,Northwest,41.5554157,-87.3393801
+Dunes Medical/Professional Building,3188,,Northwest,41.5554157,-87.3393801
+Hawthorn Hall,199,,Northwest,41.5833736,-87.5001041
+Hawthorn Hall,217F,,Northwest,41.5833736,-87.5001041
+Hawthorn Hall,299,,Northwest,41.5833736,-87.5001041
+Hawthorn Hall,399,,Northwest,41.5833736,-87.5001041
+Hawthorn Hall,499N,,Northwest,41.5833736,-87.5001041
+Hawthorn Hall,499W,,Northwest,41.5833736,-87.5001041
+Marram Hall,199,,Northwest,41.5833736,-87.5001041
+Marram Hall,225,,Northwest,41.5833736,-87.5001041
+Marram Hall,331,,Northwest,41.5833736,-87.5001041
+Moraine Student Center,102,,Northwest,41.5833736,-87.5001041
+Raintree Hall,199,,Northwest,39.547401,-86.536239
+Savannah Center,233,,Northwest,41.5573296,-87.3373302

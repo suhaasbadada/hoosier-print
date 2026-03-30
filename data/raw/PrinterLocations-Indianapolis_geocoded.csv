@@ -1,25 +1,83 @@
-Building,Campus,lat,lng
-Ball Residence,Indianapolis,39.7752927,-86.1821928
-Business/SPEA,Indianapolis,39.7728828,-86.1736262
-Campus Center,Indianapolis,39.7739985,-86.1760547
-Cavanaugh Hall,Indianapolis,39.7737388,-86.1752156
-Education/Social Work,Indianapolis,39.7728828,-86.1736262
-Engineering and Technology,Indianapolis,39.76909,-86.158018
-Eskenazi FAC 2,Indianapolis,39.7776204,-86.1828612
-Eskenazi Hall,Indianapolis,39.7710744,-86.17090019999999
-Health Sciences Building,Indianapolis,39.7783314,-86.1779869
-Hine Hall,Indianapolis,39.7748153,-86.1738033
-ICTC,Indianapolis,39.7737497,-86.1680075
-Indiana Cancer Center Pavilion,Indianapolis,39.7490645,-86.2107011
-Inlow Hall,Indianapolis,39.7719038,-86.1679716
-Innovation Hall,Indianapolis,39.7739865,-86.16929689999999
-Lecture Hall,Indianapolis,39.8393049,-86.17346719999999
-Lohse & Thornbrough Houses,Indianapolis,39.7739777,-86.1855447
-Medical Research & Library,Indianapolis,39.81633619999999,-86.23832039999999
-Natatorium,Indianapolis,39.9096854,-86.1290559
-Nursing School,Indianapolis,39.7761112,-86.17916199999999
-Science Building,Indianapolis,39.7733759,-86.1704546
-Taylor Hall,Indianapolis,39.7731923,-86.17414219999999
-University Hospital,Indianapolis,39.7760088,-86.1769588
-University Library,Indianapolis,39.7729955,-86.1721257
-University Tower,Indianapolis,39.7752164,-86.1749375
+Building,Room,Printer name,Campus,lat,lng
+Ball Residence,163,,Indianapolis,39.7752927,-86.1821928
+Business/SPEA,1000,,Indianapolis,39.7728828,-86.1736262
+Business/SPEA,2999,,Indianapolis,39.7728828,-86.1736262
+Campus Center,199A,,Indianapolis,39.7739985,-86.1760547
+Campus Center,299A,,Indianapolis,39.7739985,-86.1760547
+Campus Center,399,,Indianapolis,39.7739985,-86.1760547
+Campus Center,205,,Indianapolis,39.7739985,-86.1760547
+Cavanaugh Hall,199,,Indianapolis,39.7737388,-86.1752156
+Cavanaugh Hall,299,,Indianapolis,39.7737388,-86.1752156
+Education/Social Work,2119,,Indianapolis,39.7728828,-86.1736262
+Engineering and Technology,4,,Indianapolis,39.76909,-86.158018
+Engineering and Technology,199,,Indianapolis,39.76909,-86.158018
+Eskenazi FAC 2,131,,Indianapolis,39.7776204,-86.1828612
+Eskenazi Hall,116,,Indianapolis,39.7710744,-86.17090019999999
+Eskenazi Hall,122,,Indianapolis,39.7710744,-86.17090019999999
+Eskenazi Hall,122,,Indianapolis,39.7710744,-86.17090019999999
+Eskenazi Hall,136,,Indianapolis,39.7710744,-86.17090019999999
+Eskenazi Hall,143,,Indianapolis,39.7710744,-86.17090019999999
+Eskenazi Hall,145,,Indianapolis,39.7710744,-86.17090019999999
+Eskenazi Hall,179,,Indianapolis,39.7710744,-86.17090019999999
+Eskenazi Hall,243,,Indianapolis,39.7710744,-86.17090019999999
+Eskenazi Hall,249,,Indianapolis,39.7710744,-86.17090019999999
+Eskenazi Hall,117,,Indianapolis,39.7710744,-86.17090019999999
+Eskenazi Hall,117,,Indianapolis,39.7710744,-86.17090019999999
+Health Sciences Building,1104,,Indianapolis,39.7783314,-86.1779869
+Health Sciences Building,2031,,Indianapolis,39.7783314,-86.1779869
+Health Sciences Building,3060,,Indianapolis,39.7783314,-86.1779869
+Hine Hall,120,,Indianapolis,39.7748153,-86.1738033
+ICTC,268,,Indianapolis,39.7737497,-86.1680075
+ICTC,299,,Indianapolis,39.7737497,-86.1680075
+ICTC,99,,Indianapolis,39.7737497,-86.1680075
+ICTC,350,,Indianapolis,39.7737497,-86.1680075
+ICTC,399,,Indianapolis,39.7737497,-86.1680075
+ICTC,440P,,Indianapolis,39.7737497,-86.1680075
+ICTC,454,,Indianapolis,39.7737497,-86.1680075
+ICTC,515,,Indianapolis,39.7737497,-86.1680075
+ICTC,560,,Indianapolis,39.7737497,-86.1680075
+Indiana Cancer Center Pavilion,275,,Indianapolis,39.7490645,-86.2107011
+Indiana Cancer Center Pavilion,311A,,Indianapolis,39.7490645,-86.2107011
+Inlow Hall,135F,,Indianapolis,39.7719038,-86.1679716
+Inlow Hall,235D,,Indianapolis,39.7719038,-86.1679716
+Inlow Hall,355,,Indianapolis,39.7719038,-86.1679716
+Innovation Hall,299,,Indianapolis,39.7739865,-86.16929689999999
+Lecture Hall,199,,Indianapolis,39.8393049,-86.17346719999999
+Lecture Hall,199,,Indianapolis,39.8393049,-86.17346719999999
+Lohse & Thornbrough Houses,A150,,Indianapolis,39.7739777,-86.1855447
+Medical Research & Library,100,,Indianapolis,39.81633619999999,-86.23832039999999
+Medical Research & Library,1005B,,Indianapolis,39.81633619999999,-86.23832039999999
+Medical Research & Library,207,,Indianapolis,39.81633619999999,-86.23832039999999
+Medical Research & Library,303,,Indianapolis,39.81633619999999,-86.23832039999999
+Medical Research & Library,2003,,Indianapolis,39.81633619999999,-86.23832039999999
+Medical Research & Library,2008,,Indianapolis,39.81633619999999,-86.23832039999999
+Medical Research & Library,2027D,,Indianapolis,39.81633619999999,-86.23832039999999
+Medical Research & Library,3030L,,Indianapolis,39.81633619999999,-86.23832039999999
+Medical Research & Library,3008,,Indianapolis,39.81633619999999,-86.23832039999999
+Medical Research & Library,5036,,Indianapolis,39.81633619999999,-86.23832039999999
+Medical Research & Library,6060,,Indianapolis,39.81633619999999,-86.23832039999999
+Medical Research & Library,7062,,Indianapolis,39.81633619999999,-86.23832039999999
+Natatorium,170,,Indianapolis,39.9096854,-86.1290559
+Nursing School,109,,Indianapolis,39.7761112,-86.17916199999999
+Nursing School,399,,Indianapolis,39.7761112,-86.17916199999999
+Science Building,199,,Indianapolis,39.7733759,-86.1704546
+Taylor Hall,199,,Indianapolis,39.7731923,-86.17414219999999
+University Hospital,5051,,Indianapolis,39.7760088,-86.1769588
+University Library,117,,Indianapolis,39.7729955,-86.1721257
+University Library,143,,Indianapolis,39.7729955,-86.1721257
+University Library,1112,,Indianapolis,39.7729955,-86.1721257
+University Library,1115,,Indianapolis,39.7729955,-86.1721257
+University Library,1130,,Indianapolis,39.7729955,-86.1721257
+University Library,1130,,Indianapolis,39.7729955,-86.1721257
+University Library,2110,,Indianapolis,39.7729955,-86.1721257
+University Library,2116,,Indianapolis,39.7729955,-86.1721257
+University Library,2120,,Indianapolis,39.7729955,-86.1721257
+University Library,2120B,,Indianapolis,39.7729955,-86.1721257
+University Library,2120B,,Indianapolis,39.7729955,-86.1721257
+University Library,2123,,Indianapolis,39.7729955,-86.1721257
+University Library,2135,,Indianapolis,39.7729955,-86.1721257
+University Library,2135,,Indianapolis,39.7729955,-86.1721257
+University Library,3100,,Indianapolis,39.7729955,-86.1721257
+University Library,4100,,Indianapolis,39.7729955,-86.1721257
+University Library,4135,,Indianapolis,39.7729955,-86.1721257
+University Tower,199,,Indianapolis,39.7752164,-86.1749375

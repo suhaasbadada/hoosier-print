@@ -69,28 +69,23 @@ def process_csv(file_path, campus_name):
     df = pd.read_csv(file_path)
     df = df.dropna(subset=["Building"])
 
-    unique_buildings = df[["Building"]].drop_duplicates()
+    # build unique building list ONLY for geocoding
+    unique_buildings = df["Building"].drop_duplicates()
 
-    results = []
+    building_coords = {}
+
     total = len(unique_buildings)
+    print(f"\nProcessing {file_path} | {total} unique buildings (geocoding)\n")
 
-    print(f"\nProcessing {file_path} | {total} unique buildings\n")
+    # geocode each building once
+    for i, building in enumerate(unique_buildings, start=1):
 
-    for i, row in enumerate(unique_buildings.itertuples(index=False), start=1):
-
-        building = row.Building
         query = f"{building}, {campus_name}, Indiana, USA"
 
         print(f"[{i}/{total}] {building}")
 
         coords = geocode(query)
-
-        results.append({
-            "Building": building,
-            "Campus": campus_name,
-            "lat": coords["lat"],
-            "lng": coords["lng"]
-        })
+        building_coords[building] = coords
 
         time.sleep(0.12)
 
@@ -98,6 +93,28 @@ def process_csv(file_path, campus_name):
             save_cache()
 
     save_cache()
+
+    # now attach coords back to FULL dataset (IMPORTANT FIX)
+    results = []
+
+    print("\nAttaching coordinates to all printer rows...\n")
+
+    for i, row in enumerate(df.itertuples(index=False), start=1):
+
+        building = row.Building
+        room = getattr(row, "Room", None)
+        printer = getattr(row, "Printer name", None)
+
+        coords = building_coords.get(building, {"lat": None, "lng": None})
+
+        results.append({
+            "Building": building,
+            "Room": room,
+            "Printer name": printer,
+            "Campus": campus_name,
+            "lat": coords["lat"],
+            "lng": coords["lng"]
+        })
 
     out_file = file_path.replace(".csv", "_geocoded.csv")
     pd.DataFrame(results).to_csv(out_file, index=False)
