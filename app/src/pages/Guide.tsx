@@ -4,7 +4,7 @@ export default function Guide() {
   return (
     <main className="guide-page">
       <div className="guide-header">
-        <p className="eyebrow">Print Guide</p>
+        {/* <p className="eyebrow">Print Guide</p> */}
         <h1>How to print at IU campuses</h1>
         <p>
           A compact editorial-style guide for students, staff, and guests who

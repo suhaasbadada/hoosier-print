@@ -489,18 +489,28 @@ h2 {
 }
 
 .guide-header {
-  padding: 36px;
+  display: grid;
+  gap: 22px;
+  width: 100%;
+  max-width: none;
+  margin-bottom: 30px;
+  padding: 32px 36px;
+  background: linear-gradient(180deg, #ffffff 0%, #f8f4f0 100%);
+  border: 1px solid rgba(153, 0, 0, 0.12);
+  border-radius: 32px;
+  box-shadow: 0 30px 70px rgba(36, 26, 69, 0.08);
 }
 
 .guide-header h1 {
-  margin: 12px 0 18px;
-  font-size: clamp(38px, 4vw, 52px);
+  margin: 0;
+  font-size: clamp(44px, 5vw, 60px);
+  line-height: 1.02;
 }
 
 .guide-header p {
-  max-width: 700px;
   margin: 0;
   color: #5f5473;
+  font-size: 1.05rem;
 }
 
 .guide-article {
