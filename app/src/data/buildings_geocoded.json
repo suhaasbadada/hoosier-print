@@ -8,23 +8,23 @@
       "printers": [
         {
           "room": "200",
-          "printer_name": null
+          "printer_name": "FW_UPRN_OC473X200_MFP1"
         }
       ]
     },
     {
       "building": "Liberal Arts Building",
       "campus": "Fort Wayne",
-      "lat": 41.1172998,
-      "lng": -85.1100859,
+      "lat": 41.1222556,
+      "lng": -85.0965037,
       "printers": [
         {
           "room": "340",
-          "printer_name": null
+          "printer_name": "FW_UPRN_LA340_MFP1"
         },
         {
           "room": "343",
-          "printer_name": null
+          "printer_name": "FW_UPRN_LA343_MFP1"
         }
       ]
     },
@@ -36,15 +36,15 @@
       "printers": [
         {
           "room": "104",
-          "printer_name": null
+          "printer_name": "FW_UPRN_ME104_MFP1"
         },
         {
           "room": "110",
-          "printer_name": null
+          "printer_name": "FW_UPRN_ME110_MFP1"
         },
         {
           "room": "221",
-          "printer_name": null
+          "printer_name": "FW_UPRN_ME221_MFP1"
         }
       ]
     },
@@ -56,27 +56,27 @@
       "printers": [
         {
           "room": "50",
-          "printer_name": null
+          "printer_name": "FW_UPRN_NF050_MFP1"
         },
         {
           "room": "110",
-          "printer_name": null
+          "printer_name": "FW_UPRN_NF110_MFP1"
         },
         {
           "room": "134",
-          "printer_name": null
+          "printer_name": "FW_UPRN_NF134_MFP1"
         },
         {
           "room": "142",
-          "printer_name": null
+          "printer_name": "FW_UPRN_NF142_MFP1"
         },
         {
           "room": "150",
-          "printer_name": null
+          "printer_name": "FW_UPRN_NF150_MFP1"
         },
         {
           "room": "170B",
-          "printer_name": null
+          "printer_name": "FW_UPRN_NF170B_MFP1"
         }
       ]
     },
@@ -88,11 +88,11 @@
       "printers": [
         {
           "room": "111",
-          "printer_name": null
+          "printer_name": "FW_UPRN_EG111_MFP1"
         },
         {
           "room": "199",
-          "printer_name": null
+          "printer_name": "FW_UPRN_EG199_MFP1"
         }
       ]
     },
@@ -104,7 +104,7 @@
       "printers": [
         {
           "room": "120",
-          "printer_name": null
+          "printer_name": "BL_UPRN_OA120_MFP1"
         }
       ]
     },
@@ -116,7 +116,7 @@
       "printers": [
         {
           "room": "15",
-          "printer_name": null
+          "printer_name": "BL_STC_UA015_MFP1"
         }
       ]
     },
@@ -128,7 +128,7 @@
       "printers": [
         {
           "room": "101",
-          "printer_name": null
+          "printer_name": "BL_UPRN_BL044N-101_MFP1"
         }
       ]
     },
@@ -140,19 +140,23 @@
       "printers": [
         {
           "room": "110D",
-          "printer_name": null
+          "printer_name": "BL_UPRN_IE110D_MFP1"
         },
         {
           "room": "140",
-          "printer_name": null
+          "printer_name": "BL_UPRN_IE140_MFP1"
         },
         {
           "room": "299",
-          "printer_name": null
+          "printer_name": "BL_UPRN_IE299_MFP1"
         },
         {
           "room": "399",
-          "printer_name": null
+          "printer_name": "BL_UPRN_IE399_MFP1"
+        },
+        {
+          "room": "399",
+          "printer_name": "BL_UPRN_IE399_MFP2"
         }
       ]
     },
@@ -164,7 +168,7 @@
       "printers": [
         {
           "room": "100",
-          "printer_name": null
+          "printer_name": "BL_UPRN_BL049M-100_MFP2"
         }
       ]
     },
@@ -176,7 +180,7 @@
       "printers": [
         {
           "room": "105",
-          "printer_name": null
+          "printer_name": "BL_UPRN_BL399G-105_MFP1"
         }
       ]
     },
@@ -188,7 +192,7 @@
       "printers": [
         {
           "room": "101",
-          "printer_name": null
+          "printer_name": "BL_UPRN_VM101_MFP1"
         }
       ]
     },
@@ -200,11 +204,11 @@
       "printers": [
         {
           "room": "C199",
-          "printer_name": null
+          "printer_name": "BL_STC_WGC199_MFP1"
         },
         {
           "room": "P199",
-          "printer_name": null
+          "printer_name": "BL_STC_WGP199_MFP1"
         }
       ]
     },
@@ -216,43 +220,43 @@
       "printers": [
         {
           "room": "WR100",
-          "printer_name": null
+          "printer_name": "BL_UPRN_WR100_MFP1"
         }
       ]
     },
     {
       "building": "Alice McDonald Nelson Halls Of Residence",
       "campus": "Bloomington",
-      "lat": 39.169574,
-      "lng": -86.5385549,
+      "lat": 39.1682449,
+      "lng": -86.52300729999999,
       "printers": [
         {
           "room": "13",
-          "printer_name": null
+          "printer_name": "BL_UPRN_HL013_MFP1"
         },
         {
           "room": "18",
-          "printer_name": null
+          "printer_name": "BL_UPRN_HL018_MFP1"
         },
         {
           "room": "201",
-          "printer_name": null
+          "printer_name": "BL_UPRN_HL201_MFP1"
         },
         {
           "room": "202",
-          "printer_name": null
+          "printer_name": "BL_UPRN_HL202_MFP1"
         },
         {
           "room": "A102",
-          "printer_name": null
+          "printer_name": "BL_UPRN_HLA102_MFP1"
         },
         {
           "room": "C101",
-          "printer_name": null
+          "printer_name": "BL_UPRN_HLC101_MFP1"
         },
         {
           "room": "D101",
-          "printer_name": null
+          "printer_name": "BL_UPRN_HLD101_MFP1"
         }
       ]
     },
@@ -264,39 +268,39 @@
       "printers": [
         {
           "room": "27",
-          "printer_name": null
+          "printer_name": "BL_STC_BH027_MFP1"
         },
         {
           "room": "117",
-          "printer_name": null
+          "printer_name": "BL_STC_BH117_MFP1"
         },
         {
           "room": "129",
-          "printer_name": null
+          "printer_name": "BL_STC_BH129_MFP1"
         },
         {
           "room": "235",
-          "printer_name": null
+          "printer_name": "BL_STC_BH235_MFP1"
         },
         {
           "room": "328",
-          "printer_name": null
+          "printer_name": "BL_STC_BH328_MFP1"
         },
         {
           "room": "535",
-          "printer_name": null
+          "printer_name": "BL_UPRN_BH535_MFP1"
         },
         {
           "room": "608",
-          "printer_name": null
+          "printer_name": "BL_UPRN_BH608_MFP1"
         },
         {
           "room": "616",
-          "printer_name": null
+          "printer_name": "BL_UPRN_BH616_MFP1"
         },
         {
           "room": "740",
-          "printer_name": null
+          "printer_name": "BL_UPRN_BH740_MFP1"
         }
       ]
     },
@@ -308,39 +312,39 @@
       "printers": [
         {
           "room": "199",
-          "printer_name": null
+          "printer_name": "BL_STC_JH199_MFP1"
         },
         {
           "room": "A109",
-          "printer_name": null
+          "printer_name": "BL_UPRN_JHA109_MFP1"
         },
         {
           "room": "A110",
-          "printer_name": null
+          "printer_name": "BL_UPRN_JHA110_MFP1"
         },
         {
           "room": "A304",
-          "printer_name": null
+          "printer_name": "BL_UPRN_JHA304_MFP1"
         },
         {
           "room": "A400",
-          "printer_name": null
+          "printer_name": "BL_UPRN_JHA400_MFP1"
         }
       ]
     },
     {
       "building": "Briscoe Quad",
       "campus": "Bloomington",
-      "lat": 39.1784385,
-      "lng": -86.5199643,
+      "lat": 39.1782297,
+      "lng": -86.5196522,
       "printers": [
         {
           "room": "C001",
-          "printer_name": null
+          "printer_name": "BL_STC_BQC001_MFP1"
         },
         {
           "room": "C133",
-          "printer_name": null
+          "printer_name": "BL_STC_BQC133_MFP1"
         }
       ]
     },
@@ -352,47 +356,47 @@
       "printers": [
         {
           "room": "99",
-          "printer_name": null
+          "printer_name": "BL_STC_AC099_MFP1"
         },
         {
           "room": "199",
-          "printer_name": null
+          "printer_name": "BL_STC_AC199_MFP"
         }
       ]
     },
     {
       "building": "Chemistry",
       "campus": "Bloomington",
-      "lat": 39.1659962,
-      "lng": -86.52276529999999,
+      "lat": 39.1682449,
+      "lng": -86.52300729999999,
       "printers": [
         {
           "room": "6",
-          "printer_name": null
+          "printer_name": "BL_STC_CH006_MFP1"
         },
         {
           "room": "46",
-          "printer_name": null
+          "printer_name": "BL_STC_CH046_MFP1"
         },
         {
           "room": "A002",
-          "printer_name": null
+          "printer_name": "BL_UPRN_CHA002_MFP1"
         },
         {
           "room": "C201",
-          "printer_name": null
+          "printer_name": "BL_UPRN_CHC201_MFP1"
         }
       ]
     },
     {
       "building": "Chestnut C & D",
       "campus": "Bloomington",
-      "lat": 39.0703166,
-      "lng": -86.5086714,
+      "lat": 39.1682449,
+      "lng": -86.52300729999999,
       "printers": [
         {
           "room": "2",
-          "printer_name": null
+          "printer_name": "BL_STC_WS002_MFP1"
         }
       ]
     },
@@ -404,19 +408,19 @@
       "printers": [
         {
           "room": "212",
-          "printer_name": null
+          "printer_name": "BL_UPRN_C2212_MFP1"
         }
       ]
     },
     {
       "building": "Crest View",
       "campus": "Bloomington",
-      "lat": 39.1616129,
-      "lng": -86.5017038,
+      "lat": 39.169574,
+      "lng": -86.5385549,
       "printers": [
         {
           "room": "110",
-          "printer_name": null
+          "printer_name": "BL_STC_CV110_MFP1"
         }
       ]
     },
@@ -428,7 +432,11 @@
       "printers": [
         {
           "room": "165",
-          "printer_name": null
+          "printer_name": "BL_UPRN_CR165_MFP1"
+        },
+        {
+          "room": "165",
+          "printer_name": "BL_UPRN_CR165_MFP2"
         }
       ]
     },
@@ -440,7 +448,7 @@
       "printers": [
         {
           "room": "C199",
-          "printer_name": null
+          "printer_name": "BL_STC_EOC199_MFP1"
         }
       ]
     },
@@ -452,11 +460,11 @@
       "printers": [
         {
           "room": "100",
-          "printer_name": null
+          "printer_name": "BL_STC_EG100_MFP1"
         },
         {
           "room": "25",
-          "printer_name": null
+          "printer_name": "BL_UPRN_EG25_MFP1"
         }
       ]
     },
@@ -468,23 +476,23 @@
       "printers": [
         {
           "room": "218",
-          "printer_name": null
+          "printer_name": "BL_STC_EP218_MPF1"
         }
       ]
     },
     {
       "building": "Fine Arts",
       "campus": "Bloomington",
-      "lat": 39.169574,
-      "lng": -86.5385549,
+      "lat": 39.1682449,
+      "lng": -86.52300729999999,
       "printers": [
         {
           "room": "199",
-          "printer_name": null
+          "printer_name": "BL_STC_FA199_MFP1"
         },
         {
           "room": "215",
-          "printer_name": null
+          "printer_name": "BL_STC_FA215_MFP1"
         }
       ]
     },
@@ -496,11 +504,11 @@
       "printers": [
         {
           "room": "199",
-          "printer_name": null
+          "printer_name": "BL_STC_FR199_MFP1"
         },
         {
           "room": "236",
-          "printer_name": null
+          "printer_name": "BL_STC_FR236_MFP1"
         }
       ]
     },
@@ -512,11 +520,11 @@
       "printers": [
         {
           "room": "103",
-          "printer_name": null
+          "printer_name": "BL_STC_FF103_MFP1"
         },
         {
           "room": "73",
-          "printer_name": null
+          "printer_name": "BL_STC_FFH073_MFP1"
         }
       ]
     },
@@ -528,7 +536,7 @@
       "printers": [
         {
           "room": "2999",
-          "printer_name": null
+          "printer_name": "BL_STC_GY2999_MFP1"
         }
       ]
     },
@@ -540,7 +548,7 @@
       "printers": [
         {
           "room": "99",
-          "printer_name": null
+          "printer_name": "BL_STC_GA099_MFP1"
         }
       ]
     },
@@ -552,31 +560,31 @@
       "printers": [
         {
           "room": "20",
-          "printer_name": null
+          "printer_name": "BL_STC_CG0020_MFP1"
         },
         {
           "room": "1022",
-          "printer_name": null
+          "printer_name": "BL_STC_CG1022_MFP1"
         },
         {
           "room": "1050",
-          "printer_name": null
+          "printer_name": "BL_STC_CG1050_MFP1"
         },
         {
           "room": "2065",
-          "printer_name": null
+          "printer_name": "BL_STC_CG2065_MFP1"
         }
       ]
     },
     {
       "building": "Gresham Dining Hall",
       "campus": "Bloomington",
-      "lat": 39.1646717,
-      "lng": -86.4956076,
+      "lat": 39.1748474,
+      "lng": -86.5166317,
       "printers": [
         {
           "room": "102A",
-          "printer_name": null
+          "printer_name": "BL_STC_GR102A_MFP1"
         }
       ]
     },
@@ -588,7 +596,7 @@
       "printers": [
         {
           "room": "101",
-          "printer_name": null
+          "printer_name": "BL_STC_GG101_MFP1"
         }
       ]
     },
@@ -600,7 +608,7 @@
       "printers": [
         {
           "room": "199",
-          "printer_name": null
+          "printer_name": "BL_STC_HQC199_MFP1"
         }
       ]
     },
@@ -612,27 +620,27 @@
       "printers": [
         {
           "room": "1999",
-          "printer_name": null
+          "printer_name": "BL_STC_HH1999_MFP1"
         },
         {
           "room": "199G",
-          "printer_name": null
+          "printer_name": "BL_STC_HH199G_MFP1"
         },
         {
           "room": "2999",
-          "printer_name": null
+          "printer_name": "BL_STC_HH2999_MFP1"
         },
         {
           "room": "3999",
-          "printer_name": null
+          "printer_name": "BL_STC_HH3999_MFP1"
         },
         {
           "room": "4999",
-          "printer_name": null
+          "printer_name": "BL_STC_HH4999_MFP1"
         },
         {
           "room": "736",
-          "printer_name": null
+          "printer_name": "BL_STC_HH736_MFP1"
         }
       ]
     },
@@ -644,7 +652,7 @@
       "printers": [
         {
           "room": "112",
-          "printer_name": null
+          "printer_name": "BL_STC_HU112_MFP1"
         }
       ]
     },
@@ -656,31 +664,31 @@
       "printers": [
         {
           "room": "89",
-          "printer_name": null
+          "printer_name": "BL_STC_UB089_MFP1"
         },
         {
           "room": "98",
-          "printer_name": null
+          "printer_name": "BL_STC_UB098_MFP1"
         },
         {
           "room": "173",
-          "printer_name": null
+          "printer_name": "BL_STC_UB173_MFP1"
         },
         {
           "room": "271",
-          "printer_name": null
+          "printer_name": "BL_UPRN_UB271_MFP1"
         },
         {
           "room": "327",
-          "printer_name": null
+          "printer_name": "BL_UPRN_UB327_MFP1"
         },
         {
           "room": "L001",
-          "printer_name": null
+          "printer_name": "BL_UPRN_UBL001_MFP1"
         },
         {
           "room": "M088",
-          "printer_name": null
+          "printer_name": "BL_UPRN_UBM088_MFP1"
         }
       ]
     },
@@ -692,7 +700,7 @@
       "printers": [
         {
           "room": "C3119",
-          "printer_name": null
+          "printer_name": "BL_UPRN_HCC3119_MFP1"
         }
       ]
     },
@@ -704,7 +712,7 @@
       "printers": [
         {
           "room": "99",
-          "printer_name": null
+          "printer_name": "BL_STC_KH099_MFP1"
         }
       ]
     },
@@ -716,7 +724,7 @@
       "printers": [
         {
           "room": "A220",
-          "printer_name": null
+          "printer_name": "BL_STC_THA220_MFP1"
         }
       ]
     },
@@ -728,7 +736,7 @@
       "printers": [
         {
           "room": "100",
-          "printer_name": null
+          "printer_name": "BL_UPRN_DX100_MFP1"
         }
       ]
     },
@@ -740,11 +748,11 @@
       "printers": [
         {
           "room": "30",
-          "printer_name": null
+          "printer_name": "BL_STC_LH030_MFP1"
         },
         {
           "room": "230",
-          "printer_name": null
+          "printer_name": "BL_UPRN_LH230_MFP1"
         }
       ]
     },
@@ -756,19 +764,27 @@
       "printers": [
         {
           "room": "1048",
-          "printer_name": null
+          "printer_name": "BL_UPRN_LU1048_MFP1"
         },
         {
           "room": "1048F",
-          "printer_name": null
+          "printer_name": "BL_UPRN_LU1048F_MFP1"
         },
         {
           "room": "2056",
-          "printer_name": null
+          "printer_name": "BL_UPRN_LU2056_MFP1"
+        },
+        {
+          "room": "2056",
+          "printer_name": "BL_UPRN_LU2056_MFP2"
         },
         {
           "room": "3056",
-          "printer_name": null
+          "printer_name": "BL_UPRN_LU3056_MFP1"
+        },
+        {
+          "room": "3056",
+          "printer_name": "BL_UPRN_LU3056_MFP2"
         }
       ]
     },
@@ -780,95 +796,123 @@
       "printers": [
         {
           "room": "1",
-          "printer_name": null
+          "printer_name": "BL_UPRN_IF0001_MFP1"
+        },
+        {
+          "room": "1",
+          "printer_name": "BL_UPRN_IF0001_MFP2"
+        },
+        {
+          "room": "1",
+          "printer_name": "BL_UPRN_IF0001_MFP3"
+        },
+        {
+          "room": "1",
+          "printer_name": "BL_UPRN_IF0001_MFP4"
         },
         {
           "room": "1029",
-          "printer_name": null
+          "printer_name": "BL_UPRN_IF1029_MFP1"
         },
         {
           "room": "1116",
-          "printer_name": null
+          "printer_name": "BL_UPRN_IF1116_MFP1"
+        },
+        {
+          "room": "1116",
+          "printer_name": "BL_UPRN_IF1116_MFP2"
         },
         {
           "room": "1999",
-          "printer_name": null
+          "printer_name": "BL_UPRN_IF1999_MFP2"
         },
         {
           "room": "1999B",
-          "printer_name": null
+          "printer_name": "BL_UPRN_IF1999B_MFP1"
         },
         {
           "room": "2033",
-          "printer_name": null
+          "printer_name": "BL_UPRN_IF2033_MFP1"
         },
         {
           "room": "2052",
-          "printer_name": null
+          "printer_name": "BL_UPRN_IF2052_MFP1"
         },
         {
           "room": "2062",
-          "printer_name": null
+          "printer_name": "BL_UPRN_IF2062_MFP1"
+        },
+        {
+          "room": "2062",
+          "printer_name": "BL_UPRN_IF2062_MFP2"
         },
         {
           "room": "2115",
-          "printer_name": null
+          "printer_name": "BL_UPRN_IF2115_MFP1"
+        },
+        {
+          "room": "2115",
+          "printer_name": "BL_UPRN_IF2115_MFP2"
         },
         {
           "room": "2143",
-          "printer_name": null
+          "printer_name": "BL_UPRN_IF2143_MFP1"
+        },
+        {
+          "room": "2143",
+          "printer_name": "BL_UPRN_IF2143_MFP2"
         },
         {
           "room": "2150",
-          "printer_name": null
+          "printer_name": "BL_UPRN_IF2150_MFP2"
         },
         {
           "room": "2999A",
-          "printer_name": null
+          "printer_name": "BL_UPRN_IF2999A_MFP1"
         },
         {
           "room": "3033",
-          "printer_name": null
+          "printer_name": "BL_UPRN_IF3033_MFP1"
         },
         {
           "room": "3051",
-          "printer_name": null
+          "printer_name": "BL_UPRN_IF3051_MFP1"
         },
         {
           "room": "3118",
-          "printer_name": null
+          "printer_name": "BL_UPRN_IF3118_MFP1"
         },
         {
           "room": "3140",
-          "printer_name": null
+          "printer_name": "BL_UPRN_IF3140_MFP2"
         },
         {
           "room": "3150",
-          "printer_name": null
+          "printer_name": "BL_UPRN_IF3150_MFP1"
         },
         {
           "room": "3999A",
-          "printer_name": null
+          "printer_name": "BL_UPRN_IF3999A_MFP1"
         },
         {
           "room": "4025",
-          "printer_name": null
+          "printer_name": "BL_UPRN_IF4025_MFP1"
         },
         {
           "room": "4040",
-          "printer_name": null
+          "printer_name": "BL_UPRN_IF4040_MFP2"
         },
         {
           "room": "4053",
-          "printer_name": null
+          "printer_name": "BL_UPRN_IF4053_MFP1"
         },
         {
           "room": "4143",
-          "printer_name": null
+          "printer_name": "BL_UPRN_IF4143_MFP1"
         },
         {
           "room": "4150",
-          "printer_name": null
+          "printer_name": "BL_UPRN_IF4150_MFP2"
         }
       ]
     },
@@ -880,7 +924,7 @@
       "printers": [
         {
           "room": "D001",
-          "printer_name": null
+          "printer_name": "BL_STC_RUD001_MFP1"
         }
       ]
     },
@@ -892,75 +936,75 @@
       "printers": [
         {
           "room": "C006",
-          "printer_name": null
+          "printer_name": "BL_UPRN_MNC006_MFP1"
         },
         {
           "room": "26",
-          "printer_name": null
+          "printer_name": "BL_UPRN_MNC026_MFP1"
         },
         {
           "room": "199",
-          "printer_name": null
+          "printer_name": "BL_UPRN_MNC199_MFP1"
         },
         {
           "room": "299",
-          "printer_name": null
+          "printer_name": "BL_UPRN_MNC299_MFP1"
         }
       ]
     },
     {
       "building": "Medical Research & Library",
       "campus": "Bloomington",
-      "lat": 39.169574,
-      "lng": -86.5385549,
+      "lat": 39.1682449,
+      "lng": -86.52300729999999,
       "printers": [
         {
           "room": "100",
-          "printer_name": null
+          "printer_name": "IN_LIBM_STC_IB100_MFP1"
         },
         {
           "room": "1005B",
-          "printer_name": null
+          "printer_name": "IN_UPRN_HA1005B_MFP1"
         },
         {
           "room": "207",
-          "printer_name": null
+          "printer_name": "IN_LIBM_STC_IB207_MFP1"
         },
         {
           "room": "303",
-          "printer_name": null
+          "printer_name": "IN_LIBM_STC_IB303_MFP1"
         },
         {
           "room": "2003",
-          "printer_name": null
+          "printer_name": "IN_UPRN_HA2003_MFP1"
         },
         {
           "room": "2008",
-          "printer_name": null
+          "printer_name": "IN_UPRN_HA2008_MFP1"
         },
         {
           "room": "2027D",
-          "printer_name": null
+          "printer_name": "IN_UPRN_HA2027D_MFP1"
         },
         {
           "room": "3030L",
-          "printer_name": null
+          "printer_name": "IN_UPRN_HA3030L_MFP1"
         },
         {
           "room": "3008",
-          "printer_name": null
+          "printer_name": "IN_UPRN_HA3008_MFP1"
         },
         {
           "room": "5036",
-          "printer_name": null
+          "printer_name": "IN_UPRN_HA5036_MFP1"
         },
         {
           "room": "6060",
-          "printer_name": null
+          "printer_name": "IN_UPRN_HA6060_MFP1"
         },
         {
           "room": "7062",
-          "printer_name": null
+          "printer_name": "IN_UPRN_HA7062_MFP1"
         }
       ]
     },
@@ -972,7 +1016,7 @@
       "printers": [
         {
           "room": "25",
-          "printer_name": null
+          "printer_name": "BL_STC_MMA025_MFP1"
         }
       ]
     },
@@ -984,67 +1028,67 @@
       "printers": [
         {
           "room": "99",
-          "printer_name": null
+          "printer_name": "BL_STC_MU099_MFP1"
         }
       ]
     },
     {
       "building": "MESH Storage",
       "campus": "Bloomington",
-      "lat": 39.169574,
-      "lng": -86.5385549,
+      "lat": 39.1682449,
+      "lng": -86.52300729999999,
       "printers": [
         {
           "room": "3",
-          "printer_name": null
+          "printer_name": "BL_UPRN_BL608D-03_MFP1"
         },
         {
           "room": "03A",
-          "printer_name": null
+          "printer_name": "BL_UPRN_BL608D-03A_MFP1"
         }
       ]
     },
     {
       "building": "Multi Science 2",
       "campus": "Bloomington",
-      "lat": 39.169574,
-      "lng": -86.5385549,
+      "lat": 39.1682449,
+      "lng": -86.52300729999999,
       "printers": [
         {
           "room": "279",
-          "printer_name": null
+          "printer_name": "BL_UPRN_S2279_MFP1"
         }
       ]
     },
     {
       "building": "Multidisciplinary Eng And Sci Hall-MESH",
       "campus": "Bloomington",
-      "lat": 39.1748474,
-      "lng": -86.5166317,
+      "lat": 39.1657702,
+      "lng": -86.5177303,
       "printers": [
         {
           "room": "050C",
-          "printer_name": null
+          "printer_name": "BL_UPRN_CY050C_MFP1"
         },
         {
           "room": "199F",
-          "printer_name": null
+          "printer_name": "BL_UPRN_CY199F_MFP1"
         }
       ]
     },
     {
       "building": "Myers Hall",
       "campus": "Bloomington",
-      "lat": 39.1646953,
-      "lng": -86.5222716,
+      "lat": 39.1647282,
+      "lng": -86.5222946,
       "printers": [
         {
           "room": "199F",
-          "printer_name": null
+          "printer_name": "BL_UPRN_MY199F_MFP1"
         },
         {
           "room": "309",
-          "printer_name": null
+          "printer_name": "BL_UPRN_MY309_MFP1"
         }
       ]
     },
@@ -1056,31 +1100,31 @@
       "printers": [
         {
           "room": "100",
-          "printer_name": null
+          "printer_name": "BL_UPRN_I100_MFP1"
         },
         {
           "room": "219",
-          "printer_name": null
+          "printer_name": "BL_UPRN_I219_MFP1"
         },
         {
           "room": "307",
-          "printer_name": null
+          "printer_name": "BL_UPRN_I307_MFP1"
         },
         {
           "room": "399",
-          "printer_name": null
+          "printer_name": "BL_UPRN_I399_MFP1"
         }
       ]
     },
     {
       "building": "Northwest Plaza",
       "campus": "Bloomington",
-      "lat": 39.1701155,
-      "lng": -86.53679319999999,
+      "lat": 39.910911,
+      "lng": -86.2274594,
       "printers": [
         {
           "room": "103",
-          "printer_name": null
+          "printer_name": "BL_UPRN_NP103_MFP1"
         }
       ]
     },
@@ -1092,19 +1136,19 @@
       "printers": [
         {
           "room": "2",
-          "printer_name": null
+          "printer_name": "BL_UPRN_OW002_MFP1"
         },
         {
           "room": "112",
-          "printer_name": null
+          "printer_name": "BL_UPRN_OW112_MFP1"
         },
         {
           "room": "201",
-          "printer_name": null
+          "printer_name": "BL_UPRN_OW201_MFP1"
         },
         {
           "room": "305F",
-          "printer_name": null
+          "printer_name": "BL_UPRN_OW305F_MFP1"
         }
       ]
     },
@@ -1116,23 +1160,23 @@
       "printers": [
         {
           "room": "299",
-          "printer_name": null
+          "printer_name": "BL_STC_TV299_MFP1"
         },
         {
           "room": "316",
-          "printer_name": null
+          "printer_name": "BL_UPRN_TV316_MFP1"
         }
       ]
     },
     {
       "building": "Raintree Hall",
       "campus": "Bloomington",
-      "lat": 39.2130655,
-      "lng": -86.586487,
+      "lat": 39.1652565,
+      "lng": -86.52042709999999,
       "printers": [
         {
           "room": "121",
-          "printer_name": null
+          "printer_name": "BL_UPRN_RH121_MFP1"
         }
       ]
     },
@@ -1144,11 +1188,11 @@
       "printers": [
         {
           "room": "15",
-          "printer_name": null
+          "printer_name": "BL_STC_RE015_MFP1"
         },
         {
           "room": "199",
-          "printer_name": null
+          "printer_name": "BL_STC_RE199_MFP1"
         }
       ]
     },
@@ -1160,11 +1204,11 @@
       "printers": [
         {
           "room": "199",
-          "printer_name": null
+          "printer_name": "BL_STC_PH199_MFP1"
         },
         {
           "room": "199B",
-          "printer_name": null
+          "printer_name": "BL_STC_PH199B_MFP2"
         }
       ]
     },
@@ -1176,43 +1220,43 @@
       "printers": [
         {
           "room": "25",
-          "printer_name": null
+          "printer_name": "BL_UPRN_PH025_MFP1"
         },
         {
           "room": "99",
-          "printer_name": null
+          "printer_name": "BL_UPRN_PH099_MFP1"
         },
         {
           "room": "116",
-          "printer_name": null
+          "printer_name": "BL_UPRN_PH116_MFP1"
         },
         {
           "room": "121",
-          "printer_name": null
+          "printer_name": "BL_UPRN_PH121_MFP1"
         },
         {
           "room": "131",
-          "printer_name": null
+          "printer_name": "BL_UPRN_PH131_MFP1"
         },
         {
           "room": "173",
-          "printer_name": null
+          "printer_name": "BL_UPRN_PH173_MFP1"
         },
         {
           "room": "179",
-          "printer_name": null
+          "printer_name": "BL_UPRN_PH179_MFP1"
         },
         {
           "room": "1791",
-          "printer_name": null
+          "printer_name": "BL_UPRN_PH1791_MFP1"
         },
         {
           "room": "1792",
-          "printer_name": null
+          "printer_name": "BL_UPRN_PH1792_MFP1"
         },
         {
           "room": "199L",
-          "printer_name": null
+          "printer_name": "BL_UPRN_PH199L_MFP1"
         }
       ]
     },
@@ -1224,7 +1268,7 @@
       "printers": [
         {
           "room": "300",
-          "printer_name": null
+          "printer_name": "BL_UPRN_SI300_MFP1"
         }
       ]
     },
@@ -1236,7 +1280,7 @@
       "printers": [
         {
           "room": "360",
-          "printer_name": null
+          "printer_name": "BL_STC_SM360_MFP1"
         }
       ]
     },
@@ -1248,23 +1292,23 @@
       "printers": [
         {
           "room": "A012",
-          "printer_name": null
+          "printer_name": "BL_STC_S8A012_MFP1"
         }
       ]
     },
     {
       "building": "Social Research",
       "campus": "Bloomington",
-      "lat": 39.169574,
-      "lng": -86.5385549,
+      "lat": 39.1682449,
+      "lng": -86.52300729999999,
       "printers": [
         {
           "room": "203",
-          "printer_name": null
+          "printer_name": "BL_UPRN_S7203_MFP1"
         },
         {
           "room": "315",
-          "printer_name": null
+          "printer_name": "BL_UPRN_S7315_MFP1"
         }
       ]
     },
@@ -1276,19 +1320,23 @@
       "printers": [
         {
           "room": "199B",
-          "printer_name": null
+          "printer_name": "BL_STC_PV199B_MFP1"
+        },
+        {
+          "room": "199B",
+          "printer_name": "BL_STC_PV199B_MFP2"
         },
         {
           "room": "199",
-          "printer_name": null
+          "printer_name": "BL_STC_PY199_MFP1"
         },
         {
           "room": "199P",
-          "printer_name": null
+          "printer_name": "BL_STC_PY199P_MFP1"
         },
         {
           "room": "A209",
-          "printer_name": null
+          "printer_name": "BL_STC_SPEA_PVA209_MFP2"
         }
       ]
     },
@@ -1300,7 +1348,7 @@
       "printers": [
         {
           "room": "113",
-          "printer_name": null
+          "printer_name": "BL_STC_RA113_MFP1"
         }
       ]
     },
@@ -1312,11 +1360,11 @@
       "printers": [
         {
           "room": "222",
-          "printer_name": null
+          "printer_name": "BL_STC_SB222_MFP1"
         },
         {
           "room": "210",
-          "printer_name": null
+          "printer_name": "BL_UPRN_SB210_MFP1"
         }
       ]
     },
@@ -1328,7 +1376,7 @@
       "printers": [
         {
           "room": "115",
-          "printer_name": null
+          "printer_name": "BL_UPRN_RB115_MFP1"
         }
       ]
     },
@@ -1340,27 +1388,27 @@
       "printers": [
         {
           "room": "118",
-          "printer_name": null
+          "printer_name": "BL_STC_SW118_MFP1"
         },
         {
           "room": "058A",
-          "printer_name": null
+          "printer_name": "BL_UPRN_SW058A_MFP1"
         },
         {
           "room": "207",
-          "printer_name": null
+          "printer_name": "BL_UPRN_SW207_MFP1"
         },
         {
           "room": "236",
-          "printer_name": null
+          "printer_name": "BL_UPRN_SW236_MFP1"
         },
         {
           "room": "261",
-          "printer_name": null
+          "printer_name": "BL_UPRN_SW261_MFP1"
         },
         {
           "room": "340",
-          "printer_name": null
+          "printer_name": "BL_UPRN_SW340_MFP1"
         }
       ]
     },
@@ -1372,11 +1420,15 @@
       "printers": [
         {
           "room": "F120",
-          "printer_name": null
+          "printer_name": "BL_STC_TEF120_MFP1"
         },
         {
           "room": "F138",
-          "printer_name": null
+          "printer_name": "BL_UPRN_TEF138_MFP1"
+        },
+        {
+          "room": "F138",
+          "printer_name": "BL_UPRN_TEF138_MFP2"
         }
       ]
     },
@@ -1388,15 +1440,15 @@
       "printers": [
         {
           "room": "C1000D",
-          "printer_name": null
+          "printer_name": "BL_STC_AHC1000D_MFP1"
         },
         {
           "room": "C200A",
-          "printer_name": null
+          "printer_name": "BL_STC_AHC200A_MFP1"
         },
         {
           "room": "C2122",
-          "printer_name": null
+          "printer_name": "BL_UPRN_AHC2122_BW1"
         }
       ]
     },
@@ -1408,7 +1460,7 @@
       "printers": [
         {
           "room": "102",
-          "printer_name": null
+          "printer_name": "BL_STC_TT102_MFP"
         }
       ]
     },
@@ -1420,7 +1472,7 @@
       "printers": [
         {
           "room": "20",
-          "printer_name": null
+          "printer_name": "BL_STC_UE020_MFP1"
         }
       ]
     },
@@ -1432,35 +1484,47 @@
       "printers": [
         {
           "room": "100",
-          "printer_name": null
+          "printer_name": "BL_STC_LI100_MFP1"
         },
         {
           "room": "112",
-          "printer_name": null
+          "printer_name": "BL_STC_LI112_MFP1"
         },
         {
           "room": "137",
-          "printer_name": null
+          "printer_name": "BL_STC_LI137_MFP1"
         },
         {
           "room": "199",
-          "printer_name": null
+          "printer_name": "BL_STC_LI199_MFP1"
+        },
+        {
+          "room": "199",
+          "printer_name": "BL_STC_LI199_MFP2"
         },
         {
           "room": "201",
-          "printer_name": null
+          "printer_name": "BL_STC_LI201_MFP1"
+        },
+        {
+          "room": "201",
+          "printer_name": "BL_STC_LI201_MFP2"
         },
         {
           "room": "401",
-          "printer_name": null
+          "printer_name": "BL_STC_LI401_MFP1"
+        },
+        {
+          "room": "401",
+          "printer_name": "BL_STC_LI401_MFP2"
         },
         {
           "room": "502",
-          "printer_name": null
+          "printer_name": "BL_STC_LI502_MFP1"
         },
         {
           "room": "305",
-          "printer_name": null
+          "printer_name": "BL_UPRN_LI305_MFP1"
         }
       ]
     },
@@ -1472,75 +1536,75 @@
       "printers": [
         {
           "room": "5",
-          "printer_name": null
+          "printer_name": "BL_UPRN_ED0005_MFP1"
         },
         {
           "room": "1020",
-          "printer_name": null
+          "printer_name": "BL_UPRN_ED1020_MFP1"
         },
         {
           "room": "1077",
-          "printer_name": null
+          "printer_name": "BL_UPRN_ED1077_MFP1"
         },
         {
           "room": "1160",
-          "printer_name": null
+          "printer_name": "BL_STC_ED1160_MFP1"
         },
         {
           "room": "2011",
-          "printer_name": null
+          "printer_name": "BL_STC_ED2011_MFP1"
         },
         {
           "room": "2100",
-          "printer_name": null
+          "printer_name": "BL_UPRN_ED2100_MFP1"
         },
         {
           "room": "2101",
-          "printer_name": null
+          "printer_name": "BL_UPRN_ED2101_MFP1"
         },
         {
           "room": "2252",
-          "printer_name": null
+          "printer_name": "BL_UPRN_ED2252_MFP1"
         },
         {
           "room": "3008",
-          "printer_name": null
+          "printer_name": "BL_UPRN_ED3008_MFP1"
         },
         {
           "room": "3048",
-          "printer_name": null
+          "printer_name": "BL_UPRN_ED3048_MFP1"
         },
         {
           "room": "3099M",
-          "printer_name": null
+          "printer_name": "BL_UPRN_ED3099M_MFP1"
         },
         {
           "room": "3136",
-          "printer_name": null
+          "printer_name": "BL_UPRN_ED3136_MFP1"
         },
         {
           "room": "4015",
-          "printer_name": null
+          "printer_name": "BL_UPRN_ED4015_MFP1"
         },
         {
           "room": "4025",
-          "printer_name": null
+          "printer_name": "BL_UPRN_ED4025_MFP1"
         },
         {
           "room": "4114",
-          "printer_name": null
+          "printer_name": "BL_UPRN_ED4114_MFP1"
         },
         {
           "room": "4152",
-          "printer_name": null
+          "printer_name": "BL_UPRN_ED4152_MFP1"
         },
         {
           "room": "4215",
-          "printer_name": null
+          "printer_name": "BL_UPRN_ED4215_MFP1"
         },
         {
           "room": "4235",
-          "printer_name": null
+          "printer_name": "BL_UPRN_ED4235_MFP1"
         }
       ]
     },
@@ -1552,7 +1616,7 @@
       "printers": [
         {
           "room": "100",
-          "printer_name": null
+          "printer_name": "BL_STC_WI100_MFP1"
         }
       ]
     },
@@ -1564,7 +1628,11 @@
       "printers": [
         {
           "room": "199",
-          "printer_name": null
+          "printer_name": "BL_STC_WN199_MFP1"
+        },
+        {
+          "room": "199",
+          "printer_name": "BL_STC_WNB199_MFP1"
         }
       ]
     },
@@ -1576,55 +1644,55 @@
       "printers": [
         {
           "room": "211",
-          "printer_name": null
+          "printer_name": "BL_STC_WH211_MFP1"
         },
         {
           "room": "210K",
-          "printer_name": null
+          "printer_name": "BL_UPRN_WH210K_MFP1"
         },
         {
           "room": "300",
-          "printer_name": null
+          "printer_name": "BL_UPRN_WH300_MFP1"
         },
         {
           "room": "399G",
-          "printer_name": null
+          "printer_name": "BL_UPRN_WH399G_MFP1"
         },
         {
           "room": "400",
-          "printer_name": null
+          "printer_name": "BL_UPRN_WH400_MFP1"
         }
       ]
     },
     {
       "building": "Wright Quad",
       "campus": "Bloomington",
-      "lat": 39.1707845,
-      "lng": -86.51522159999999,
+      "lat": 39.1704059,
+      "lng": -86.51429759999999,
       "printers": [
         {
           "room": "2",
-          "printer_name": null
+          "printer_name": "BL_STC_WT002_MFP1"
         },
         {
           "room": "3",
-          "printer_name": null
+          "printer_name": "BL_STC_WT003_MFP1"
         },
         {
           "room": "A105",
-          "printer_name": null
+          "printer_name": "BL_UPRN_WTA105_MFP1"
         },
         {
           "room": "AFB50",
-          "printer_name": null
+          "printer_name": "BL_UPRN_WTAFB50_MFP1"
         },
         {
           "room": "C199L",
-          "printer_name": null
+          "printer_name": "BL_UPRN_WTC199L_MFP1"
         },
         {
           "room": "C200",
-          "printer_name": null
+          "printer_name": "BL_UPRN_WTC200_MFP1"
         }
       ]
     },
@@ -1636,7 +1704,7 @@
       "printers": [
         {
           "room": "125",
-          "printer_name": null
+          "printer_name": "BL_STC_WY125_MFP1"
         }
       ]
     },
@@ -1648,7 +1716,7 @@
       "printers": [
         {
           "room": "163",
-          "printer_name": null
+          "printer_name": "IN_STC_BR163_MFP1"
         }
       ]
     },
@@ -1660,11 +1728,11 @@
       "printers": [
         {
           "room": "1000",
-          "printer_name": null
+          "printer_name": "IN_STC_BS1000_BW1"
         },
         {
           "room": "2999",
-          "printer_name": null
+          "printer_name": "IN_STC_BS2999_MFP1"
         }
       ]
     },
@@ -1676,19 +1744,19 @@
       "printers": [
         {
           "room": "199A",
-          "printer_name": null
+          "printer_name": "IN_STC_CE199A_MFP1"
         },
         {
           "room": "299A",
-          "printer_name": null
+          "printer_name": "IN_STC_CE299A_MFP1"
         },
         {
           "room": "399",
-          "printer_name": null
+          "printer_name": "IN_STC_CE399_MFP1"
         },
         {
           "room": "205",
-          "printer_name": null
+          "printer_name": "IN_UPRN_CE205_MFP1"
         }
       ]
     },
@@ -1700,11 +1768,11 @@
       "printers": [
         {
           "room": "199",
-          "printer_name": null
+          "printer_name": "IN_STC_CA199_MFP1"
         },
         {
           "room": "299",
-          "printer_name": null
+          "printer_name": "IN_STC_CA299_MFP1"
         }
       ]
     },
@@ -1716,35 +1784,35 @@
       "printers": [
         {
           "room": "2119",
-          "printer_name": null
+          "printer_name": "IN_STC_ES2119_MFP1"
         }
       ]
     },
     {
       "building": "Engineering and Technology",
       "campus": "Indianapolis",
-      "lat": 39.76909,
-      "lng": -86.158018,
+      "lat": 39.7691002,
+      "lng": -86.1649229,
       "printers": [
         {
           "room": "4",
-          "printer_name": null
+          "printer_name": "IN_STC_ET004_MFP3"
         },
         {
           "room": "199",
-          "printer_name": null
+          "printer_name": "IN_STC_ET199_MFP1"
         }
       ]
     },
     {
       "building": "Eskenazi FAC 2",
       "campus": "Indianapolis",
-      "lat": 39.7776204,
-      "lng": -86.1828612,
+      "lat": 39.7775197,
+      "lng": -86.1842865,
       "printers": [
         {
           "room": "131",
-          "printer_name": null
+          "printer_name": "IN_STC_HE131_BW1"
         }
       ]
     },
@@ -1756,39 +1824,47 @@
       "printers": [
         {
           "room": "116",
-          "printer_name": null
+          "printer_name": "IN_STC_HR116_MFP1"
         },
         {
           "room": "122",
-          "printer_name": null
+          "printer_name": "IN_STC_HR122_MFP1"
+        },
+        {
+          "room": "122",
+          "printer_name": "IN_STC_HR122_MFP2"
         },
         {
           "room": "136",
-          "printer_name": null
+          "printer_name": "IN_STC_HR136_MFP1"
         },
         {
           "room": "143",
-          "printer_name": null
+          "printer_name": "IN_STC_HR143_MFP1"
         },
         {
           "room": "145",
-          "printer_name": null
+          "printer_name": "IN_STC_HR145_MFP1"
         },
         {
           "room": "179",
-          "printer_name": null
+          "printer_name": "IN_STC_HR179_MFP1"
         },
         {
           "room": "243",
-          "printer_name": null
+          "printer_name": "IN_STC_HR243_MFP1"
         },
         {
           "room": "249",
-          "printer_name": null
+          "printer_name": "IN_STC_HR249_MFP1"
         },
         {
           "room": "117",
-          "printer_name": null
+          "printer_name": "IN_UPRN_HR117_MFP1"
+        },
+        {
+          "room": "117",
+          "printer_name": "IN_UPRN_HR117_MFP2"
         }
       ]
     },
@@ -1800,15 +1876,15 @@
       "printers": [
         {
           "room": "1104",
-          "printer_name": null
+          "printer_name": "IN_STC_RG1104_MFP1"
         },
         {
           "room": "2031",
-          "printer_name": null
+          "printer_name": "IN_STC_RG2031_MFP1"
         },
         {
           "room": "3060",
-          "printer_name": null
+          "printer_name": "IN_STC_RG3060_MFP1"
         }
       ]
     },
@@ -1820,7 +1896,7 @@
       "printers": [
         {
           "room": "120",
-          "printer_name": null
+          "printer_name": "IN_STC_IP120_MFP1"
         }
       ]
     },
@@ -1832,55 +1908,55 @@
       "printers": [
         {
           "room": "268",
-          "printer_name": null
+          "printer_name": "IN_STC_IT268_MFP1"
         },
         {
           "room": "299",
-          "printer_name": null
+          "printer_name": "IN_STC_IT299_MFP1"
         },
         {
           "room": "99",
-          "printer_name": null
+          "printer_name": "IN_UPRN_IT099_MFP1"
         },
         {
           "room": "350",
-          "printer_name": null
+          "printer_name": "IN_UPRN_IT350_MFP1"
         },
         {
           "room": "399",
-          "printer_name": null
+          "printer_name": "IN_UPRN_IT399_MFP1"
         },
         {
           "room": "440P",
-          "printer_name": null
+          "printer_name": "IN_UPRN_IT440P_MFP1"
         },
         {
           "room": "454",
-          "printer_name": null
+          "printer_name": "IN_UPRN_IT454_MFP1"
         },
         {
           "room": "515",
-          "printer_name": null
+          "printer_name": "IN_UPRN_IT515_MFP1"
         },
         {
           "room": "560",
-          "printer_name": null
+          "printer_name": "IN_UPRN_IT560_MFP1"
         }
       ]
     },
     {
       "building": "Indiana Cancer Center Pavilion",
       "campus": "Indianapolis",
-      "lat": 39.7490645,
-      "lng": -86.2107011,
+      "lat": 39.7815499,
+      "lng": -86.1651423,
       "printers": [
         {
           "room": "275",
-          "printer_name": null
+          "printer_name": "IN_UPRN_RT275_MFP1"
         },
         {
           "room": "311A",
-          "printer_name": null
+          "printer_name": "IN_UPRN_RT311A_MFP1"
         }
       ]
     },
@@ -1892,15 +1968,15 @@
       "printers": [
         {
           "room": "135F",
-          "printer_name": null
+          "printer_name": "IN_STC_LAW_IH135F_MFP1"
         },
         {
           "room": "235D",
-          "printer_name": null
+          "printer_name": "IN_STC_LAW_IH235D_MFP1"
         },
         {
           "room": "355",
-          "printer_name": null
+          "printer_name": "IN_STC_LAW_IH355_MFP1"
         }
       ]
     },
@@ -1912,19 +1988,23 @@
       "printers": [
         {
           "room": "299",
-          "printer_name": null
+          "printer_name": "IN_STC_IO299_MFP1"
         }
       ]
     },
     {
       "building": "Lecture Hall",
       "campus": "Indianapolis",
-      "lat": 39.8393049,
-      "lng": -86.17346719999999,
+      "lat": 39.7727276,
+      "lng": -86.175017,
       "printers": [
         {
           "room": "199",
-          "printer_name": null
+          "printer_name": "IN_STC_LE199_MFP1"
+        },
+        {
+          "room": "199",
+          "printer_name": "IN_STC_LE199_MFP2"
         }
       ]
     },
@@ -1936,91 +2016,91 @@
       "printers": [
         {
           "room": "A150",
-          "printer_name": null
+          "printer_name": "IN_STC_H1A150_MFP1"
         }
       ]
     },
     {
       "building": "Medical Research & Library",
       "campus": "Indianapolis",
-      "lat": 39.81633619999999,
-      "lng": -86.23832039999999,
+      "lat": 39.7729955,
+      "lng": -86.1721257,
       "printers": [
         {
           "room": "100",
-          "printer_name": null
+          "printer_name": "IN_LIBM_STC_IB100_MFP1"
         },
         {
           "room": "1005B",
-          "printer_name": null
+          "printer_name": "IN_UPRN_HA1005B_MFP1"
         },
         {
           "room": "207",
-          "printer_name": null
+          "printer_name": "IN_LIBM_STC_IB207_MFP1"
         },
         {
           "room": "303",
-          "printer_name": null
+          "printer_name": "IN_LIBM_STC_IB303_MFP1"
         },
         {
           "room": "2003",
-          "printer_name": null
+          "printer_name": "IN_UPRN_HA2003_MFP1"
         },
         {
           "room": "2008",
-          "printer_name": null
+          "printer_name": "IN_UPRN_HA2008_MFP1"
         },
         {
           "room": "2027D",
-          "printer_name": null
+          "printer_name": "IN_UPRN_HA2027D_MFP1"
         },
         {
           "room": "3030L",
-          "printer_name": null
+          "printer_name": "IN_UPRN_HA3030L_MFP1"
         },
         {
           "room": "3008",
-          "printer_name": null
+          "printer_name": "IN_UPRN_HA3008_MFP1"
         },
         {
           "room": "5036",
-          "printer_name": null
+          "printer_name": "IN_UPRN_HA5036_MFP1"
         },
         {
           "room": "6060",
-          "printer_name": null
+          "printer_name": "IN_UPRN_HA6060_MFP1"
         },
         {
           "room": "7062",
-          "printer_name": null
+          "printer_name": "IN_UPRN_HA7062_MFP1"
         }
       ]
     },
     {
       "building": "Natatorium",
       "campus": "Indianapolis",
-      "lat": 39.9096854,
-      "lng": -86.1290559,
+      "lat": 39.7706794,
+      "lng": -86.1749792,
       "printers": [
         {
           "room": "170",
-          "printer_name": null
+          "printer_name": "IN_STC_PE170_MFP1"
         }
       ]
     },
     {
       "building": "Nursing School",
       "campus": "Indianapolis",
-      "lat": 39.7761112,
-      "lng": -86.17916199999999,
+      "lat": 39.7815613,
+      "lng": -86.16517139999999,
       "printers": [
         {
           "room": "109",
-          "printer_name": null
+          "printer_name": "IN_STC_NU109_MFP1"
         },
         {
           "room": "399",
-          "printer_name": null
+          "printer_name": "IN_STC_NU399_MFP1"
         }
       ]
     },
@@ -2032,7 +2112,7 @@
       "printers": [
         {
           "room": "199",
-          "printer_name": null
+          "printer_name": "IN_STC_LD199_MFP1"
         }
       ]
     },
@@ -2044,7 +2124,7 @@
       "printers": [
         {
           "room": "199",
-          "printer_name": null
+          "printer_name": "IN_STC_UC199_MFP1"
         }
       ]
     },
@@ -2056,7 +2136,7 @@
       "printers": [
         {
           "room": "5051",
-          "printer_name": null
+          "printer_name": "IN_UPRN_UH5051_MFP1"
         }
       ]
     },
@@ -2068,59 +2148,71 @@
       "printers": [
         {
           "room": "117",
-          "printer_name": null
+          "printer_name": "IN_UPRN_UL0117_MFP1"
         },
         {
           "room": "143",
-          "printer_name": null
+          "printer_name": "IN_UPRN_UL0143_MFP1"
         },
         {
           "room": "1112",
-          "printer_name": null
+          "printer_name": "IN_UPRN_UL1112_MFP1"
         },
         {
           "room": "1115",
-          "printer_name": null
+          "printer_name": "IN_UPRN_UL1115_MFP1"
         },
         {
           "room": "1130",
-          "printer_name": null
+          "printer_name": "IN_UPRN_UL1130_MFP1"
+        },
+        {
+          "room": "1130",
+          "printer_name": "IN_UPRN_UL1130_MFP2"
         },
         {
           "room": "2110",
-          "printer_name": null
+          "printer_name": "IN_UPRN_UL2110_MFP1"
         },
         {
           "room": "2116",
-          "printer_name": null
+          "printer_name": "IN_UPRN_UL2116_MFP1"
         },
         {
           "room": "2120",
-          "printer_name": null
+          "printer_name": "IN_UPRN_UL2120_MFP1"
         },
         {
           "room": "2120B",
-          "printer_name": null
+          "printer_name": "IN_UPRN_UL2120B_MFP1"
+        },
+        {
+          "room": "2120B",
+          "printer_name": "IN_UPRN_UL2120B_MFP2"
         },
         {
           "room": "2123",
-          "printer_name": null
+          "printer_name": "IN_UPRN_UL2123_MFP1"
         },
         {
           "room": "2135",
-          "printer_name": null
+          "printer_name": "IN_UPRN_UL2135_MFP1"
+        },
+        {
+          "room": "2135",
+          "printer_name": "IN_UPRN_UL2135_MFP2"
         },
         {
           "room": "3100",
-          "printer_name": null
+          "printer_name": "IN_UPRN_UL3100_MFP1"
         },
         {
           "room": "4100",
-          "printer_name": null
+          "printer_name": "IN_UPRN_UL4100_MFP1"
         },
         {
           "room": "4135",
-          "printer_name": null
+          "printer_name": "IN_UPRN_UL4135_MFP1"
         }
       ]
     },
@@ -2132,39 +2224,39 @@
       "printers": [
         {
           "room": "199",
-          "printer_name": null
+          "printer_name": "IN_STC_HO199_MFP1"
         }
       ]
     },
     {
       "building": "Hayes Hall",
       "campus": "East",
-      "lat": 39.8681718,
-      "lng": -84.8797781,
+      "lat": 40.1893916,
+      "lng": -85.3865453,
       "printers": [
         {
           "room": "255",
-          "printer_name": null
+          "printer_name": "EA_UPRN_HY255_MFP1"
         }
       ]
     },
     {
       "building": "Springwood Hall",
       "campus": "East",
-      "lat": 41.1437689,
-      "lng": -85.13302619999999,
+      "lat": 39.547401,
+      "lng": -86.536239,
       "printers": [
         {
           "room": "2",
-          "printer_name": null
+          "printer_name": "EA_UPRN_RW002_MFP1"
         },
         {
           "room": "101D",
-          "printer_name": null
+          "printer_name": "EA_UPRN_RW101D_MFP1"
         },
         {
           "room": "235",
-          "printer_name": null
+          "printer_name": "EA_UPRN_RW235_MFP1"
         }
       ]
     },
@@ -2176,79 +2268,79 @@
       "printers": [
         {
           "room": "115",
-          "printer_name": null
+          "printer_name": "EA_UPRN_TR115_MFP1"
         },
         {
           "room": "199",
-          "printer_name": null
+          "printer_name": "EA_UPRN_TR199_MFP1"
         },
         {
           "room": "299",
-          "printer_name": null
+          "printer_name": "EA_UPRN_TR299_MFP1"
         },
         {
           "room": "399",
-          "printer_name": null
+          "printer_name": "EA_UPRN_TR399_MFP1"
         }
       ]
     },
     {
       "building": "Whitewater Hall",
       "campus": "East",
-      "lat": 39.86879649999999,
-      "lng": -84.8818095,
+      "lat": 40.1893916,
+      "lng": -85.3865453,
       "printers": [
         {
           "room": "101L",
-          "printer_name": null
+          "printer_name": "EA_UPRN_WZ101L_MFP1"
         },
         {
           "room": "102",
-          "printer_name": null
+          "printer_name": "EA_UPRN_WZ102_MFP1"
         },
         {
           "room": "115",
-          "printer_name": null
+          "printer_name": "EA_UPRN_WZ115_MFP1"
         },
         {
           "room": "131",
-          "printer_name": null
+          "printer_name": "EA_UPRN_WZ131_MFP1"
         },
         {
           "room": "151",
-          "printer_name": null
+          "printer_name": "EA_UPRN_WZ151_MFP1"
         },
         {
           "room": "208",
-          "printer_name": null
+          "printer_name": "EA_UPRN_WZ208_MFP1"
         },
         {
           "room": "285",
-          "printer_name": null
+          "printer_name": "EA_UPRN_WZ285_MFP1"
         }
       ]
     },
     {
       "building": "Cougar Center",
       "campus": "Kokomo",
-      "lat": 40.515122,
-      "lng": -86.129744,
+      "lat": 40.4594494,
+      "lng": -86.1317354,
       "printers": [
         {
           "room": 199,
-          "printer_name": null
+          "printer_name": "KO_UPRN_KM199_MFP1"
         }
       ]
     },
     {
       "building": "Fine Arts",
       "campus": "Kokomo",
-      "lat": 40.4556326,
-      "lng": -86.12750989999999,
+      "lat": 40.486427,
+      "lng": -86.13360329999999,
       "printers": [
         {
           "room": 100,
-          "printer_name": null
+          "printer_name": "KO_UPRN_FA100_MFP1"
         }
       ]
     },
@@ -2260,23 +2352,23 @@
       "printers": [
         {
           "room": 107,
-          "printer_name": null
+          "printer_name": "KO_UPRN_SM107_MFP1"
         },
         {
           "room": 124,
-          "printer_name": null
+          "printer_name": "KO_UPRN_SM124_MFP1"
         },
         {
           "room": 210,
-          "printer_name": null
+          "printer_name": "KO_UPRN_SM210_MFP1"
         },
         {
           "room": 234,
-          "printer_name": null
+          "printer_name": "KO_UPRN_SM234_MFP1"
         },
         {
           "room": 299,
-          "printer_name": null
+          "printer_name": "KO_UPRN_SM299_MFP1"
         }
       ]
     },
@@ -2288,51 +2380,51 @@
       "printers": [
         {
           "room": 115,
-          "printer_name": null
+          "printer_name": "KO_UPRN_KC115_MFP1"
         },
         {
           "room": 145,
-          "printer_name": null
+          "printer_name": "KO_UPRN_KC145_MFP1"
         },
         {
           "room": 208,
-          "printer_name": null
+          "printer_name": "KO_UPRN_KC208_MFP1"
         },
         {
           "room": 210,
-          "printer_name": null
+          "printer_name": "KO_UPRN_KC210_MFP1"
         },
         {
           "room": 223,
-          "printer_name": null
+          "printer_name": "KO_UPRN_KC223_MFP1"
         },
         {
           "room": 234,
-          "printer_name": null
+          "printer_name": "KO_UPRN_KC234_MFP1"
         },
         {
           "room": 274,
-          "printer_name": null
+          "printer_name": "KO_UPRN_KC274_MFP1"
         }
       ]
     },
     {
       "building": "Kokomo East",
       "campus": "Kokomo",
-      "lat": 40.515131,
-      "lng": -86.128871,
+      "lat": 40.4594494,
+      "lng": -86.1317354,
       "printers": [
         {
           "room": 199,
-          "printer_name": null
+          "printer_name": "KO_UPRN_KE199_MFP1"
         },
         {
           "room": 204,
-          "printer_name": null
+          "printer_name": "KO_UPRN_KE204_MFP1"
         },
         {
           "room": 309,
-          "printer_name": null
+          "printer_name": "KO_UPRN_KE309_MFP1"
         }
       ]
     },
@@ -2344,95 +2436,95 @@
       "printers": [
         {
           "room": 26,
-          "printer_name": null
+          "printer_name": "KO_UPRN_KA026_MFP1"
         },
         {
           "room": 115,
-          "printer_name": null
+          "printer_name": "KO_UPRN_KA115_MFP1"
         },
         {
           "room": 165,
-          "printer_name": null
+          "printer_name": "KO_UPRN_KA165_MFP1"
         },
         {
           "room": 200,
-          "printer_name": null
+          "printer_name": "KO_UPRN_KA200_MFP1"
         }
       ]
     },
     {
       "building": "Kokomo Main",
       "campus": "Kokomo",
-      "lat": 40.41821,
-      "lng": -86.104412,
+      "lat": 40.4594494,
+      "lng": -86.1317354,
       "printers": [
         {
           "room": 36,
-          "printer_name": null
+          "printer_name": "KO_UPRN_KO036_MFP1"
         },
         {
           "room": 73,
-          "printer_name": null
+          "printer_name": "KO_UPRN_KO073_MFP1"
         },
         {
           "room": 111,
-          "printer_name": null
+          "printer_name": "KO_UPRN_KO111_MFP1"
         },
         {
           "room": 172,
-          "printer_name": null
+          "printer_name": "KO_UPRN_KO172_MFP1"
         },
         {
           "room": 190,
-          "printer_name": null
+          "printer_name": "KO_UPRN_KO190_MFP1"
         },
         {
           "room": 205,
-          "printer_name": null
+          "printer_name": "KO_UPRN_KO205_MFP1"
         },
         {
           "room": 218,
-          "printer_name": null
+          "printer_name": "KO_UPRN_KO218_MFP1"
         },
         {
           "room": 275,
-          "printer_name": null
+          "printer_name": "KO_UPRN_KO275_MFP1"
         },
         {
           "room": 280,
-          "printer_name": null
+          "printer_name": "KO_UPRN_KO280_MFP1"
         }
       ]
     },
     {
       "building": "Student Activities and Events Center",
       "campus": "Kokomo",
-      "lat": 40.515122,
-      "lng": -86.129744,
+      "lat": 40.4594494,
+      "lng": -86.1317354,
       "printers": [
         {
           "room": 100,
-          "printer_name": null
+          "printer_name": "KO_UPRN_EC100_MFP1"
         }
       ]
     },
     {
       "building": "Anderson Library Conference Center",
       "campus": "Northwest",
-      "lat": 40.1051253,
-      "lng": -85.6781677,
+      "lat": 40.4354773,
+      "lng": -86.060491,
       "printers": [
         {
           "room": "107G",
-          "printer_name": null
+          "printer_name": "NW_UPRN_LC107G_MFP1"
         },
         {
           "room": "120",
-          "printer_name": null
+          "printer_name": "NW_UPRN_LC120_MFP4"
         },
         {
           "room": "200",
-          "printer_name": null
+          "printer_name": "NW_UPRN_LC200_MFP2"
         }
       ]
     },
@@ -2444,27 +2536,27 @@
       "printers": [
         {
           "room": "1010",
-          "printer_name": null
+          "printer_name": "NW_UPRN_AS1010_MFP2"
         },
         {
           "room": "2021",
-          "printer_name": null
+          "printer_name": "NW_UPRN_AS2021_MFP1"
         },
         {
           "room": "2080",
-          "printer_name": null
+          "printer_name": "NW_UPRN_AS2080_MFP1"
         }
       ]
     },
     {
       "building": "Cedar Hall",
       "campus": "Northwest",
-      "lat": 37.9849723,
-      "lng": -87.5855232,
+      "lat": 41.5545161,
+      "lng": -87.33738029999999,
       "printers": [
         {
           "room": "116",
-          "printer_name": null
+          "printer_name": "NW_UPRN_CH116_MFP1"
         }
       ]
     },
@@ -2476,31 +2568,31 @@
       "printers": [
         {
           "room": "1115",
-          "printer_name": null
+          "printer_name": "NW_UPRN_MP1115_MFP1"
         },
         {
           "room": "1181",
-          "printer_name": null
+          "printer_name": "NW_UPRN_MP1181_MFP1"
         },
         {
           "room": "1190",
-          "printer_name": null
+          "printer_name": "NW_UPRN_MP1190_MFP2"
         },
         {
           "room": "2108",
-          "printer_name": null
+          "printer_name": "NW_UPRN_MP2108_MFP1"
         },
         {
           "room": "3102",
-          "printer_name": null
+          "printer_name": "NW_UPRN_MP3102_MFP1"
         },
         {
           "room": "3150",
-          "printer_name": null
+          "printer_name": "NW_UPRN_MP3150_MFP1"
         },
         {
           "room": "3188",
-          "printer_name": null
+          "printer_name": "NW_UPRN_MP3188_MFP1"
         }
       ]
     },
@@ -2512,27 +2604,27 @@
       "printers": [
         {
           "room": "199",
-          "printer_name": null
+          "printer_name": "NW_UPRN_HH199_MFP1"
         },
         {
           "room": "217F",
-          "printer_name": null
+          "printer_name": "NW_UPRN_HH217F_MFP1"
         },
         {
           "room": "299",
-          "printer_name": null
+          "printer_name": "NW_UPRN_HH299_MFP1"
         },
         {
           "room": "399",
-          "printer_name": null
+          "printer_name": "NW_UPRN_HH399_MFP1"
         },
         {
           "room": "499N",
-          "printer_name": null
+          "printer_name": "NW_UPRN_HH499N_MFP1"
         },
         {
           "room": "499W",
-          "printer_name": null
+          "printer_name": "NW_UPRN_HH499W_MFP1"
         }
       ]
     },
@@ -2544,27 +2636,27 @@
       "printers": [
         {
           "room": "199",
-          "printer_name": null
+          "printer_name": "NW_UPRN_MH199_MFP1"
         },
         {
           "room": "225",
-          "printer_name": null
+          "printer_name": "NW_UPRN_MH225_MFP1"
         },
         {
           "room": "331",
-          "printer_name": null
+          "printer_name": "NW_UPRN_MH331_MFP1"
         }
       ]
     },
     {
       "building": "Moraine Student Center",
       "campus": "Northwest",
-      "lat": 41.5833736,
-      "lng": -87.5001041,
+      "lat": 40.4354773,
+      "lng": -86.060491,
       "printers": [
         {
           "room": "102",
-          "printer_name": null
+          "printer_name": "NW_UPRN_MS102_MFP2"
         }
       ]
     },
@@ -2576,7 +2668,7 @@
       "printers": [
         {
           "room": "199",
-          "printer_name": null
+          "printer_name": "NW_UPRN_RH199_MFP1"
         }
       ]
     },
@@ -2588,7 +2680,7 @@
       "printers": [
         {
           "room": "233",
-          "printer_name": null
+          "printer_name": "NW_UPRN_SC233_MFP1"
         }
       ]
     },
@@ -2600,67 +2692,67 @@
       "printers": [
         {
           "room": "104C",
-          "printer_name": null
+          "printer_name": "SB_UPRN_AI104C_MFP1"
         },
         {
           "room": "115X",
-          "printer_name": null
+          "printer_name": "SB_UPRN_AI115X_MFP1"
         },
         {
           "room": "135",
-          "printer_name": null
+          "printer_name": "SB_UPRN_AI135_MFP1"
         },
         {
           "room": "146",
-          "printer_name": null
+          "printer_name": "SB_UPRN_AI146_MFP1"
         },
         {
           "room": "160",
-          "printer_name": null
+          "printer_name": "SB_UPRN_AI160_MFP1"
         },
         {
           "room": "175C",
-          "printer_name": null
+          "printer_name": "SB_UPRN_AI175C_MFP1"
         },
         {
           "room": "177M",
-          "printer_name": null
+          "printer_name": "SB_UPRN_AI177M_MFP1"
         },
         {
           "room": "199P",
-          "printer_name": null
+          "printer_name": "SB_UPRN_AI199P_MFP1"
         },
         {
           "room": "199Z",
-          "printer_name": null
+          "printer_name": "SB_UPRN_AI199Z_MFP1"
         },
         {
           "room": "203H",
-          "printer_name": null
+          "printer_name": "SB_UPRN_AI203H_MFP1"
         },
         {
           "room": "215E",
-          "printer_name": null
+          "printer_name": "SB_UPRN_AI215E_MFP1"
         },
         {
           "room": "223",
-          "printer_name": null
+          "printer_name": "SB_UPRN_AI223_MFP1"
         },
         {
           "room": "236",
-          "printer_name": null
+          "printer_name": "SB_UPRN_AI236_MFP1"
         },
         {
           "room": "240",
-          "printer_name": null
+          "printer_name": "SB_UPRN_AI240_MFP1"
         },
         {
           "room": "246N",
-          "printer_name": null
+          "printer_name": "SB_UPRN_AI246N_MFP1"
         },
         {
           "room": "250G",
-          "printer_name": null
+          "printer_name": "SB_UPRN_AI250G_MFP1"
         }
       ]
     },
@@ -2672,7 +2764,7 @@
       "printers": [
         {
           "room": "15",
-          "printer_name": null
+          "printer_name": "SB_UPRN_HF15_MFP1"
         }
       ]
     },
@@ -2684,47 +2776,47 @@
       "printers": [
         {
           "room": "1099",
-          "printer_name": null
+          "printer_name": "SB_UPRN_EA1099_MFP2"
         },
         {
           "room": "1109",
-          "printer_name": null
+          "printer_name": "SB_UPRN_EA1109_MFP1"
         },
         {
           "room": "1258",
-          "printer_name": null
+          "printer_name": "SB_UPRN_EA1258_MFP1"
         },
         {
           "room": "2003D",
-          "printer_name": null
+          "printer_name": "SB_UPRN_EA2003D_MFP1"
         },
         {
           "room": "2010",
-          "printer_name": null
+          "printer_name": "SB_UPRN_EA2010_MFP2"
         },
         {
           "room": "2025D",
-          "printer_name": null
+          "printer_name": "SB_UPRN_EA2025D_MFP1"
         },
         {
           "room": "2232",
-          "printer_name": null
+          "printer_name": "SB_UPRN_EA2232_MFP1"
         }
       ]
     },
     {
       "building": "Elkhart Center II",
       "campus": "South Bend",
-      "lat": 41.7178268,
-      "lng": -86.2838632,
+      "lat": 41.68432869999999,
+      "lng": -85.9708313,
       "printers": [
         {
           "room": "106",
-          "printer_name": null
+          "printer_name": "SB_UPRN_EK106_MFP1"
         },
         {
           "room": "213",
-          "printer_name": null
+          "printer_name": "SB_UPRN_EK213_MFP1"
         }
       ]
     },
@@ -2736,39 +2828,43 @@
       "printers": [
         {
           "room": "28",
-          "printer_name": null
+          "printer_name": "SB_UPRN_NS0028_MFP1"
         },
         {
           "room": "99",
-          "printer_name": null
+          "printer_name": "SB_UPRN_NS0099_MFP1"
         },
         {
           "room": "45",
-          "printer_name": null
+          "printer_name": "SB_UPRN_NS045_MFP1"
+        },
+        {
+          "room": "99",
+          "printer_name": "SB_UPRN_NS099_MFP1"
         },
         {
           "room": "103",
-          "printer_name": null
+          "printer_name": "SB_UPRN_NS103_MFP1"
         },
         {
           "room": "155",
-          "printer_name": null
+          "printer_name": "SB_UPRN_NS155_MFP1"
         },
         {
           "room": "160G",
-          "printer_name": null
+          "printer_name": "SB_UPRN_NS160G_MFP1"
         },
         {
           "room": "234",
-          "printer_name": null
+          "printer_name": "SB_UPRN_NS234_MFP1"
         },
         {
           "room": "377",
-          "printer_name": null
+          "printer_name": "SB_UPRN_NS377_MFP1"
         },
         {
           "room": "469",
-          "printer_name": null
+          "printer_name": "SB_UPRN_NS469_MFP1"
         }
       ]
     },
@@ -2780,15 +2876,15 @@
       "printers": [
         {
           "room": "115",
-          "printer_name": null
+          "printer_name": "SB_UPRN_TB115_MFP1"
         },
         {
           "room": "150",
-          "printer_name": null
+          "printer_name": "SB_UPRN_TB150_MFP1"
         },
         {
           "room": "299",
-          "printer_name": null
+          "printer_name": "SB_UPRN_TB299_MFP1"
         }
       ]
     },
@@ -2800,11 +2896,11 @@
       "printers": [
         {
           "room": "110",
-          "printer_name": null
+          "printer_name": "SB_UPRN_RV110_MFP1"
         },
         {
           "room": "199",
-          "printer_name": null
+          "printer_name": "SB_UPRN_RV199_MFP1"
         }
       ]
     },
@@ -2816,15 +2912,19 @@
       "printers": [
         {
           "room": "108",
-          "printer_name": null
+          "printer_name": "SB_UPRN_LM108_MFP1"
         },
         {
           "room": "115",
-          "printer_name": null
+          "printer_name": "SB_UPRN_LM115_MFP3"
+        },
+        {
+          "room": "115",
+          "printer_name": "SB_UPRN_LM115_MFP4"
         },
         {
           "room": "308",
-          "printer_name": null
+          "printer_name": "SB_UPRN_LM308_MFP1"
         }
       ]
     },
@@ -2836,15 +2936,15 @@
       "printers": [
         {
           "room": "102",
-          "printer_name": null
+          "printer_name": "SB_UPRN_FE102_MFP1"
         },
         {
           "room": "130K",
-          "printer_name": null
+          "printer_name": "SB_UPRN_FE130K_MFP1"
         },
         {
           "room": "202",
-          "printer_name": null
+          "printer_name": "SB_UPRN_FE202_MFP1"
         }
       ]
     },
@@ -2856,27 +2956,27 @@
       "printers": [
         {
           "room": "100D",
-          "printer_name": null
+          "printer_name": "SB_UPRN_UD100D_MFP1"
         },
         {
           "room": "102",
-          "printer_name": null
+          "printer_name": "SB_UPRN_UD102_MFP1"
         }
       ]
     },
     {
       "building": "Vera Z. Dwyer Hall",
       "campus": "South Bend",
-      "lat": 41.6763545,
-      "lng": -86.25198979999999,
+      "lat": 41.6827215,
+      "lng": -86.2511554,
       "printers": [
         {
           "room": "146",
-          "printer_name": null
+          "printer_name": "SB_UPRN_RS146_MFP1"
         },
         {
           "room": "156",
-          "printer_name": null
+          "printer_name": "SB_UPRN_RS156_MFP1"
         }
       ]
     },
@@ -2888,307 +2988,307 @@
       "printers": [
         {
           "room": "1003",
-          "printer_name": null
+          "printer_name": "SB_UPRN_DW1003_MFP2"
         },
         {
           "room": "1245",
-          "printer_name": null
+          "printer_name": "SB_UPRN_DW1245_MFP1"
         },
         {
           "room": "2001",
-          "printer_name": null
+          "printer_name": "SB_UPRN_DW2001_MFP1"
         },
         {
           "room": "2111F",
-          "printer_name": null
+          "printer_name": "SB_UPRN_DW2111F_MFP1"
         },
         {
           "room": "2187",
-          "printer_name": null
+          "printer_name": "SB_UPRN_DW2187_MFP1"
         },
         {
           "room": "2206",
-          "printer_name": null
+          "printer_name": "SB_UPRN_DW2206_MFP1"
         },
         {
           "room": "2286",
-          "printer_name": null
+          "printer_name": "SB_UPRN_DW2286_MFP1"
         },
         {
           "room": "3107",
-          "printer_name": null
+          "printer_name": "SB_UPRN_DW3107_MFP1"
         },
         {
           "room": "3300H",
-          "printer_name": null
+          "printer_name": "SB_UPRN_DW3300H_MFP1"
         }
       ]
     },
     {
       "building": "Activities Building",
       "campus": "Southeast",
-      "lat": 39.7388967,
-      "lng": -86.0636699,
+      "lat": 40.5512165,
+      "lng": -85.60236429999999,
       "printers": [
         {
           "room": "100",
-          "printer_name": null
+          "printer_name": "SE_UPRN_AK100_MFP1"
         }
       ]
     },
     {
       "building": "Crestview Hall",
       "campus": "Southeast",
-      "lat": 39.7388967,
-      "lng": -86.0636699,
+      "lat": 39.547401,
+      "lng": -86.536239,
       "printers": [
         {
           "room": "23",
-          "printer_name": null
+          "printer_name": "SE_UPRN_CV023_MFP1"
         },
         {
           "room": "108",
-          "printer_name": null
+          "printer_name": "SE_UPRN_CV108_MFP1"
         },
         {
           "room": "299A",
-          "printer_name": null
+          "printer_name": "SE_UPRN_CV299A_MFP1"
         }
       ]
     },
     {
       "building": "Forest Lodge",
       "campus": "Southeast",
-      "lat": 39.7388967,
-      "lng": -86.0636699,
+      "lat": 40.5512165,
+      "lng": -85.60236429999999,
       "printers": [
         {
           "room": "103",
-          "printer_name": null
+          "printer_name": "SE_UPRN_FL103_MFP1"
         }
       ]
     },
     {
       "building": "Grove Lodge",
       "campus": "Southeast",
-      "lat": 39.7388967,
-      "lng": -86.0636699,
+      "lat": 38.3436532,
+      "lng": -85.82187789999999,
       "printers": [
         {
           "room": "103",
-          "printer_name": null
+          "printer_name": "SE_UPRN_GL103_MFP1"
         }
       ]
     },
     {
       "building": "Hausfeldt Building",
       "campus": "Southeast",
-      "lat": 39.7388967,
-      "lng": -86.0636699,
+      "lat": 40.5512165,
+      "lng": -85.60236429999999,
       "printers": [
         {
           "room": "199",
-          "printer_name": null
+          "printer_name": "SE_UPRN_HB199_MFP1"
         }
       ]
     },
     {
       "building": "Hillside Hall",
       "campus": "Southeast",
-      "lat": 39.7388967,
-      "lng": -86.0636699,
+      "lat": 39.547401,
+      "lng": -86.536239,
       "printers": [
         {
           "room": "19",
-          "printer_name": null
+          "printer_name": "SE_UPRN_HH0019_MFP1"
         },
         {
           "room": "9",
-          "printer_name": null
+          "printer_name": "SE_UPRN_HH009_MFP1"
         },
         {
           "room": "199",
-          "printer_name": null
+          "printer_name": "SE_UPRN_HH199_MFP1"
         },
         {
           "room": "211",
-          "printer_name": null
+          "printer_name": "SE_UPRN_HH211_MPF1"
         },
         {
           "room": "221",
-          "printer_name": null
+          "printer_name": "SE_UPRN_HH221_MFP1"
         }
       ]
     },
     {
       "building": "Jeffersonville Graduate Center",
       "campus": "Southeast",
-      "lat": 38.2945177,
-      "lng": -85.7319794,
+      "lat": 38.2775702,
+      "lng": -85.7371847,
       "printers": [
         {
           "room": "400",
-          "printer_name": null
+          "printer_name": "SE_UPRN_GC400_MFP1"
         }
       ]
     },
     {
       "building": "Knobview Hall",
       "campus": "Southeast",
-      "lat": 39.7388967,
-      "lng": -86.0636699,
+      "lat": 39.547401,
+      "lng": -86.536239,
       "printers": [
         {
           "room": "14",
-          "printer_name": null
+          "printer_name": "SE_UPRN_KV014_MFP1"
         },
         {
           "room": "110E",
-          "printer_name": null
+          "printer_name": "SE_UPRN_KV110E_MFP1"
         },
         {
           "room": "200",
-          "printer_name": null
+          "printer_name": "SE_UPRN_KV200_MFP1"
         },
         {
           "room": "235",
-          "printer_name": null
+          "printer_name": "SE_UPRN_KV235_MFP1"
         },
         {
           "room": "240",
-          "printer_name": null
+          "printer_name": "SE_UPRN_KV240_MFP1"
         }
       ]
     },
     {
       "building": "Library IUSE",
       "campus": "Southeast",
-      "lat": 39.7388967,
-      "lng": -86.0636699,
+      "lat": 38.3439996,
+      "lng": -85.8198577,
       "printers": [
         {
           "room": "112",
-          "printer_name": null
+          "printer_name": "SE_UPRN_LB112_MFP1"
         },
         {
           "room": "200B",
-          "printer_name": null
+          "printer_name": "SE_UPRN_LB200B_MFP1"
         },
         {
           "room": "200F",
-          "printer_name": null
+          "printer_name": "SE_UPRN_LB200F_MFP1"
         },
         {
           "room": "300A",
-          "printer_name": null
+          "printer_name": "SE_UPRN_LB300A_MFP1"
         }
       ]
     },
     {
       "building": "Life Science",
       "campus": "Southeast",
-      "lat": 39.7388967,
-      "lng": -86.0636699,
+      "lat": 38.3439996,
+      "lng": -85.8198577,
       "printers": [
         {
           "room": "115",
-          "printer_name": null
+          "printer_name": "SE_UPRN_LF115_MFP1"
         },
         {
           "room": "165",
-          "printer_name": null
+          "printer_name": "SE_UPRN_LF165_MFP1"
         },
         {
           "room": "252",
-          "printer_name": null
+          "printer_name": "SE_UPRN_LF252_MFP1"
         },
         {
           "room": "276",
-          "printer_name": null
+          "printer_name": "SE_UPRN_LF276_MFP1"
         },
         {
           "room": "299",
-          "printer_name": null
+          "printer_name": "SE_UPRN_LF299_MFP1"
         },
         {
           "room": "330",
-          "printer_name": null
+          "printer_name": "SE_UPRN_LF330_MFP1"
         },
         {
           "room": "352",
-          "printer_name": null
+          "printer_name": "SE_UPRN_LF352_MFP1"
         }
       ]
     },
     {
       "building": "Meadow Lodge",
       "campus": "Southeast",
-      "lat": 39.7388967,
-      "lng": -86.0636699,
+      "lat": 39.6844638,
+      "lng": -86.1510581,
       "printers": [
         {
           "room": "101",
-          "printer_name": null
+          "printer_name": "SE_UPRN_ML101_MFP1"
         }
       ]
     },
     {
       "building": "Ogle Cultural and Community Center",
       "campus": "Southeast",
-      "lat": 39.7388967,
-      "lng": -86.0636699,
+      "lat": 40.4354773,
+      "lng": -86.060491,
       "printers": [
         {
           "room": "85",
-          "printer_name": null
+          "printer_name": "SE_UPRN_OG085_MFP1"
         },
         {
           "room": "145",
-          "printer_name": null
+          "printer_name": "SE_UPRN_OG145_MFP1"
         }
       ]
     },
     {
       "building": "Orchard Lodge",
       "campus": "Southeast",
-      "lat": 39.7388967,
-      "lng": -86.0636699,
+      "lat": 38.3440211,
+      "lng": -85.82155089999999,
       "printers": [
         {
           "room": "103",
-          "printer_name": null
+          "printer_name": "SE_UPRN_OL103_MFP1"
         }
       ]
     },
     {
       "building": "Physical Science",
       "campus": "Southeast",
-      "lat": 39.7388967,
-      "lng": -86.0636699,
+      "lat": 38.3439996,
+      "lng": -85.8198577,
       "printers": [
         {
           "room": "15",
-          "printer_name": null
+          "printer_name": "SE_UPRN_PS015_MFP1"
         },
         {
           "room": "199A",
-          "printer_name": null
+          "printer_name": "SE_UPRN_PS199A_MFP1"
         },
         {
           "room": "299C",
-          "printer_name": null
+          "printer_name": "SE_UPRN_PS299C_MFP1"
         }
       ]
     },
     {
       "building": "Service/Physical Plant",
       "campus": "Southeast",
-      "lat": 39.7388967,
-      "lng": -86.0636699,
+      "lat": 38.3439996,
+      "lng": -85.8198577,
       "printers": [
         {
           "room": "101",
-          "printer_name": null
+          "printer_name": "SE_UPRN_SV101_MFP1"
         }
       ]
     },
@@ -3200,11 +3300,11 @@
       "printers": [
         {
           "room": "027B",
-          "printer_name": null
+          "printer_name": "SE_UPRN_UC027B_MFP1"
         },
         {
           "room": "198A",
-          "printer_name": null
+          "printer_name": "SE_UPRN_UC198A_MFP1"
         }
       ]
     },
@@ -3216,47 +3316,47 @@
       "printers": [
         {
           "room": "010A",
-          "printer_name": null
+          "printer_name": "SE_UPRN_US010A_MFP1"
         },
         {
           "room": "099A",
-          "printer_name": null
+          "printer_name": "SE_UPRN_US099A_MFP1"
         },
         {
           "room": "100",
-          "printer_name": null
+          "printer_name": "SE_UPRN_US100_MFP1"
         },
         {
           "room": "102B",
-          "printer_name": null
+          "printer_name": "SE_UPRN_US102B_MFP1"
         },
         {
           "room": "103D",
-          "printer_name": null
+          "printer_name": "SE_UPRN_US103D_MFP1"
         },
         {
           "room": "161",
-          "printer_name": null
+          "printer_name": "SE_UPRN_US161_MFP1"
         },
         {
           "room": "200",
-          "printer_name": null
+          "printer_name": "SE_UPRN_US200_MFP1"
         },
         {
           "room": "244F",
-          "printer_name": null
+          "printer_name": "SE_UPRN_US244F_MFP1"
         }
       ]
     },
     {
       "building": "Woodland Lodge",
       "campus": "Southeast",
-      "lat": 39.7388967,
-      "lng": -86.0636699,
+      "lat": 38.3439996,
+      "lng": -85.8198577,
       "printers": [
         {
           "room": "103",
-          "printer_name": null
+          "printer_name": "SE_UPRN_WL103_MFP1"
         }
       ]
     }

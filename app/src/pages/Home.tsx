@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import rawData from '../data/buildings_geocoded.json'
 import { useGeolocationContext } from '../hooks/useGeolocation'
 import { useNearestPrinters } from '../hooks/useNearestPrinters'
@@ -25,6 +25,7 @@ export default function Home() {
   const [searchTerm, setSearchTerm] = useState('')
   const [distanceUnit, setDistanceUnit] = useState<DistanceUnit>('km')
   const [showMap, setShowMap] = useState(false)
+  const [nearestPage, setNearestPage] = useState(0)
   const { position, status, error, requestLocation } = useGeolocationContext()
 
   const printers = useMemo(() => normalizeBuildings(rawData), [])
@@ -51,7 +52,18 @@ export default function Home() {
     [printers, selectedCampus, searchTerm],
   )
 
-  const nearestPrinters = useNearestPrinters(filteredPrinters, position)
+  const nearestPrinters = useNearestPrinters(filteredPrinters, position, 20)
+  const PAGE_SIZE = 5
+  const nearestPageCount = Math.ceil(nearestPrinters.length / PAGE_SIZE)
+  const visibleNearest = nearestPrinters.slice(
+    nearestPage * PAGE_SIZE,
+    (nearestPage + 1) * PAGE_SIZE,
+  )
+
+  useEffect(() => {
+    setNearestPage(0)
+  }, [nearestPrinters.length])
+
   const printerCount = filteredPrinters.reduce(
     (count, printer) => count + printer.printers.length,
     0,
@@ -84,7 +96,11 @@ export default function Home() {
           onSearchChange={setSearchTerm}
           distanceUnit={distanceUnit}
           onDistanceUnitChange={setDistanceUnit}
-          nearest={nearestPrinters}
+          nearest={visibleNearest}
+          nearestTotal={nearestPrinters.length}
+          nearestPage={nearestPage}
+          nearestPageCount={nearestPageCount}
+          onNearestPageChange={setNearestPage}
           locationStatus={status === 'loading' ? 'Locating…' : status === 'granted' ? 'Location active' : status === 'denied' ? 'Permission denied' : status === 'error' ? 'Location error' : 'Waiting for permission'}
           locationError={error}
           onRetryLocation={requestLocation}

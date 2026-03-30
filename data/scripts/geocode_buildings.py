@@ -31,6 +31,18 @@ def save_cache():
 def normalize(query):
     return query.strip().lower()
 
+# campus mapping (FIX: improves accuracy)
+CAMPUS_QUERY_MAP = {
+    "Bloomington": "Indiana University Bloomington",
+    "Indianapolis": "Indiana University Indianapolis",
+    "Fort Wayne": "Indiana University Fort Wayne",
+    "Kokomo": "Indiana University Kokomo",
+    "Northwest": "Indiana University Northwest",
+    "South Bend": "Indiana University South Bend",
+    "Southeast": "Indiana University Southeast",
+    "East": "Indiana University East",
+}
+
 # geocode
 def geocode(query):
     key = normalize(query)
@@ -46,6 +58,11 @@ def geocode(query):
             return cache[key]
 
         loc = result[0]["geometry"]["location"]
+        address = result[0]["formatted_address"]
+
+        # DEBUG: detect suspicious results
+        if "Indiana University" not in address:
+            print(f"[SUSPECT] {query} -> {address}")
 
         cache[key] = {
             "lat": loc["lat"],
@@ -67,6 +84,10 @@ def process_csv(file_path, campus_name):
         return
 
     df = pd.read_csv(file_path)
+
+    # normalize column names (FIX printer issue)
+    df.columns = [c.strip().replace(" ", "_") for c in df.columns]
+
     df = df.dropna(subset=["Building"])
 
     # build unique building list ONLY for geocoding
@@ -77,10 +98,13 @@ def process_csv(file_path, campus_name):
     total = len(unique_buildings)
     print(f"\nProcessing {file_path} | {total} unique buildings (geocoding)\n")
 
+    campus_query = CAMPUS_QUERY_MAP.get(campus_name, campus_name)
+
     # geocode each building once
     for i, building in enumerate(unique_buildings, start=1):
 
-        query = f"{building}, {campus_name}, Indiana, USA"
+        # FIXED query (major improvement)
+        query = f"{building}, {campus_query}, Indiana, USA"
 
         print(f"[{i}/{total}] {building}")
 
@@ -94,7 +118,7 @@ def process_csv(file_path, campus_name):
 
     save_cache()
 
-    # now attach coords back to FULL dataset (IMPORTANT FIX)
+    # now attach coords back to FULL dataset
     results = []
 
     print("\nAttaching coordinates to all printer rows...\n")
@@ -103,7 +127,9 @@ def process_csv(file_path, campus_name):
 
         building = row.Building
         room = getattr(row, "Room", None)
-        printer = getattr(row, "Printer name", None)
+
+        # FIX: correct column access
+        printer = getattr(row, "Printer_name", None)
 
         coords = building_coords.get(building, {"lat": None, "lng": None})
 

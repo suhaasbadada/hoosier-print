@@ -10,6 +10,10 @@ type SidebarProps = {
   distanceUnit: DistanceUnit
   onDistanceUnitChange: (unit: DistanceUnit) => void
   nearest: NearestPrinter[]
+  nearestTotal: number
+  nearestPage: number
+  nearestPageCount: number
+  onNearestPageChange: (page: number) => void
   locationStatus: string
   locationError?: string
   onRetryLocation: () => void
@@ -25,6 +29,10 @@ export default function Sidebar({
   distanceUnit,
   onDistanceUnitChange,
   nearest,
+  nearestTotal,
+  nearestPage,
+  nearestPageCount,
+  onNearestPageChange,
   locationStatus,
   locationError,
   onRetryLocation,
@@ -90,28 +98,56 @@ export default function Sidebar({
           <span>{printerCount} printers</span>
         </div>
         <h2>Nearest printers</h2>
+        {nearestTotal > 0 ? (
+          <p className="results-note">
+            Showing {nearest.length} of {nearestTotal} nearest buildings
+          </p>
+        ) : null}
         {nearest.length === 0 ? (
           <p className="empty-state">
             Allow location access and choose a campus to see nearby printers.
           </p>
         ) : (
-          <ul className="nearest-list">
-            {nearest.map(({ printer, distanceKm }) => (
-              <li key={`${printer.building}-${printer.lat}-${printer.lng}`}>
-                <span className="printer-count-pill">
-                  {printer.printers.length}
+          <>
+            <ul className="nearest-list">
+              {nearest.map(({ printer, distanceKm }) => (
+                <li key={`${printer.building}-${printer.lat}-${printer.lng}`}>
+                  <span className="printer-count-pill">
+                    {printer.printers.length}
+                  </span>
+                  <strong>{printer.building}</strong>
+                  <span>{printer.campus}</span>
+                  <span>{formatDistance(distanceKm, distanceUnit)}</span>
+                  {printer.printers.length > 0 ? (
+                    <small>
+                      Rooms: {printer.printers.map((entry) => entry.room).join(', ')}
+                    </small>
+                  ) : null}
+                </li>
+              ))}
+            </ul>
+            {nearestPageCount > 1 ? (
+              <div className="pagination-controls">
+                <button
+                  type="button"
+                  disabled={nearestPage === 0}
+                  onClick={() => onNearestPageChange(nearestPage - 1)}
+                >
+                  Previous
+                </button>
+                <span>
+                  Page {nearestPage + 1} of {nearestPageCount}
                 </span>
-                <strong>{printer.building}</strong>
-                <span>{printer.campus}</span>
-                <span>{formatDistance(distanceKm, distanceUnit)}</span>
-                {printer.printers.length > 0 ? (
-                  <small>
-                    Rooms: {printer.printers.map((entry) => entry.room).join(', ')}
-                  </small>
-                ) : null}
-              </li>
-            ))}
-          </ul>
+                <button
+                  type="button"
+                  disabled={nearestPage === nearestPageCount - 1}
+                  onClick={() => onNearestPageChange(nearestPage + 1)}
+                >
+                  Next
+                </button>
+              </div>
+            ) : null}
+          </>
         )}
       </div>
     </aside>

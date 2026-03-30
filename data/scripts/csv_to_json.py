@@ -24,14 +24,14 @@ for file in INPUT_FILES:
 
     df = pd.read_csv(file)
 
-    # normalize column names
-    df.columns = [c.strip() for c in df.columns]
+    # normalize column names (FIX)
+    df.columns = [c.strip().replace(" ", "_") for c in df.columns]
 
     # drop bad rows
     df = df.dropna(subset=["Building", "lat", "lng"])
 
-    # remove exact duplicates (important)
-    df = df.drop_duplicates(subset=["Building", "Room", "Printer name", "Campus"])
+    # remove exact duplicates
+    df = df.drop_duplicates(subset=["Building", "Room", "Printer_name", "Campus"])
 
     print(f"{file} -> {len(df)} valid rows")
 
@@ -40,12 +40,12 @@ for file in INPUT_FILES:
             "building": row.get("Building"),
             "campus": row.get("Campus"),
             "room": row.get("Room"),
-            "printer_name": row.get("Printer name"),
+            "printer_name": row.get("Printer_name"),
             "lat": float(row.get("lat")),
             "lng": float(row.get("lng"))
         })
 
-# OPTIONAL: group by building (better for frontend)
+# group by building
 grouped = {}
 
 for item in all_data:
@@ -60,10 +60,14 @@ for item in all_data:
             "printers": []
         }
 
-    grouped[key]["printers"].append({
+    # prevent duplicate printers (FIX)
+    printer_entry = {
         "room": item["room"],
         "printer_name": item["printer_name"]
-    })
+    }
+
+    if printer_entry not in grouped[key]["printers"]:
+        grouped[key]["printers"].append(printer_entry)
 
 # final structure
 output = {

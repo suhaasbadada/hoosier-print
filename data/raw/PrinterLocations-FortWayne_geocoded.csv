@@ -1,15 +1,15 @@
 Building,Room,Printer name,Campus,lat,lng
-Lafayette St Family Health Clinic,200,,Fort Wayne,41.0459287,-85.132304
-Liberal Arts Building,340,,Fort Wayne,41.1172998,-85.1100859
-Liberal Arts Building,343,,Fort Wayne,41.1172998,-85.1100859
-Medical Education Building (IU School of Medicine) (MEC),104,,Fort Wayne,41.1203509,-85.10723550000002
-Medical Education Building (IU School of Medicine) (MEC),110,,Fort Wayne,41.1203509,-85.10723550000002
-Medical Education Building (IU School of Medicine) (MEC),221,,Fort Wayne,41.1203509,-85.10723550000002
-Neff Hall,50,,Fort Wayne,41.1163787,-85.1105724
-Neff Hall,110,,Fort Wayne,41.1163787,-85.1105724
-Neff Hall,134,,Fort Wayne,41.1163787,-85.1105724
-Neff Hall,142,,Fort Wayne,41.1163787,-85.1105724
-Neff Hall,150,,Fort Wayne,41.1163787,-85.1105724
-Neff Hall,170B,,Fort Wayne,41.1163787,-85.1105724
-Northeast Indiana Innovation Center 2,111,,Fort Wayne,41.1203842,-85.1625432
-Northeast Indiana Innovation Center 2,199,,Fort Wayne,41.1203842,-85.1625432
+Lafayette St Family Health Clinic,200,FW_UPRN_OC473X200_MFP1,Fort Wayne,41.0459287,-85.132304
+Liberal Arts Building,340,FW_UPRN_LA340_MFP1,Fort Wayne,41.1222556,-85.0965037
+Liberal Arts Building,343,FW_UPRN_LA343_MFP1,Fort Wayne,41.1222556,-85.0965037
+Medical Education Building (IU School of Medicine) (MEC),104,FW_UPRN_ME104_MFP1,Fort Wayne,41.1203509,-85.10723550000002
+Medical Education Building (IU School of Medicine) (MEC),110,FW_UPRN_ME110_MFP1,Fort Wayne,41.1203509,-85.10723550000002
+Medical Education Building (IU School of Medicine) (MEC),221,FW_UPRN_ME221_MFP1,Fort Wayne,41.1203509,-85.10723550000002
+Neff Hall,50,FW_UPRN_NF050_MFP1,Fort Wayne,41.1163787,-85.1105724
+Neff Hall,110,FW_UPRN_NF110_MFP1,Fort Wayne,41.1163787,-85.1105724
+Neff Hall,134,FW_UPRN_NF134_MFP1,Fort Wayne,41.1163787,-85.1105724
+Neff Hall,142,FW_UPRN_NF142_MFP1,Fort Wayne,41.1163787,-85.1105724
+Neff Hall,150,FW_UPRN_NF150_MFP1,Fort Wayne,41.1163787,-85.1105724
+Neff Hall,170B,FW_UPRN_NF170B_MFP1,Fort Wayne,41.1163787,-85.1105724
+Northeast Indiana Innovation Center 2,111,FW_UPRN_EG111_MFP1,Fort Wayne,41.1203842,-85.1625432
+Northeast Indiana Innovation Center 2,199,FW_UPRN_EG199_MFP1,Fort Wayne,41.1203842,-85.1625432

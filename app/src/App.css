@@ -260,6 +260,40 @@ h2 {
   gap: 16px;
 }
 
+.results-note {
+  margin: 0;
+  color: #5f5473;
+  font-size: 14px;
+}
+
+.pagination-controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.pagination-controls button {
+  border: 1px solid rgba(153, 0, 0, 0.18);
+  background: transparent;
+  color: var(--iu-crimson);
+  padding: 10px 14px;
+  border-radius: 999px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.pagination-controls button:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.pagination-controls span {
+  font-size: 14px;
+  color: #5f5473;
+}
+
 .sidebar h2 {
   margin: 0;
   font-size: 22px;
