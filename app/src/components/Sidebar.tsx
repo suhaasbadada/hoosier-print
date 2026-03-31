@@ -20,6 +20,8 @@ type SidebarProps = {
   showMap: boolean
   onToggleMap: () => void
   printerCount: number
+  selectedNearestKey: string | null
+  onSelectNearest: (printerKey: string) => void
 }
 
 export default function Sidebar({
@@ -41,6 +43,8 @@ export default function Sidebar({
   showMap,
   onToggleMap,
   printerCount,
+  selectedNearestKey,
+  onSelectNearest,
 }: SidebarProps) {
   const isMapLocked = showMap
 
@@ -130,25 +134,48 @@ export default function Sidebar({
         ) : (
           <>
             <ul className="nearest-list">
-              {nearest.map(({ printer, distanceKm }) => (
-                <li key={`${printer.building}-${printer.lat}-${printer.lng}`}>
-                  <span className="printer-count-pill">
-                    {printer.printers.length}
-                  </span>
-                  <strong>{printer.building}</strong>
-                  <span>{printer.campus}</span>
-                  <span>{formatDistance(distanceKm, distanceUnit)}</span>
-                  {printer.printers.length > 0 ? (
-                    <small>
-                      Rooms: {printer.printers.map((entry) => entry.room).join(', ')}
-                    </small>
-                  ) : null}
+              {nearest.map(({ printer, distanceKm }) => {
+                const printerKey = `${printer.building}-${printer.lat}-${printer.lng}`
+
+                return (
+                <li
+                  key={printerKey}
+                  className={selectedNearestKey === printerKey ? 'is-selected' : ''}
+                  tabIndex={0}
+                  role="button"
+                  onClick={() => onSelectNearest(printerKey)}
+                  onKeyDown={(event) => {
+                    if (event.key === 'Enter' || event.key === ' ') {
+                      event.preventDefault()
+                      onSelectNearest(printerKey)
+                    }
+                  }}
+                >
+                  <button
+                    type="button"
+                    className="nearest-select"
+                    onClick={() => onSelectNearest(printerKey)}
+                    aria-label={`Highlight ${printer.building} on map`}
+                  >
+                    <span className="printer-count-pill">
+                      {printer.printers.length}
+                    </span>
+                    <strong>{printer.building}</strong>
+                    <span>{printer.campus}</span>
+                    <span>{formatDistance(distanceKm, distanceUnit)}</span>
+                    {printer.printers.length > 0 ? (
+                      <small>
+                        Rooms: {printer.printers.map((entry) => entry.room).join(', ')}
+                      </small>
+                    ) : null}
+                  </button>
                   <a
                     className="navigate-icon"
                     href={`https://www.google.com/maps/search/?api=1&query=${printer.lat},${printer.lng}`}
                     target="_blank"
                     rel="noreferrer noopener"
                     aria-label="Navigate"
+                    onClick={(event) => event.stopPropagation()}
                   >
                     <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
                       <path
@@ -159,7 +186,8 @@ export default function Sidebar({
                     </svg>
                   </a>
                 </li>
-              ))}
+                )
+              })}
             </ul>
             {nearestPageCount > 1 ? (
               <div className="pagination-controls">

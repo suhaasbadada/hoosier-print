@@ -441,11 +441,46 @@ h2 {
 
 .nearest-list li {
   position: relative;
+  border: 1px solid rgba(61, 90, 128, 0.12);
+  border-radius: 18px;
+  cursor: pointer;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.nearest-list li:focus-visible {
+  outline: 2px solid rgba(153, 0, 0, 0.45);
+  outline-offset: 2px;
+}
+
+.nearest-list li:hover {
+  border-color: rgba(153, 0, 0, 0.38);
+  box-shadow: 0 8px 18px rgba(153, 0, 0, 0.12);
+}
+
+.nearest-list li.is-selected {
+  border-color: rgba(153, 0, 0, 0.65);
+  box-shadow: 0 12px 24px rgba(153, 0, 0, 0.16);
+  transform: translateY(-1px);
+}
+
+.nearest-select {
+  width: 100%;
   display: grid;
   gap: 6px;
   padding: 16px;
-  border: 1px solid rgba(61, 90, 128, 0.12);
+  padding-right: 66px;
+  text-align: left;
+  border: none;
   border-radius: 18px;
+  background: transparent;
+  cursor: pointer;
+  color: inherit;
+  font: inherit;
+}
+
+.nearest-select:focus-visible {
+  outline: 2px solid rgba(153, 0, 0, 0.45);
+  outline-offset: 2px;
 }
 
 .nearest-list .printer-count-pill {
@@ -465,6 +500,7 @@ h2 {
   background: #ffffff;
   box-shadow: 0 6px 16px rgba(153, 0, 0, 0.12);
   z-index: 1;
+  pointer-events: none;
 }
 
 .nearest-list strong {
@@ -491,6 +527,10 @@ h2 {
 
 .leaflet-marker-icon.marker-highlight {
   filter: hue-rotate(-15deg) saturate(1.4) brightness(0.88);
+}
+
+.leaflet-marker-icon.marker-selected {
+  filter: hue-rotate(-20deg) saturate(1.8) brightness(0.78);
 }
 
 .map-view {

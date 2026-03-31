@@ -1,6 +1,6 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import { MapContainer, TileLayer, Marker, Popup, CircleMarker, useMap } from 'react-leaflet'
-import { icon } from 'leaflet'
+import { icon, type Marker as LeafletMarker } from 'leaflet'
 import markerIconUrl from 'leaflet/dist/images/marker-icon.png'
 import markerShadowUrl from 'leaflet/dist/images/marker-shadow.png'
 import type { Printer } from '../types/printer'
@@ -24,11 +24,21 @@ const highlightIcon = icon({
   className: 'marker-highlight',
 })
 
+const selectedIcon = icon({
+  iconUrl: markerIconUrl,
+  shadowUrl: markerShadowUrl,
+  iconSize: [34, 56],
+  iconAnchor: [17, 56],
+  popupAnchor: [1, -34],
+  className: 'marker-selected',
+})
+
 type MapViewProps = {
   printers: Printer[]
   nearest: NearestPrinter[]
   userLocation: { lat: number; lng: number } | null
   distanceUnit: DistanceUnit
+  selectedPrinterKey: string | null
 }
 
 function FitBounds({ bounds }: { bounds: [number, number][] }) {
@@ -77,8 +87,33 @@ function ConfigureTouchInteractions({ isTouchDevice }: { isTouchDevice: boolean 
   return null
 }
 
-export default function MapView({ printers, nearest, userLocation, distanceUnit }: MapViewProps) {
+function FocusSelectedPrinter({
+  selectedPosition,
+}: {
+  selectedPosition: [number, number] | null
+}) {
+  const map = useMap()
+
+  useEffect(() => {
+    if (!selectedPosition) {
+      return
+    }
+
+    map.flyTo(selectedPosition, Math.max(map.getZoom(), 16), { duration: 0.5 })
+  }, [map, selectedPosition])
+
+  return null
+}
+
+export default function MapView({
+  printers,
+  nearest,
+  userLocation,
+  distanceUnit,
+  selectedPrinterKey,
+}: MapViewProps) {
   const [isTouchDevice, setIsTouchDevice] = useState(false)
+  const markerRefs = useRef<Map<string, LeafletMarker>>(new Map())
 
   useEffect(() => {
     const coarseQuery = window.matchMedia('(pointer: coarse)')
@@ -129,6 +164,27 @@ export default function MapView({ printers, nearest, userLocation, distanceUnit 
     ? [printers[0].lat, printers[0].lng]
     : [39.1653, -86.5264]
 
+  const selectedPosition = useMemo(() => {
+    if (!selectedPrinterKey) {
+      return null
+    }
+
+    const selectedPrinter = printers.find(
+      (printer) => `${printer.building}-${printer.lat}-${printer.lng}` === selectedPrinterKey,
+    )
+
+    return selectedPrinter ? ([selectedPrinter.lat, selectedPrinter.lng] as [number, number]) : null
+  }, [printers, selectedPrinterKey])
+
+  useEffect(() => {
+    if (!selectedPrinterKey) {
+      return
+    }
+
+    const marker = markerRefs.current.get(selectedPrinterKey)
+    marker?.openPopup()
+  }, [selectedPrinterKey])
+
   return (
     <div className="map-view">
       <MapContainer
@@ -145,6 +201,7 @@ export default function MapView({ printers, nearest, userLocation, distanceUnit 
         style={{ height: '100%', width: '100%' }}
       >
         <ConfigureTouchInteractions isTouchDevice={isTouchDevice} />
+        <FocusSelectedPrinter selectedPosition={selectedPosition} />
         <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
@@ -152,15 +209,25 @@ export default function MapView({ printers, nearest, userLocation, distanceUnit 
         {bounds.length > 0 ? <FitBounds bounds={bounds} /> : null}
 
         {printers.map((printer) => {
+          const printerKey = `${printer.building}-${printer.lat}-${printer.lng}`
           const position: [number, number] = [printer.lat, printer.lng]
           const isNearest = nearestDistanceMap.has(printer.building)
+          const isSelected = selectedPrinterKey === printerKey
           const distance = nearestDistanceMap.get(printer.building)
 
           return (
             <Marker
-              key={`${printer.building}-${printer.lat}-${printer.lng}`}
+              key={printerKey}
               position={position}
-              icon={isNearest ? highlightIcon : defaultIcon}
+              icon={isSelected ? selectedIcon : isNearest ? highlightIcon : defaultIcon}
+              ref={(marker) => {
+                if (marker) {
+                  markerRefs.current.set(printerKey, marker)
+                  return
+                }
+
+                markerRefs.current.delete(printerKey)
+              }}
             >
               <Popup>
                 <strong>{printer.building}</strong>

@@ -27,6 +27,7 @@ export default function Home() {
   const [distanceUnit, setDistanceUnit] = useState<DistanceUnit>('km')
   const [showMap, setShowMap] = useState(false)
   const [nearestPage, setNearestPage] = useState(0)
+  const [selectedNearestKey, setSelectedNearestKey] = useState<string | null>(null)
   const { position, status, error, requestLocation } = useGeolocationContext()
 
   const printers = useMemo(() => normalizeBuildings(rawData), [])
@@ -78,6 +79,20 @@ export default function Home() {
     setNearestPage(0)
   }, [nearestPrinters.length])
 
+  useEffect(() => {
+    if (!selectedNearestKey) {
+      return
+    }
+
+    const selectedStillVisible = nearestPrinters.some(
+      ({ printer }) => `${printer.building}-${printer.lat}-${printer.lng}` === selectedNearestKey,
+    )
+
+    if (!selectedStillVisible) {
+      setSelectedNearestKey(null)
+    }
+  }, [nearestPrinters, selectedNearestKey])
+
   const printerCount = filteredPrinters.reduce(
     (count, printer) => count + printer.printers.length,
     0,
@@ -86,6 +101,11 @@ export default function Home() {
   const handleSelectCampus = (campus: string) => {
     setHasAutoSelectedCampus(true)
     setSelectedCampus(campus)
+  }
+
+  const handleSelectNearest = (printerKey: string) => {
+    setSelectedNearestKey(printerKey)
+    setShowMap(true)
   }
 
   return (
@@ -119,6 +139,8 @@ export default function Home() {
           showMap={showMap}
           onToggleMap={() => setShowMap((current) => !current)}
           printerCount={printerCount}
+          selectedNearestKey={selectedNearestKey}
+          onSelectNearest={handleSelectNearest}
         />
 
         {showMap ? (
@@ -128,6 +150,7 @@ export default function Home() {
               nearest={nearestPrinters}
               userLocation={position}
               distanceUnit={distanceUnit}
+              selectedPrinterKey={selectedNearestKey}
             />
           </section>
         ) : null}
