@@ -31,6 +31,19 @@ h2 {
   gap: 8px;
 }
 
+.brand-title-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.brand-logo {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  flex: 0 0 auto;
+}
+
 .brand-block .eyebrow,
 .eyebrow {
   text-transform: uppercase;

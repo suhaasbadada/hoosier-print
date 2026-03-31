@@ -9,8 +9,11 @@ function App() {
     <div className="app-shell">
       <header className="topbar">
         <div className="brand-block">
-          <p className="eyebrow">IU Print Finder</p>
-          <h1>Hoosier Print</h1>
+          {/* <p className="eyebrow">IU Print Finder</p> */}
+          <div className="brand-title-row">
+            <img src="/iu.svg" alt="IU logo" className="brand-logo" />
+            <h1>Hoosier Print</h1>
+          </div>
         </div>
 
         <div className="topbar-right">

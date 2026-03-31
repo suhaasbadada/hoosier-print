@@ -7,7 +7,7 @@ export default function Guide() {
         {/* <p className="eyebrow">Print Guide</p> */}
         <h1>How to print at IU campuses</h1>
         <p>
-          A compact editorial-style guide for students, staff, and guests who
+          A compact guide for students, staff, and guests who
           want to find printers fast.
         </p>
       </div>
