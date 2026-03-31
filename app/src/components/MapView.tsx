@@ -48,13 +48,13 @@ function FitBounds({ bounds }: { bounds: [number, number][] }) {
   return null
 }
 
-function ConfigureMobileInteractions({ isPhoneViewport }: { isPhoneViewport: boolean }) {
+function ConfigureTouchInteractions({ isTouchDevice }: { isTouchDevice: boolean }) {
   const map = useMap()
 
   useEffect(() => {
     const tapHandler = (map as { tap?: { enable: () => void; disable: () => void } }).tap
 
-    if (isPhoneViewport) {
+    if (isTouchDevice) {
       map.dragging.disable()
       map.touchZoom.disable()
       map.doubleClickZoom.disable()
@@ -72,27 +72,31 @@ function ConfigureMobileInteractions({ isPhoneViewport }: { isPhoneViewport: boo
     map.boxZoom.enable()
     map.keyboard.enable()
     tapHandler?.enable()
-  }, [isPhoneViewport, map])
+  }, [isTouchDevice, map])
 
   return null
 }
 
 export default function MapView({ printers, nearest, userLocation, distanceUnit }: MapViewProps) {
-  const [isPhoneViewport, setIsPhoneViewport] = useState(false)
+  const [isTouchDevice, setIsTouchDevice] = useState(false)
 
   useEffect(() => {
-    const query = window.matchMedia('(max-width: 1040px)')
-    const updateViewport = () => setIsPhoneViewport(query.matches)
-
-    updateViewport()
-
-    if (typeof query.addEventListener === 'function') {
-      query.addEventListener('change', updateViewport)
-      return () => query.removeEventListener('change', updateViewport)
+    const coarseQuery = window.matchMedia('(pointer: coarse)')
+    const updateTouchMode = () => {
+      const hasTouchPoints = navigator.maxTouchPoints > 0
+      const hasTouchEvent = 'ontouchstart' in window
+      setIsTouchDevice(coarseQuery.matches || hasTouchPoints || hasTouchEvent)
     }
 
-    query.addListener(updateViewport)
-    return () => query.removeListener(updateViewport)
+    updateTouchMode()
+
+    if (typeof coarseQuery.addEventListener === 'function') {
+      coarseQuery.addEventListener('change', updateTouchMode)
+      return () => coarseQuery.removeEventListener('change', updateTouchMode)
+    }
+
+    coarseQuery.addListener(updateTouchMode)
+    return () => coarseQuery.removeListener(updateTouchMode)
   }, [])
 
   const nearestDistanceMap = useMemo(
@@ -131,16 +135,16 @@ export default function MapView({ printers, nearest, userLocation, distanceUnit 
         center={center}
         zoom={13}
         minZoom={4}
-        dragging={!isPhoneViewport}
-        touchZoom={!isPhoneViewport}
-        doubleClickZoom={!isPhoneViewport}
-        boxZoom={!isPhoneViewport}
-        keyboard={!isPhoneViewport}
-        scrollWheelZoom={!isPhoneViewport}
-        className={isPhoneViewport ? 'map-canvas-phone' : undefined}
+        dragging={!isTouchDevice}
+        touchZoom={!isTouchDevice}
+        doubleClickZoom={!isTouchDevice}
+        boxZoom={!isTouchDevice}
+        keyboard={!isTouchDevice}
+        scrollWheelZoom={!isTouchDevice}
+        className={isTouchDevice ? 'map-canvas-touch' : undefined}
         style={{ height: '100%', width: '100%' }}
       >
-        <ConfigureMobileInteractions isPhoneViewport={isPhoneViewport} />
+        <ConfigureTouchInteractions isTouchDevice={isTouchDevice} />
         <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"

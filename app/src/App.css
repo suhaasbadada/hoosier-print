@@ -497,6 +497,10 @@ h2 {
   width: 100% !important;
 }
 
+.leaflet-container.map-canvas-touch {
+  touch-action: pan-y !important;
+}
+
 .guide-header {
   display: grid;
   gap: 22px;
@@ -615,7 +619,4 @@ h2 {
     min-height: 508px;
   }
 
-  .leaflet-container.map-canvas-phone {
-    touch-action: pan-y !important;
-  }
 }
