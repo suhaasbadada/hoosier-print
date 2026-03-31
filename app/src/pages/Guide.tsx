@@ -15,6 +15,9 @@ export default function Guide() {
       <article className="guide-article">
         <section>
           <h2>How to print</h2>
+          <div className="guide-highlight" role="note" aria-label="Printing cost notice">
+            <strong>Good news:</strong> Printing is <span className="guide-free-word">FREE</span> for IU students and staff.
+          </div>
           <h3>Mobile</h3>
           <ol>
             <li>Save your document to cloud storage (Google Drive suggested).</li>
