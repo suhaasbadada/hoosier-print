@@ -48,6 +48,35 @@ function FitBounds({ bounds }: { bounds: [number, number][] }) {
   return null
 }
 
+function ConfigureMobileInteractions({ isPhoneViewport }: { isPhoneViewport: boolean }) {
+  const map = useMap()
+
+  useEffect(() => {
+    const tapHandler = (map as { tap?: { enable: () => void; disable: () => void } }).tap
+
+    if (isPhoneViewport) {
+      map.dragging.disable()
+      map.touchZoom.disable()
+      map.doubleClickZoom.disable()
+      map.scrollWheelZoom.disable()
+      map.boxZoom.disable()
+      map.keyboard.disable()
+      tapHandler?.disable()
+      return
+    }
+
+    map.dragging.enable()
+    map.touchZoom.enable()
+    map.doubleClickZoom.enable()
+    map.scrollWheelZoom.enable()
+    map.boxZoom.enable()
+    map.keyboard.enable()
+    tapHandler?.enable()
+  }, [isPhoneViewport, map])
+
+  return null
+}
+
 export default function MapView({ printers, nearest, userLocation, distanceUnit }: MapViewProps) {
   const [isPhoneViewport, setIsPhoneViewport] = useState(false)
 
@@ -108,8 +137,10 @@ export default function MapView({ printers, nearest, userLocation, distanceUnit 
         boxZoom={!isPhoneViewport}
         keyboard={!isPhoneViewport}
         scrollWheelZoom={!isPhoneViewport}
+        className={isPhoneViewport ? 'map-canvas-phone' : undefined}
         style={{ height: '100%', width: '100%' }}
       >
+        <ConfigureMobileInteractions isPhoneViewport={isPhoneViewport} />
         <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"

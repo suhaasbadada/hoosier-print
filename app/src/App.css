@@ -608,5 +608,14 @@ h2 {
 
   .map-panel {
     min-height: 520px;
+    padding-top: 12px;
+  }
+
+  .map-view {
+    min-height: 508px;
+  }
+
+  .leaflet-container.map-canvas-phone {
+    touch-action: pan-y !important;
   }
 }
