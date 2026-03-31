@@ -12,7 +12,7 @@ function App() {
           {/* <p className="eyebrow">IU Print Finder</p> */}
           <div className="brand-title-row">
             <img src="/iu.svg" alt="IU logo" className="brand-logo" />
-            <h1>Hoosier Print</h1>
+            <h1>Hoosier Prints</h1>
           </div>
         </div>
 

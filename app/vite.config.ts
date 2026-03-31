@@ -10,8 +10,8 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['icon.svg'],
       manifest: {
-        name: 'IU Print Finder',
-        short_name: 'Print Finder',
+        name: 'Hoosier Prints',
+        short_name: 'Hoosier Prints',
         description: 'Find the nearest printer on IU campuses with offline support.',
         theme_color: '#3d5a80',
         background_color: '#ffffff',
