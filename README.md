@@ -1,4 +1,4 @@
-# Hoosier Prints
+# [Hoosier Prints](https://hoosier-prints.web.app)
 
 Hoosier Prints is a campus utility that helps Indiana University students and staff quickly find the nearest available printing locations.
 
